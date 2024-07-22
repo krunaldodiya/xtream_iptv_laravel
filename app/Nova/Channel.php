@@ -3,7 +3,10 @@
 namespace App\Nova;
 
 use Illuminate\Http\Request;
+
 use Laravel\Nova\Fields\ID;
+use Laravel\Nova\Fields\Text;
+
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class Channel extends Resource
@@ -41,6 +44,14 @@ class Channel extends Resource
     {
         return [
             ID::make()->sortable(),
+
+            Text::make('Channel Name'),
+            Text::make('Channel Number'),
+            Text::make('Channel Language'),
+            Text::make('Channel Country'),
+            Text::make('Channel Quality'),
+            Text::make('Channel Logo'),
+            Text::make('Channel URL'),
         ];
     }
 
