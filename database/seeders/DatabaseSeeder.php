@@ -14,9 +14,6 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             PlanSeeder::class,
-            TradingCalendarSeeder::class,
-            AvailableBrokerSeeder::class,
-            BaseSymbolSeeder::class,
         ]);
     }
 }

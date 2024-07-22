@@ -9,21 +9,12 @@ import ResponsiveNavLink from "@/Components/ResponsiveNavLink.vue";
 import Button from "primevue/button";
 
 import { Link } from "@inertiajs/vue3";
-import { useLtpStore } from "@/Stores/ltp";
 import { useThemeStore } from "@/Stores/theme";
 import Toast from "primevue/toast";
 
-const ltpStore = useLtpStore();
 const themeStore = useThemeStore();
 
 const showingNavigationDropdown = ref(false);
-
-window.Echo.channel("public").listen(
-    "LtpEvent",
-    ({ symbol, close }: { symbol: string; close: number }) => {
-        ltpStore.set_ltp(symbol, close);
-    }
-);
 </script>
 
 <template>
@@ -51,56 +42,6 @@ window.Echo.channel("public").listen(
                                     :active="route().current('dashboard')"
                                 >
                                     Dashboard
-                                </NavLink>
-                            </div>
-
-                            <div
-                                class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
-                            >
-                                <NavLink
-                                    :href="route('github-accounts.list')"
-                                    :active="
-                                        route().current('github-accounts.list')
-                                    "
-                                >
-                                    Github Accounts
-                                </NavLink>
-                            </div>
-
-                            <div
-                                class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
-                            >
-                                <NavLink
-                                    :href="route('github-repositories.list')"
-                                    :active="
-                                        route().current(
-                                            'github-repositories.list'
-                                        )
-                                    "
-                                >
-                                    Github Repositories
-                                </NavLink>
-                            </div>
-
-                            <div
-                                class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
-                            >
-                                <NavLink
-                                    :href="route('brokers.list')"
-                                    :active="route().current('brokers.list')"
-                                >
-                                    Brokers
-                                </NavLink>
-                            </div>
-
-                            <div
-                                class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex"
-                            >
-                                <NavLink
-                                    :href="route('projects.list')"
-                                    :active="route().current('projects.list')"
-                                >
-                                    Projects
                                 </NavLink>
                             </div>
                         </div>
