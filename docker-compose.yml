@@ -1,5 +1,5 @@
 services:
-    laravel.test:
+    xtream_iptv.test:
         build:
             context: ./docker/8.3
             dockerfile: Dockerfile
