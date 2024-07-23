@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('/test', function () {
-    return 'test';
+    return "test";
 });
 
 Route::get('/', function () {

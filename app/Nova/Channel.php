@@ -5,6 +5,7 @@ namespace App\Nova;
 use App\Nova\Actions\BackupChannel;
 use App\Nova\Actions\SyncChannel;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
@@ -26,7 +27,7 @@ class Channel extends Resource
      *
      * @var string
      */
-    public static $title = 'id';
+    public static $title = 'name';
 
     /**
      * The columns that should be searched.
@@ -34,7 +35,7 @@ class Channel extends Resource
      * @var array
      */
     public static $search = [
-        'id',
+        'id', 'name'
     ];
 
     /**
@@ -45,6 +46,8 @@ class Channel extends Resource
      */
     public function fields(NovaRequest $request)
     {
+        $placeholder_logo = "/images/404.png";
+
         return [
             ID::make()->sortable(),
 
@@ -52,7 +55,15 @@ class Channel extends Resource
             Text::make('Channel Number'),
             Text::make('Channel Language'),
             Text::make('Channel Country'),
-            Image::make('Channel Logo'),
+            
+            Image::make('Channel Logo', 'channel_logo')
+                ->thumbnail(function ($value) use ($placeholder_logo) {
+                    return $value ? $value : $placeholder_logo; 
+                })
+                ->preview(function ($value) use ($placeholder_logo) {
+                    return $value ? $value : $placeholder_logo; 
+                })
+                ->rules('required', 'channel_logo'),
         ];
     }
 
