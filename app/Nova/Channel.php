@@ -2,6 +2,8 @@
 
 namespace App\Nova;
 
+use App\Nova\Actions\BackupChannel;
+use App\Nova\Actions\SyncChannel;
 use Illuminate\Http\Request;
 
 use Laravel\Nova\Fields\ID;
@@ -96,6 +98,9 @@ class Channel extends Resource
      */
     public function actions(NovaRequest $request)
     {
-        return [];
+        return [
+            BackupChannel::make()->standalone(),
+            SyncChannel::make()->standalone(),
+        ];
     }
 }

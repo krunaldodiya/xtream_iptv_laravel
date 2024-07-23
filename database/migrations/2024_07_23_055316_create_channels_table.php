@@ -18,7 +18,7 @@ return new class extends Migration
 
             $table
                 ->foreign('category_id')
-                ->references('id')
+                ->references('category_id')
                 ->on('channel_categories')
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
@@ -28,9 +28,7 @@ return new class extends Migration
             $table->string("channel_number");
             $table->string("channel_language")->nullable();
             $table->string("channel_country")->nullable();
-            $table->enum("channel_quality", ["SD", "HD"])->default("SD");
-            $table->string("channel_logo")->nullable();
-            $table->string("channel_url");
+            $table->text("channel_logo")->nullable();
             
             $table->timestamps();
         });
