@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Image;
 
 use Laravel\Nova\Http\Requests\NovaRequest;
 
@@ -51,9 +52,7 @@ class Channel extends Resource
             Text::make('Channel Number'),
             Text::make('Channel Language'),
             Text::make('Channel Country'),
-            Text::make('Channel Quality'),
-            Text::make('Channel Logo'),
-            Text::make('Channel URL'),
+            Image::make('Channel Logo'),
         ];
     }
 
