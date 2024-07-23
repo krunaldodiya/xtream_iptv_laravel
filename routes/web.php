@@ -4,6 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\PlanSubscriptionController;
 use App\Http\Controllers\PlanController;
+use App\Http\Controllers\ChannelController;
 
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -47,5 +48,7 @@ Route::middleware('auth')->group(function () {
     Route::post('/plan/subscriptions/process', [PlanSubscriptionController::class, 'process'])
         ->name('plan-subscriptions.process');
 });
+
+Route::get('/stream/{stream_id}', [ChannelController::class, 'stream']);
 
 require __DIR__ . '/auth.php';
