@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('channels', function (Blueprint $table) {
             $table->id();
 
-            $table->unsignedBigInteger('channel_category_id');
+            $table->unsignedBigInteger('category_id');
 
             $table
                 ->foreign('category_id')
