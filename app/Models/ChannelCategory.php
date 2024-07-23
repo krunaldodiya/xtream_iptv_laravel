@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class ChannelCategory extends Model
 {
     use HasFactory;
+
+    protected $guarded = [];
+
+    protected $dates = ['created_at', 'updated_at'];
+
+    public $timestamps = true;
 }

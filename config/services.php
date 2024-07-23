@@ -49,4 +49,10 @@ return [
         'client_secret' => env('GITHUB_CLIENT_SECRET'),
         'redirect' => env('GITHUB_CALLBACK_URL'),
     ],
+
+    'xtream' => [
+        'server' => env('XTREAM_SERVER'),
+        'username' => env('XTREAM_USERNAME'),
+        'password' => env('XTREAM_PASSWORD'),
+    ]
 ];
