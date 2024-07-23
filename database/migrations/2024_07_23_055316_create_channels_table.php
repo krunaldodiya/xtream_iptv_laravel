@@ -14,6 +14,15 @@ return new class extends Migration
         Schema::create('channels', function (Blueprint $table) {
             $table->id();
 
+            $table->unsignedBigInteger('channel_category_id');
+
+            $table
+                ->foreign('category_id')
+                ->references('id')
+                ->on('channel_categories')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
+
             $table->string("stream_id");
             $table->string("channel_name");
             $table->string("channel_number");

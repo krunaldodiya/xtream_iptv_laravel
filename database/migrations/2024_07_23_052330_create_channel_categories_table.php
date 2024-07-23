@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('channel_categories', function (Blueprint $table) {
             $table->id();
+            $table->integer("category_id")->unique();
+            $table->string("category_name");
             $table->timestamps();
         });
     }
