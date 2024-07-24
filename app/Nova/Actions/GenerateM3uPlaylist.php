@@ -62,7 +62,7 @@ class GenerateM3uPlaylist extends Action
             );
         }
 
-        $file = "playlists/{$playlist_id}.m3u";
+        $file = "{$playlist_id}.m3u";
 
         Storage::disk('playlists')->put($file, $playlist_template);
     }
