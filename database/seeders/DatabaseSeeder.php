@@ -15,6 +15,11 @@ class DatabaseSeeder extends Seeder
         $this->call([
             PlanSeeder::class,
             CategorySeeder::class,
+            LanguagSeeder::class,
+            CountrySeeder::class,
+            ChannelSeeder::class,
+            ChannelSeeder::class,
+            XtreamAccountSeeder::class,
         ]);
     }
 }
