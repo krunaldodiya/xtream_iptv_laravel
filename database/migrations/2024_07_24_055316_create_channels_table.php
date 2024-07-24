@@ -33,7 +33,14 @@ return new class extends Migration
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
 
-            $table->string('xtream_server');
+            $table->unsignedBigInteger('xtream_account_id');
+
+            $table
+                ->foreign('xtream_account_id')
+                ->references('id')
+                ->on('xtream_accounts')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
 
             $table->string("stream_id");
 

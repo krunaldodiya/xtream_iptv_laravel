@@ -78,8 +78,7 @@ class ChannelRepository implements ChannelRepositoryInterface
         });
 
         if (!empty($channels)) {
-            
-            $existing_channels = Channel::all()->keyBy('stream_id');
+            $existing_channels = Channel::all()->keyBy(['stream_id', 'category_id']);
 
             $newChannels = collect($channels)->reject(function ($channel) use ($existing_channels) {
                 return $existing_channels->has($channel['stream_id']);
@@ -87,7 +86,7 @@ class ChannelRepository implements ChannelRepositoryInterface
 
             foreach ($newChannels as $channel) {
                 Channel::create([
-                    'xtream_server' => $xtream_account['server'],
+                    'xtream_account_id' => $xtream_account['id'],
                     'stream_id' => $channel['stream_id'],
                     'category_id' => $channel['category_id'],
                     'name' => $channel['name'],

@@ -15,6 +15,10 @@ class Channel extends Model
 
     public $timestamps = true;
 
+    public function xtream_account() {
+        return $this->belongsTo(XtreamAccount::class);
+    }
+
     public function language() {
         return $this->belongsTo(Language::class);
     }

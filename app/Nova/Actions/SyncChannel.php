@@ -42,7 +42,7 @@ class SyncChannel extends Action
      */
     public function fields(NovaRequest $request)
     {
-        $xtream_accounts = XtreamAccount::pluck('server', 'id');
+        $xtream_accounts = XtreamAccount::pluck('name', 'id');
 
         return [
             Select::make("Xtream Account")->options($xtream_accounts),
