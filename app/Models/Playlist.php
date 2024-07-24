@@ -14,4 +14,12 @@ class Playlist extends Model
     protected $dates = ['created_at', 'updated_at'];
 
     public $timestamps = true;
+
+    public function user() {
+        return $this->belongsTo(User::class);
+    }
+
+    public function playlist_channels() {
+        return $this->belongsTo(PlaylistChannel::class);
+    }
 }

@@ -23,6 +23,15 @@ return new class extends Migration
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
 
+            $table->unsignedBigInteger('channel_id');
+
+            $table
+                ->foreign('channel_id')
+                ->references('id')
+                ->on('channels')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
+
             $table->unsignedBigInteger('category_id');
 
             $table
