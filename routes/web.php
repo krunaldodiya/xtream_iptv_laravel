@@ -7,10 +7,11 @@ use App\Http\Controllers\PlanController;
 use App\Http\Controllers\ChannelController;
 
 use Illuminate\Support\Facades\Route;
+
 use Inertia\Inertia;
 
 Route::get('/test', function () {
-    return "test";
+    return 'test';
 });
 
 Route::get('/', function () {
