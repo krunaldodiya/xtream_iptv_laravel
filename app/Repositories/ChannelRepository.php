@@ -22,9 +22,9 @@ class ChannelRepository implements ChannelRepositoryInterface
 
         $responses = Http::pool(fn ($pool) => 
             $categories->map(fn ($channel_category) => 
-                $pool->as($channel_category->category_id)->get("{$this->server}/player_api.php", [
-                    'username' => $this->username,
-                    'password' => $this->password,
+                $pool->as($channel_category->category_id)->get("{$xtream_account->server}/player_api.php", [
+                    'username' => $xtream_account->username,
+                    'password' => $xtream_account->password,
                     'action' => 'get_live_streams',
                     'category_id' => $channel_category->category_id
                 ])
@@ -57,7 +57,7 @@ class ChannelRepository implements ChannelRepositoryInterface
         $cacheKey = 'live_streams_response';
         $cacheDuration = 60 * 60;
 
-        $channels = Cache::remember($cacheKey, $cacheDuration, function () {
+        $channels = Cache::remember($cacheKey, $cacheDuration, function () use ($xtream_account) {
             $response = Http::get("{$xtream_account->server}/player_api.php", [
                 'username' => $xtream_account->username,
                 'password' => $xtream_account->password,
@@ -72,11 +72,10 @@ class ChannelRepository implements ChannelRepositoryInterface
         });
 
         if (!empty($channels)) {
-            $existingChannels = Channel::all()->keyBy('stream_id');
-            $channelsCollection = collect($channels);
+            $existing_channels = Channel::all()->keyBy('stream_id');
 
-            $newChannels = $channelsCollection->reject(function ($channel) use ($existingChannels) {
-                return $existingChannels->has($channel['stream_id']);
+            $newChannels = collect($channels)->reject(function ($channel) use ($existing_channels) {
+                return $existing_channels->has($channel['stream_id']);
             });
 
             foreach ($newChannels as $channel) {
@@ -94,6 +93,10 @@ class ChannelRepository implements ChannelRepositoryInterface
     }
 
     public function sync_categories(XtreamAccount $xtream_account) {
-        $url = "http://opplex.tv:8080/player_api.php?username=hitesh&password=hitesh123&action=get_live_categories";
+        $response = Http::get("{$xtream_account->server}/player_api.php", [
+            'username' => $xtream_account->username,
+            'password' => $xtream_account->password,
+            'action' => 'get_live_categories',
+        ]);
     }
 }

@@ -7,9 +7,11 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Support\Collection;
 use Laravel\Nova\Actions\Action;
+use Laravel\Nova\Fields\Select;
 use Laravel\Nova\Fields\ActionFields;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
+use App\Models\XtreamAccount;
 use App\Repositories\ChannelRepositoryInterface;
 
 class SyncChannel extends Action
@@ -24,10 +26,12 @@ class SyncChannel extends Action
      * @return mixed
      */
     public function handle(ActionFields $fields, Collection $models)
-    {        
+    {
+        $xtream_account = XtreamAccount::find($fields->xtream_account);
+
         $channelRepositoryInterface = resolve(ChannelRepositoryInterface::class);
 
-        $channelRepositoryInterface->sync_all_channels();
+        $channelRepositoryInterface->sync_all_channels($xtream_account);
     }
 
     /**
@@ -38,6 +42,10 @@ class SyncChannel extends Action
      */
     public function fields(NovaRequest $request)
     {
-        return [];
+        $xtream_accounts = XtreamAccount::pluck('server', 'id');
+
+        return [
+            Select::make("Xtream Account")->options($xtream_accounts),
+        ];
     }
 }
