@@ -27,7 +27,7 @@ class SyncChannel extends Action
     {        
         $channelRepositoryInterface = resolve(ChannelRepositoryInterface::class);
 
-        $channelRepositoryInterface->sync_channels();
+        $channelRepositoryInterface->sync_all_channels();
     }
 
     /**
