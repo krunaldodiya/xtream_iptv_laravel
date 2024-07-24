@@ -7,23 +7,16 @@ use Illuminate\Support\Facades\Cache;
 
 use App\Models\Category;
 use App\Models\Channel;
+use App\Models\XtreamAccount;
 
 class ChannelRepository implements ChannelRepositoryInterface
 {
-    private string $server;
-
-    private string $username;
-
-    private string $password;
-
     public function __construct()
     {
-        $this->server = config("services.xtream.server");
-        $this->username = config('services.xtream.username');
-        $this->password = config('services.xtream.password');
+        //
     }
 
-    public function sync_channels_by_categories()
+    public function sync_channels_by_categories(XtreamAccount $xtream_account)
     {
         $categories = Category::all();
 
@@ -59,15 +52,15 @@ class ChannelRepository implements ChannelRepositoryInterface
         }
     }
 
-    public function sync_all_channels()
+    public function sync_all_channels(XtreamAccount $xtream_account)
     {
         $cacheKey = 'live_streams_response';
         $cacheDuration = 60 * 60;
 
         $channels = Cache::remember($cacheKey, $cacheDuration, function () {
-            $response = Http::get("{$this->server}/player_api.php", [
-                'username' => $this->username,
-                'password' => $this->password,
+            $response = Http::get("{$xtream_account->server}/player_api.php", [
+                'username' => $xtream_account->username,
+                'password' => $xtream_account->password,
                 'action' => 'get_live_streams',
             ]);
 
@@ -100,7 +93,7 @@ class ChannelRepository implements ChannelRepositoryInterface
         }
     }
 
-    public function sync_categories() {
+    public function sync_categories(XtreamAccount $xtream_account) {
         $url = "http://opplex.tv:8080/player_api.php?username=hitesh&password=hitesh123&action=get_live_categories";
     }
 }
