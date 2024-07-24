@@ -99,4 +99,8 @@ class ChannelRepository implements ChannelRepositoryInterface
             }
         }
     }
+
+    public function sync_categories() {
+        $url = "http://opplex.tv:8080/player_api.php?username=hitesh&password=hitesh123&action=get_live_categories";
+    }
 }

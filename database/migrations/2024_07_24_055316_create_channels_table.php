@@ -22,15 +22,15 @@ return new class extends Migration
                 ->on('categories')
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
+            
+                $table->unsignedBigInteger('language_id');
 
-            $table->unsignedBigInteger('language_id');
-
-            $table
-                ->foreign('language_id')
-                ->references('id')
-                ->on('languages')
-                ->onUpdate('cascade')
-                ->onDelete('cascade');
+                $table
+                    ->foreign('language_id')
+                    ->references('id')
+                    ->on('languages')
+                    ->onUpdate('cascade')
+                    ->onDelete('cascade');
 
             $table->unsignedBigInteger('country_id');
 
@@ -41,9 +41,12 @@ return new class extends Migration
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
 
+            $table->string('xtream_server');
+
             $table->string("stream_id");
+
             $table->string("name");
-            $table->string("number");
+
             $table->text("logo")->nullable();
             
             $table->timestamps();
