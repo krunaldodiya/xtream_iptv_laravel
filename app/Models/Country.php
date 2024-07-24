@@ -5,7 +5,7 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Channel extends Model
+class Country extends Model
 {
     use HasFactory;
 
@@ -14,8 +14,4 @@ class Channel extends Model
     protected $dates = ['created_at', 'updated_at'];
 
     public $timestamps = true;
-
-    public function category() {
-        return $this->belongsTo(Category::class);
-    }
 }

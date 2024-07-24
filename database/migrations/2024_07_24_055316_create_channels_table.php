@@ -18,17 +18,33 @@ return new class extends Migration
 
             $table
                 ->foreign('category_id')
-                ->references('category_id')
-                ->on('channel_categories')
+                ->references('id')
+                ->on('categories')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
+
+            $table->unsignedBigInteger('language_id');
+
+            $table
+                ->foreign('language_id')
+                ->references('id')
+                ->on('languages')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
+
+            $table->unsignedBigInteger('country_id');
+
+            $table
+                ->foreign('country_id')
+                ->references('id')
+                ->on('countries')
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
 
             $table->string("stream_id");
-            $table->string("channel_name");
-            $table->string("channel_number");
-            $table->string("channel_language")->nullable();
-            $table->string("channel_country")->nullable();
-            $table->text("channel_logo")->nullable();
+            $table->string("name");
+            $table->string("number");
+            $table->text("logo")->nullable();
             
             $table->timestamps();
         });

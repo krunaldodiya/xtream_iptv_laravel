@@ -7,21 +7,21 @@ use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-class ChannelCategory extends Resource
+class Language extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
-     * @var class-string<\App\Models\ChannelCategory>
+     * @var class-string<\App\Models\Language>
      */
-    public static $model = \App\Models\ChannelCategory::class;
+    public static $model = \App\Models\Language::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
      *
      * @var string
      */
-    public static $title = 'id';
+    public static $title = 'name';
 
     /**
      * The columns that should be searched.
@@ -29,7 +29,7 @@ class ChannelCategory extends Resource
      * @var array
      */
     public static $search = [
-        'id',
+        'id', 'name'
     ];
 
     /**
@@ -42,8 +42,7 @@ class ChannelCategory extends Resource
     {
         return [
             ID::make()->sortable(),
-            Text::make('Category ID'),
-            Text::make('Category Name'),
+            Text::make('Name'),
         ];
     }
 

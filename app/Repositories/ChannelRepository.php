@@ -4,7 +4,7 @@ namespace App\Repositories;
 
 use Illuminate\Support\Facades\Http;
 
-use App\Models\ChannelCategory;
+use App\Models\Category;
 use App\Models\Channel;
 
 class ChannelRepository implements ChannelRepositoryInterface
@@ -24,10 +24,10 @@ class ChannelRepository implements ChannelRepositoryInterface
 
     public function sync_channels()
     {  
-        $channel_categories = ChannelCategory::all();
+        $categories = Category::all();
 
         $responses = Http::pool(fn ($pool) => 
-            $channel_categories->map(fn ($channel_category) => 
+            $categories->map(fn ($channel_category) => 
                 $pool->as($channel_category->category_id)->get("{$this->server}/player_api.php", [
                     'username' => $this->username,
                     'password' => $this->password,

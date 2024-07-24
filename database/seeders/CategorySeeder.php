@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\ChannelCategory;
+use App\Models\Category;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Schema;
@@ -17,16 +17,16 @@ class CategorySeeder extends Seeder
     {
         Schema::disableForeignKeyConstraints();
 
-        ChannelCategory::truncate();
+        Category::truncate();
 
         Schema::enableForeignKeyConstraints();
 
-        $content = Storage::disk('seeds')->get('channel_categories.json');
+        $content = Storage::disk('seeds')->get('categories.json');
 
         $data = json_decode($content, true);
 
         collect($data)->each(function ($item) {
-            ChannelCategory::create($item);
+            Category::create($item);
         });
     }
 }

@@ -2,25 +2,19 @@
 
 namespace App\Nova;
 
-use App\Nova\Actions\BackupChannel;
-use App\Nova\Actions\SyncChannel;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
-
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
-use Laravel\Nova\Fields\Image;
-
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-class Channel extends Resource
+class Category extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
-     * @var class-string<\App\Models\Channel>
+     * @var class-string<\App\Models\Category>
      */
-    public static $model = \App\Models\Channel::class;
+    public static $model = \App\Models\Category::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
@@ -46,24 +40,9 @@ class Channel extends Resource
      */
     public function fields(NovaRequest $request)
     {
-        $placeholder_logo = "/images/404.png";
-
         return [
             ID::make()->sortable(),
-
-            Text::make('Channel Name'),
-            Text::make('Channel Number'),
-            Text::make('Channel Language'),
-            Text::make('Channel Country'),
-            
-            Image::make('Channel Logo', 'logo')
-                ->thumbnail(function ($value) use ($placeholder_logo) {
-                    return $value ? $value : $placeholder_logo; 
-                })
-                ->preview(function ($value) use ($placeholder_logo) {
-                    return $value ? $value : $placeholder_logo; 
-                })
-                ->rules('required', 'logo'),
+            Text::make('Name'),
         ];
     }
 
@@ -108,9 +87,6 @@ class Channel extends Resource
      */
     public function actions(NovaRequest $request)
     {
-        return [
-            BackupChannel::make()->standalone(),
-            SyncChannel::make()->standalone(),
-        ];
+        return [];
     }
 }
