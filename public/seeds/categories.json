@@ -1,110 +1,14 @@
 [
   {
-    "id": 392,
-    "name": "Entertainment",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 422,
-    "name": "4K Ultra HD",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 232,
-    "name": "Movies",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 339,
-    "name": "News",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 193,
-    "name": "Documentary",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 35,
-    "name": "Kids",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 338,
-    "name": "English Movies",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 435,
-    "name": "Discovery Plus",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 475,
-    "name": "Devotional Religious",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 389,
-    "name": "Regional",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 188,
-    "name": "Tamil",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 187,
-    "name": "Gujarati",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 189,
-    "name": "Telugu",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 350,
-    "name": "Marathi",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 191,
-    "name": "Malayalam",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 192,
-    "name": "Punjabi",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
-    "id": 190,
-    "name": "Kannada",
-    "created_at": "2024-07-24T04:02:26.000000Z",
-    "updated_at": "2024-07-24T04:02:26.000000Z"
-  },
-  {
     "id": 1,
     "name": "Unknown",
     "created_at": "2024-07-24T04:27:19.000000Z",
     "updated_at": "2024-07-24T04:27:19.000000Z"
+  },
+  {
+    "id": 2,
+    "name": "Tata Play | Hindi Movies",
+    "created_at": "2024-07-24T05:10:33.000000Z",
+    "updated_at": "2024-07-24T05:10:33.000000Z"
   }
 ]

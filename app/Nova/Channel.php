@@ -58,15 +58,14 @@ class Channel extends Resource
             BelongsTo::make('Category'),
             BelongsTo::make('Language'),
             BelongsTo::make('Country'),
-            
+
+            Text::make('Logo', 'logo')->onlyOnForms(),
+
             Image::make('Logo', 'logo')
                 ->thumbnail(function ($value) use ($placeholder_logo) {
                     return $value ? $value : $placeholder_logo; 
                 })
-                ->preview(function ($value) use ($placeholder_logo) {
-                    return $value ? $value : $placeholder_logo; 
-                })
-                ->rules('required', 'logo'),
+                ->exceptOnForms(),
         ];
     }
 

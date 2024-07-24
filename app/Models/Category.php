@@ -14,4 +14,8 @@ class Category extends Model
     protected $dates = ['created_at', 'updated_at'];
 
     public $timestamps = true;
+
+    public function channels() {
+        return $this->hasMany(Channel::class);
+    }
 }

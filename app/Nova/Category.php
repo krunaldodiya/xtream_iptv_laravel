@@ -7,6 +7,8 @@ use App\Nova\Actions\BackupCategory;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\HasMany;
+
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class Category extends Resource
@@ -45,6 +47,7 @@ class Category extends Resource
         return [
             ID::make()->sortable(),
             Text::make('Name'),
+            HasMany::make('Channels'),
         ];
     }
 

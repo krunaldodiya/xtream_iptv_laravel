@@ -22740,18 +22740,6 @@
     "updated_at": "2024-07-24T04:29:55.000000Z"
   },
   {
-    "id": 1892,
-    "category_id": 1,
-    "language_id": 1,
-    "country_id": 1,
-    "stream_id": "95285",
-    "name": "IN | B4U KADAK",
-    "number": "1892",
-    "logo": "https:\/\/ltsk-cdn.s3.eu-west-1.amazonaws.com\/jumpstart\/Temp_Live\/cdn\/HLS\/Channel\/B4UKad_Thumbnail-v5\/B4UKad_Thumbnail.png",
-    "created_at": "2024-07-24T04:29:55.000000Z",
-    "updated_at": "2024-07-24T04:29:55.000000Z"
-  },
-  {
     "id": 1893,
     "category_id": 1,
     "language_id": 1,
@@ -117190,5 +117178,17 @@
     "logo": "https:\/\/images.pluto.tv\/channels\/60cb6df2b2ad610008cd5bea\/colorLogoPNG.png",
     "created_at": "2024-07-24T04:30:03.000000Z",
     "updated_at": "2024-07-24T04:30:03.000000Z"
+  },
+  {
+    "id": 1892,
+    "category_id": 2,
+    "language_id": 2,
+    "country_id": 2,
+    "stream_id": "95285",
+    "name": "B4U KADAK",
+    "number": "346",
+    "logo": "https:\/\/www.tataplay.com\/s3-api\/v1\/assets\/channels\/b4u-kadak.gif",
+    "created_at": "2024-07-24T04:29:55.000000Z",
+    "updated_at": "2024-07-24T05:39:41.000000Z"
   }
 ]
