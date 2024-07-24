@@ -2,26 +2,21 @@
 
 namespace App\Nova;
 
-use App\Nova\Actions\BackupChannel;
-use App\Nova\Actions\SyncChannel;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Storage;
-
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
-use Laravel\Nova\Fields\Image;
-use Laravel\Nova\Fields\BelongsTo;
-
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-class Channel extends Resource
+use App\Nova\Actions\BackupXtreamAccount;
+
+class XtreamAccount extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
-     * @var class-string<\App\Models\Channel>
+     * @var class-string<\App\Models\XtreamAccount>
      */
-    public static $model = \App\Models\Channel::class;
+    public static $model = \App\Models\XtreamAccount::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
@@ -47,26 +42,12 @@ class Channel extends Resource
      */
     public function fields(NovaRequest $request)
     {
-        $placeholder_logo = "/images/404.png";
-
         return [
             ID::make()->sortable(),
-
             Text::make('Name'),
-            Text::make('Number'),
-
-            BelongsTo::make('Category'),
-            BelongsTo::make('Language'),
-            BelongsTo::make('Country'),
-            
-            Image::make('Logo', 'logo')
-                ->thumbnail(function ($value) use ($placeholder_logo) {
-                    return $value ? $value : $placeholder_logo; 
-                })
-                ->preview(function ($value) use ($placeholder_logo) {
-                    return $value ? $value : $placeholder_logo; 
-                })
-                ->rules('required', 'logo'),
+            Text::make('Server'),
+            Text::make('Username'),
+            Text::make('Password'),
         ];
     }
 
@@ -112,8 +93,7 @@ class Channel extends Resource
     public function actions(NovaRequest $request)
     {
         return [
-            BackupChannel::make()->standalone(),
-            SyncChannel::make()->standalone(),
+            BackupXtreamAccount::make()->standalone(),
         ];
     }
 }
