@@ -25,8 +25,10 @@ class ChannelSeeder extends Seeder
 
         $data = json_decode($content, true);
 
-        collect($data)->each(function ($item) {
-            Channel::create($item);
+        $chunkSize = 1000;
+        
+        collect($data)->chunk($chunkSize)->each(function ($chunk) {
+            Channel::insert($chunk->toArray());
         });
     }
 }
