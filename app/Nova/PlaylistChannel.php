@@ -46,7 +46,7 @@ class PlaylistChannel extends Resource
 
             BelongsTo::make("Playlist"),
 
-            BelongsTo::make("Channel"),
+            BelongsTo::make("Channel")->searchable(),
 
             BelongsTo::make("Category"),
             
