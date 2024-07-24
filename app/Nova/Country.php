@@ -2,6 +2,8 @@
 
 namespace App\Nova;
 
+use App\Nova\Actions\BackupCountry;
+
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
@@ -87,6 +89,8 @@ class Country extends Resource
      */
     public function actions(NovaRequest $request)
     {
-        return [];
+        return [
+            BackupCountry::make()->standalone(),
+        ];
     }
 }

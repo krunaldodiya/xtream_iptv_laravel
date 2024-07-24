@@ -1,1 +1,50 @@
-[{"id":1,"name":"Free","maximum_projects":1,"can_paper_trade":true,"can_live_trade":false,"monthly_charges":0,"currency":"INR","created_at":"2024-06-18T03:20:21.000000Z","updated_at":"2024-06-18T03:20:21.000000Z","description":"Perfect for individuals or small teams just getting started. The Free Plan offers essential features to get you up and running without any cost."},{"id":2,"name":"Basic","maximum_projects":3,"can_paper_trade":true,"can_live_trade":true,"monthly_charges":299,"currency":"INR","created_at":"2024-06-18T03:20:21.000000Z","updated_at":"2024-06-18T03:20:21.000000Z","description":"Ideal for growing teams and small businesses. The Basic Plan provides enhanced capabilities and support to help you manage your tasks more efficiently."},{"id":3,"name":"Pro","maximum_projects":10,"can_paper_trade":true,"can_live_trade":true,"monthly_charges":499,"currency":"INR","created_at":"2024-06-18T03:20:21.000000Z","updated_at":"2024-06-18T03:20:21.000000Z","description":"Designed for larger teams and organizations needing more advanced tools and greater support. The Pro Plan offers comprehensive features to streamline your workflow."},{"id":4,"name":"Ultimate","maximum_projects":50,"can_paper_trade":true,"can_live_trade":true,"monthly_charges":999,"currency":"INR","created_at":"2024-06-18T03:20:21.000000Z","updated_at":"2024-06-18T03:20:21.000000Z","description":"Perfect for enterprises and large organizations. The Ultimate Plan offers the most extensive set of features and personalized support to maximize productivity and efficiency."}]
+[
+  {
+    "id": 1,
+    "name": "Free",
+    "maximum_projects": 1,
+    "can_paper_trade": true,
+    "can_live_trade": false,
+    "monthly_charges": 0,
+    "currency": "INR",
+    "created_at": "2024-06-18T03:20:21.000000Z",
+    "updated_at": "2024-06-18T03:20:21.000000Z",
+    "description": "Perfect for individuals or small teams just getting started. The Free Plan offers essential features to get you up and running without any cost."
+  },
+  {
+    "id": 2,
+    "name": "Basic",
+    "maximum_projects": 3,
+    "can_paper_trade": true,
+    "can_live_trade": true,
+    "monthly_charges": 299,
+    "currency": "INR",
+    "created_at": "2024-06-18T03:20:21.000000Z",
+    "updated_at": "2024-06-18T03:20:21.000000Z",
+    "description": "Ideal for growing teams and small businesses. The Basic Plan provides enhanced capabilities and support to help you manage your tasks more efficiently."
+  },
+  {
+    "id": 3,
+    "name": "Pro",
+    "maximum_projects": 10,
+    "can_paper_trade": true,
+    "can_live_trade": true,
+    "monthly_charges": 499,
+    "currency": "INR",
+    "created_at": "2024-06-18T03:20:21.000000Z",
+    "updated_at": "2024-06-18T03:20:21.000000Z",
+    "description": "Designed for larger teams and organizations needing more advanced tools and greater support. The Pro Plan offers comprehensive features to streamline your workflow."
+  },
+  {
+    "id": 4,
+    "name": "Ultimate",
+    "maximum_projects": 50,
+    "can_paper_trade": true,
+    "can_live_trade": true,
+    "monthly_charges": 999,
+    "currency": "INR",
+    "created_at": "2024-06-18T03:20:21.000000Z",
+    "updated_at": "2024-06-18T03:20:21.000000Z",
+    "description": "Perfect for enterprises and large organizations. The Ultimate Plan offers the most extensive set of features and personalized support to maximize productivity and efficiency."
+  }
+]
