@@ -60,7 +60,7 @@ class ChannelRepository implements ChannelRepositoryInterface
 
     public function sync_all_channels(XtreamAccount $xtream_account)
     {
-        $cacheKey = 'live_streams_response';
+        $cacheKey = "get_live_streams:{$xtream_account->server}";
         $cacheDuration = 60 * 60;
 
         $channels = Cache::remember($cacheKey, $cacheDuration, function () use ($xtream_account) {
@@ -78,6 +78,7 @@ class ChannelRepository implements ChannelRepositoryInterface
         });
 
         if (!empty($channels)) {
+            
             $existing_channels = Channel::all()->keyBy('stream_id');
 
             $newChannels = collect($channels)->reject(function ($channel) use ($existing_channels) {
@@ -86,13 +87,12 @@ class ChannelRepository implements ChannelRepositoryInterface
 
             foreach ($newChannels as $channel) {
                 Channel::create([
-                    'server' => $xtream_account['server'],
+                    'xtream_server' => $xtream_account['server'],
                     'stream_id' => $channel['stream_id'],
                     'category_id' => $channel['category_id'],
                     'name' => $channel['name'],
                     'language_id' => 1,
                     'country_id' => 1,
-                    'number' => $channel['num'],
                     'logo' => $channel['stream_icon'],
                 ]);
             }

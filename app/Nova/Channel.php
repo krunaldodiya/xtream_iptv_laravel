@@ -52,12 +52,10 @@ class Channel extends Resource
         return [
             ID::make()->sortable(),
 
-            Text::make('Server'),
+            Text::make('Xtream Server'),
             Text::make('Stream ID'),
-            Text::make('Category'),
-
+            Text::make('Category ID'),
             Text::make('Name'),
-            Text::make('Number'),
 
             BelongsTo::make('Language'),
             BelongsTo::make('Country'),
