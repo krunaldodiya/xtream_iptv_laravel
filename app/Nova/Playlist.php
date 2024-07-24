@@ -9,6 +9,8 @@ use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Fields\HasMany;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
+use App\Nova\Actions\GenerateM3uPlaylist;
+
 class Playlist extends Resource
 {
     /**
@@ -94,6 +96,8 @@ class Playlist extends Resource
      */
     public function actions(NovaRequest $request)
     {
-        return [];
+        return [
+            GenerateM3uPlaylist::make()->standalone()->onlyOnDetail(),
+        ];
     }
 }

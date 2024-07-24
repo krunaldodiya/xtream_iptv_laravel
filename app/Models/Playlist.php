@@ -20,6 +20,6 @@ class Playlist extends Model
     }
 
     public function playlist_channels() {
-        return $this->belongsTo(PlaylistChannel::class);
+        return $this->hasMany(PlaylistChannel::class);
     }
 }
