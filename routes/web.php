@@ -9,11 +9,10 @@ use App\Http\Controllers\ChannelController;
 use Illuminate\Support\Facades\Route;
 
 use Inertia\Inertia;
-use App\Models\Channel;
+
 
 Route::get('/test', function () {
-    Channel::query()->whereNot('country_id', 2)->delete();
-    return "test";
+    return 'test';
 });
 
 Route::get('/', function () {
