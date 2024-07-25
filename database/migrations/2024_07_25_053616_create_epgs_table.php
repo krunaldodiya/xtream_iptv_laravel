@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('epgs', function (Blueprint $table) {
             $table->id();
-            $table->string('text');
+            $table->string('name');
             $table->string('value');
             $table->string('logo')->nullable();
             $table->string('unix');

@@ -3,7 +3,6 @@
 namespace App\Nova;
 
 use App\Nova\Actions\BackupEpg;
-use App\Nova\Actions\AssignEpg;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
@@ -25,7 +24,7 @@ class Epg extends Resource
      *
      * @var string
      */
-    public static $title = 'text';
+    public static $title = 'name';
 
     /**
      * The columns that should be searched.
@@ -46,7 +45,7 @@ class Epg extends Resource
     {
         return [
             ID::make()->sortable(),
-            Text::make('text')->sortable(),
+            Text::make('name')->sortable(),
             Text::make('value')->sortable(),
             Text::make('logo')->sortable(),
             Text::make('unix')->sortable(),
@@ -97,7 +96,6 @@ class Epg extends Resource
     {
         return [
             BackupEpg::make()->standalone(),
-            AssignEpg::make()->standalone()->onlyOnDetail(),
         ];
     }
 }

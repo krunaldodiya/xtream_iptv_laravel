@@ -108,7 +108,7 @@ class ChannelRepository implements ChannelRepositoryInterface
             ]);
     }
 
-    public function generate_m3u_playlist($playlist_id) {
+    public function generate_m3u_playlist($playlist_id) {        
         $playlist_channels = PlaylistChannel::query()
             ->with(['playlist', 'channel.xtream_account', 'category'])
             ->where(['playlist_id' => $playlist_id])
@@ -119,26 +119,32 @@ class ChannelRepository implements ChannelRepositoryInterface
         $playlist_template = "#EXTM3U x-tvg-url=\"{$epgUrl}\"\n";
 
         foreach ($playlist_channels as $playlist_channel) {
-            $streamId = $playlist_channel['channel']['stream_id'];
+            $channel = $playlist_channel['channel'];
 
-            $xtream_account = $playlist_channel['channel']['xtream_account'];
-            
-            $language = $playlist_channel['channel']['language']['name'];
-            
-            $country = $playlist_channel['channel']['country']['name'];
-            
-            $channelLogo = $playlist_channel['channel']['logo'];
-            
-            $channelName = $playlist_channel['name'];
+            $streamId = $channel['stream_id'];
 
-            $category = $playlist_channel['category']['name'];
+            $xtream_account = $channel['xtream_account'];
+
+            $language = $channel['language']['name'];
+
+            $country = $channel['country']['name'];
+
+            $epg = $channel['epg'];
+
+            $number = $channel['number'];
+
+            $logo = $channel['logo'];
+            
+            $name = $channel['name'];
+
+            $category = $channel['category']['name'];
 
             $url = "{$xtream_account->server}/live/{$xtream_account->username}/{$xtream_account->password}/{$streamId}.ts";
 
             $playlist_template .= (
-                "#EXTINF:-1 tvg-id=\"{$streamId}\" tvg-name=\"{$channelName}\" "
+                "#EXTINF:-1 tvg-id=\"{$epg}\" tvg-chno=\"{$number}\" tvg-name=\"{$name}\" "
                 . "tvg-country=\"{$country}\" tvg-language=\"{$language}\" "
-                . "tvg-logo=\"{$channelLogo}\" group-title=\"{$category}\",{$channelName}\n{$url}\n"
+                . "tvg-logo=\"{$logo}\" group-title=\"{$category}\",{$name}\n{$url}\n"
             );
         }
 

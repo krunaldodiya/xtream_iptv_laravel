@@ -10,9 +10,10 @@ use Laravel\Nova\Actions\Action;
 use Laravel\Nova\Fields\ActionFields;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-use Laravel\Nova\Fields\MultiSelect;
+use Laravel\Nova\Fields\Select;
 
 use App\Models\Channel;
+use App\Models\Epg;
 
 class AssignEpg extends Action
 {
@@ -27,7 +28,14 @@ class AssignEpg extends Action
      */
     public function handle(ActionFields $fields, Collection $models)
     {
-        //
+        $epg = Epg::find($fields->epg);
+
+        $channel = Channel::query()
+            ->where('id', request()->get('resources'))
+            ->update([
+                'epg' => $epg['value'],
+                'logo' => "https://logo.iptveditor.com/{$epg['logo']}.png",
+            ]);
     }
 
     /**
@@ -38,13 +46,10 @@ class AssignEpg extends Action
      */
     public function fields(NovaRequest $request)
     {
-        $channels = Channel::pluck('name', 'id');
+        $epgs = Epg::pluck('name', 'id');
 
         return [
-            MultiSelect::make('Channels')
-                ->searchable()
-                ->options($channels)
-                ->placeholder('Channels'),
+            Select::make('Epg')->options($epgs)->searchable()
         ];
     }
 }
