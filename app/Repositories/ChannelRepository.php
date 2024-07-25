@@ -4,10 +4,12 @@ namespace App\Repositories;
 
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Cache;
+use Illuminate\Support\Facades\Storage;
 
 use App\Models\Category;
 use App\Models\Channel;
 use App\Models\XtreamAccount;
+use App\Models\PlaylistChannel;
 
 class ChannelRepository implements ChannelRepositoryInterface
 {
@@ -104,5 +106,44 @@ class ChannelRepository implements ChannelRepositoryInterface
                 'password' => $xtream_account->password,
                 'action' => 'get_live_categories',
             ]);
+    }
+
+    public function generate_m3u_playlist($playlist_id) {
+        $playlist_channels = PlaylistChannel::query()
+            ->with(['playlist', 'channel.xtream_account', 'category'])
+            ->where(['playlist_id' => $playlist_id])
+            ->get();
+
+        $epgUrl = "http://rstream.me/epg.xml.gz";
+
+        $playlist_template = "#EXTM3U x-tvg-url=\"{$epgUrl}\"\n";
+
+        foreach ($playlist_channels as $playlist_channel) {
+            $streamId = $playlist_channel['channel']['stream_id'];
+
+            $xtream_account = $playlist_channel['channel']['xtream_account'];
+            
+            $language = $playlist_channel['channel']['language']['name'];
+            
+            $country = $playlist_channel['channel']['country']['name'];
+            
+            $channelLogo = $playlist_channel['channel']['logo'];
+            
+            $channelName = $playlist_channel['name'];
+
+            $category = $playlist_channel['category']['name'];
+
+            $url = "{$xtream_account->server}/live/{$xtream_account->username}/{$xtream_account->password}/{$streamId}.ts";
+
+            $playlist_template .= (
+                "#EXTINF:-1 tvg-id=\"{$streamId}\" tvg-name=\"{$channelName}\" "
+                . "tvg-country=\"{$country}\" tvg-language=\"{$language}\" "
+                . "tvg-logo=\"{$channelLogo}\" group-title=\"{$category}\",{$channelName}\n{$url}\n"
+            );
+        }
+
+        $file = "{$playlist_id}.m3u";
+
+        Storage::disk('playlists')->put($file, $playlist_template);
     }
 }
