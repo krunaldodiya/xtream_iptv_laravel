@@ -3,6 +3,7 @@
 namespace App\Nova;
 
 use App\Nova\Actions\BackupEpg;
+use App\Nova\Actions\AssignEpg;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
@@ -96,6 +97,7 @@ class Epg extends Resource
     {
         return [
             BackupEpg::make()->standalone(),
+            AssignEpg::make()->standalone()->onlyOnDetail(),
         ];
     }
 }

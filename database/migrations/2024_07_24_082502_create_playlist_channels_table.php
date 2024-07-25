@@ -31,18 +31,6 @@ return new class extends Migration
                 ->on('channels')
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
-
-            $table->unsignedBigInteger('category_id');
-
-            $table
-                ->foreign('category_id')
-                ->references('id')
-                ->on('categories')
-                ->onUpdate('cascade')
-                ->onDelete('cascade');
-
-            $table->string("name");
-            $table->string("number");
             
             $table->timestamps();
         });

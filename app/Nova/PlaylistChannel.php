@@ -4,7 +4,6 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
-use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
@@ -44,15 +43,9 @@ class PlaylistChannel extends Resource
         return [
             ID::make()->sortable(),
 
-            BelongsTo::make("Playlist"),
+            BelongsTo::make("Playlist")->searchable(),
 
             BelongsTo::make("Channel")->searchable(),
-
-            BelongsTo::make("Category"),
-            
-            Text::make('Name'),
-
-            Text::make('Number'),
         ];
     }
 

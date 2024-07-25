@@ -49,6 +49,10 @@ return new class extends Migration
             $table->string("name");
 
             $table->text("logo")->nullable();
+
+            $table->text("number")->nullable();
+
+            $table->string('epg')->nullable();
             
             $table->timestamps();
         });
