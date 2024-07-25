@@ -50,6 +50,12 @@ return [
             'throw' => false,
         ],
 
+        'categories' => [
+            'driver' => 'local',
+            'root' => public_path('categories'),
+            'throw' => false,
+        ],
+
         'playlists' => [
             'driver' => 'local',
             'root' => public_path('playlists'),
