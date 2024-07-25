@@ -53,12 +53,12 @@ class Channel extends Resource
             ID::make()->sortable(),
 
             Text::make('Stream ID'),
-            Text::make('Category ID'),
+            Text::make('Category ID')->sortable(),
             Text::make('Name'),
 
             BelongsTo::make('Xtream Account', 'xtream_account'),
-            BelongsTo::make('Language'),
-            BelongsTo::make('Country'),
+            BelongsTo::make('Language')->sortable(),
+            BelongsTo::make('Country')->sortable(),
 
             Text::make('Logo', 'logo')->onlyOnForms(),
 
