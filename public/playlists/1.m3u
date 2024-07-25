@@ -1,3 +1,3 @@
-#EXTM3U x-tvg-url="http://rstream.me/epg.xml.gz"
+#EXTM3U
 #EXTINF:-1 tvg-id="zeetv.in" tvg-chno="1" tvg-name="ZEE TV (4K)" tvg-country="India" tvg-language="Hindi" tvg-logo="https://logo.iptveditor.com/zeetv.png" group-title="Hindi Entertainment",ZEE TV (4K)
 http://opplex.tv:8080/live/hitesh/hitesh123/109950.ts
