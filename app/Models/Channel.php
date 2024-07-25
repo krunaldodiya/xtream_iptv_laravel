@@ -19,6 +19,10 @@ class Channel extends Model
         return $this->belongsTo(XtreamAccount::class);
     }
 
+    public function category() {
+        return $this->belongsTo(Category::class);
+    }
+
     public function language() {
         return $this->belongsTo(Language::class);
     }
