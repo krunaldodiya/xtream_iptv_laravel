@@ -1,3 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="zeetv.in" tvg-chno="1" tvg-name="ZEE TV (4K)" tvg-country="India" tvg-language="Hindi" tvg-logo="https://logo.iptveditor.com/zeetv.png" group-title="Hindi Entertainment",ZEE TV (4K)
 http://opplex.tv:8080/live/hitesh/hitesh123/109950.ts
+
+#EXTINF:0 CUID="176" tvg-chno="432" tvg-name="Zee TV HD" tvg-id="zeetv.in" tvg-logo="https://logo.iptveditor.com/zeetv.png" group-title="Entertainment",Zee TV HD
+https://xteam-itpv.vercel.app/stream/74772
