@@ -1,0 +1,7380 @@
+[
+  {
+    "text": "&FLIX",
+    "value": "&flix.in",
+    "logo": "&flix",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "&Pictures",
+    "value": "&pictures.in",
+    "logo": "&pictures",
+    "unix": "1722115800.000000",
+    "days": true
+  },
+  {
+    "text": "&Prive",
+    "value": "&prive.in",
+    "logo": "prive",
+    "unix": "1722115800.000000",
+    "days": true
+  },
+  {
+    "text": "&TV",
+    "value": "&tv.in",
+    "logo": "&tv",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "0uk",
+    "value": "0uk.in",
+    "logo": null,
+    "unix": "1721941200.000000",
+    "days": false
+  },
+  {
+    "text": "1AM Orig",
+    "value": "1amorig.in",
+    "logo": null,
+    "unix": "1722141000.000000",
+    "days": true
+  },
+  {
+    "text": "4TV News",
+    "value": "4tvnews.in",
+    "logo": "4tvnews",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "9X JALWA",
+    "value": "9xjalwa.in",
+    "logo": "9xjalwa",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "9X Tashan",
+    "value": "9xtashan.in",
+    "logo": "9xtashan",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "9Xm",
+    "value": "9xm.in",
+    "logo": "9xm",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "10 TV",
+    "value": "10tv.in",
+    "logo": "10tv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "24 24 HoursPolice Custody",
+    "value": "2424hourspolicecustody.in",
+    "logo": null,
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "24 Allthe Family",
+    "value": "24allthefamily.in",
+    "logo": "allthefamily",
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "24 Bearthe Big Blue House",
+    "value": "24bearthebigbluehouse.in",
+    "logo": null,
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "24 DriveMovies",
+    "value": "24drivemovies.in",
+    "logo": null,
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "24 ForgedFire",
+    "value": "24forgedfire.in",
+    "logo": null,
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "24 Ghante",
+    "value": "24ghante.in",
+    "logo": "24ghantatv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "24 It's Always SunnyPhiladelphia",
+    "value": "24it'salwayssunnyphiladelphia.in",
+    "logo": "itsalwayssunnyphiladelphia",
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "24 MadeChelsea",
+    "value": "24madechelsea.in",
+    "logo": null,
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "24 Malcolmthe Middle",
+    "value": "24malcolmthemiddle.in",
+    "logo": "malcolmthemiddle",
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "24 MenBlack Movies",
+    "value": "24menblackmovies.in",
+    "logo": null,
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "24 Taas",
+    "value": "24taas.in",
+    "logo": "zee24taas",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "24 Wirethe Blood",
+    "value": "24wiretheblood.in",
+    "logo": null,
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "24 WKRPCincinnati",
+    "value": "24wkrpcincinnati.in",
+    "logo": "247wkrpincincinnati",
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "24the Heat of the Night",
+    "value": "24theheatofthenight.in",
+    "logo": null,
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "60 Daysby A&E",
+    "value": "60daysbya&e.in",
+    "logo": null,
+    "unix": "1721876940.000000",
+    "days": false
+  },
+  {
+    "text": "530 StarzBlack",
+    "value": "530starzblack.in",
+    "logo": null,
+    "unix": "1722405660.000000",
+    "days": true
+  },
+  {
+    "text": "583 StarzBlack WEST",
+    "value": "583starzblackwest.in",
+    "logo": "starzblackwest",
+    "unix": "1722066000.000000",
+    "days": true
+  },
+  {
+    "text": "[ᴜs] CAUGHT IN PROVIDENCE FHD [ᴛᴜʙɪ]",
+    "value": "[ᴜs]caughtinprovidencefhd[ᴛᴜʙɪ].in",
+    "logo": null,
+    "unix": "1722024540.000000",
+    "days": false
+  },
+  {
+    "text": "Aaj Entertainment Pk",
+    "value": "aajentertainmentpk.in",
+    "logo": "aajtak",
+    "unix": "1721930700.000000",
+    "days": false
+  },
+  {
+    "text": "Aaj Tak",
+    "value": "aajtak.in",
+    "logo": "aajtak",
+    "unix": "1721930700.000000",
+    "days": false
+  },
+  {
+    "text": "Aakash Aath",
+    "value": "aakashaath.in",
+    "logo": "aakashaath",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "AASTHA",
+    "value": "aastha.in",
+    "logo": "aastha",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "Aastha Bhajan",
+    "value": "aasthabhajan.in",
+    "logo": "aasthabhajan",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "ABC EVANSVILLEWEHT",
+    "value": "abcevansvilleweht.in",
+    "logo": null,
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "ABC FORT WAYNEWPTA",
+    "value": "abcfortwaynewpta.in",
+    "logo": null,
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "ABC INDIANAPOLISWRTV",
+    "value": "abcindianapoliswrtv.in",
+    "logo": "indianapolisabcwrtv",
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "ABC LAFAYETTEWPBY",
+    "value": "abclafayettewpby.in",
+    "logo": null,
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "ABC SOUTH BENDWBND",
+    "value": "abcsouthbendwbnd.in",
+    "logo": null,
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "ABC TERRE HAUTEWAWV",
+    "value": "abcterrehautewawv.in",
+    "logo": "abc38terrehauteinwawv",
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "ABC WRTVINDIANAPOLIS",
+    "value": "abcwrtvindianapolis.in",
+    "logo": "indianapolisabcwrtv",
+    "unix": "1722139500.000000",
+    "days": true
+  },
+  {
+    "text": "ABN Andhra Jyothi",
+    "value": "abnandhrajyothi.in",
+    "logo": "abnandhrajyothy",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ABN Andhra Jyothy",
+    "value": "abnandhrajyothy.in",
+    "logo": "abnandhrajyothy",
+    "unix": "1721968200.000000",
+    "days": false
+  },
+  {
+    "text": "ABN Telugu",
+    "value": "abntelugu.in",
+    "logo": null,
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Abp Ananda",
+    "value": "abpananda.in",
+    "logo": "abpananda",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Abp Asmita",
+    "value": "abpasmita.in",
+    "logo": "abpasmita",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Abp Majha",
+    "value": "abpmajha.in",
+    "logo": "abpmajha",
+    "unix": "1722014880.000000",
+    "days": false
+  },
+  {
+    "text": "ABP NEWS",
+    "value": "abpnews.in",
+    "logo": "abpnews",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Active Services",
+    "value": "activeservices.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Active Services Duplicate",
+    "value": "activeservicesduplicate.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Active Services Duplicate1",
+    "value": "activeservicesduplicate1.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Active Services Duplicate3",
+    "value": "activeservicesduplicate3.in",
+    "logo": null,
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Active Services Duplicate4",
+    "value": "activeservicesduplicate4.in",
+    "logo": null,
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Adithya TV",
+    "value": "adithyatv.in",
+    "logo": "adithyatv",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Adventure90's",
+    "value": "adventure90's.in",
+    "logo": "adventure",
+    "unix": "1722201600.000000",
+    "days": true
+  },
+  {
+    "text": "AKASH 8",
+    "value": "akash8.in",
+    "logo": "stvtv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Alankar TV",
+    "value": "alankartv.in",
+    "logo": "alankar",
+    "unix": "1721982600.000000",
+    "days": false
+  },
+  {
+    "text": "Amrita TV",
+    "value": "amritatv.in",
+    "logo": "amritatv",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "AMRITHA TV",
+    "value": "amrithatv.in",
+    "logo": "amritatv",
+    "unix": "1722085200.000000",
+    "days": true
+  },
+  {
+    "text": "ANB News",
+    "value": "anbnews.in",
+    "logo": "irqanbnews",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "AND FLIX",
+    "value": "andflix.in",
+    "logo": "andflix",
+    "unix": "1722094200.000000",
+    "days": true
+  },
+  {
+    "text": "And Pictures",
+    "value": "andpictures.in",
+    "logo": "andpictures",
+    "unix": "1721981100.000000",
+    "days": false
+  },
+  {
+    "text": "andPrive",
+    "value": "andprive.in",
+    "logo": "andprive",
+    "unix": "1722108300.000000",
+    "days": true
+  },
+  {
+    "text": "andTv",
+    "value": "andtv.in",
+    "logo": "andtv",
+    "unix": "1721934000.000000",
+    "days": false
+  },
+  {
+    "text": "ANGEL TV",
+    "value": "angeltv.in",
+    "logo": "angeltv",
+    "unix": "1722088800.000000",
+    "days": true
+  },
+  {
+    "text": "Animal Planet",
+    "value": "animalplanet.in",
+    "logo": "animalplanet",
+    "unix": "1722047400.000000",
+    "days": false
+  },
+  {
+    "text": "Animal Planet World",
+    "value": "animalplanetworld.in",
+    "logo": "animalplanetworld",
+    "unix": "1721969220.000000",
+    "days": false
+  },
+  {
+    "text": "Anjan",
+    "value": "anjan.in",
+    "logo": "gaundapunjabtv",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "APN",
+    "value": "apn.in",
+    "logo": "apnnews",
+    "unix": "1721932020.000000",
+    "days": false
+  },
+  {
+    "text": "APN News",
+    "value": "apnnews.in",
+    "logo": "apnnews",
+    "unix": "1721966220.000000",
+    "days": false
+  },
+  {
+    "text": "ARADANA TV",
+    "value": "aradanatv.in",
+    "logo": "aradanatv",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "Argus",
+    "value": "argus.in",
+    "logo": "argus",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "ARIHANT",
+    "value": "arihant.in",
+    "logo": "arihant",
+    "unix": "1721931000.000000",
+    "days": false
+  },
+  {
+    "text": "ASAM D2H DY 365",
+    "value": "asamd2hdy365.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ASAM D2H PRAG NEWS",
+    "value": "asamd2hpragnews.in",
+    "logo": "pragnews",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "ASAM TS DD NORTH",
+    "value": "asamtsddnorth.in",
+    "logo": null,
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "ASAM TS INDRADHANU",
+    "value": "asamtsindradhanu.in",
+    "logo": "indradhanu",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "ASAM TS ND24NEW AILY",
+    "value": "asamtsnd24newaily.in",
+    "logo": "news24",
+    "unix": "1721930160.000000",
+    "days": false
+  },
+  {
+    "text": "ASAM TS NEPAL 1",
+    "value": "asamtsnepal1.in",
+    "logo": "nepal1",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "ASAM TS NEWS LIVE",
+    "value": "asamtsnewslive.in",
+    "logo": null,
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "ASAM TS PROTIDIN TIME",
+    "value": "asamtsprotidintime.in",
+    "logo": "protidintime",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ASAM TS RAMDHENU",
+    "value": "asamtsramdhenu.in",
+    "logo": "ramdhenutv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ASAM TS RANG",
+    "value": "asamtsrang.in",
+    "logo": "rang",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ASAM TS RENGONI",
+    "value": "asamtsrengoni.in",
+    "logo": "rengonitv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Asianet",
+    "value": "asianet.in",
+    "logo": "asianet",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Asianet Movies",
+    "value": "asianetmovies.in",
+    "logo": "asianetmovies",
+    "unix": "1722022200.000000",
+    "days": false
+  },
+  {
+    "text": "ASIANET NEWS",
+    "value": "asianetnews.in",
+    "logo": "asianetnews",
+    "unix": "1722083100.000000",
+    "days": true
+  },
+  {
+    "text": "Asianet News Bangla",
+    "value": "asianetnewsbangla.in",
+    "logo": "news18bangla",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Asianet Plus",
+    "value": "asianetplus.in",
+    "logo": "asianetplus",
+    "unix": "1721977200.000000",
+    "days": false
+  },
+  {
+    "text": "Asianet Suvarna News",
+    "value": "asianetsuvarnanews.in",
+    "logo": "asianetsuvarna",
+    "unix": "1721931300.000000",
+    "days": false
+  },
+  {
+    "text": "Assam Talks",
+    "value": "assamtalks.in",
+    "logo": "assamtalks",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Ayush TV",
+    "value": "ayushtv.in",
+    "logo": null,
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Ayushmaan Active",
+    "value": "ayushmaanactive.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "B4U Bhojpuri",
+    "value": "b4ubhojpuri.in",
+    "logo": "b4ubhojpuri",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "B4U Kadak",
+    "value": "b4ukadak.in",
+    "logo": "b4ukadak",
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "B4U Movies",
+    "value": "b4umovies.in",
+    "logo": "b4umovies",
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "B4U Music",
+    "value": "b4umusic.in",
+    "logo": "b4umusic",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Balle Balle",
+    "value": "balleballe.in",
+    "logo": "balleballe",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Bangla Bhakti",
+    "value": "banglabhakti.in",
+    "logo": "bhaktitv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Bangla ETV",
+    "value": "banglaetv.in",
+    "logo": "etv",
+    "unix": "1722012300.000000",
+    "days": false
+  },
+  {
+    "text": "Bangla News 24",
+    "value": "banglanews24.in",
+    "logo": "suvarnanews",
+    "unix": "1722013200.000000",
+    "days": false
+  },
+  {
+    "text": "Bansal News",
+    "value": "bansalnews.in",
+    "logo": "bansalnews",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "BBalance",
+    "value": "bbalance.in",
+    "logo": "bodybalance",
+    "unix": "1722223800.000000",
+    "days": true
+  },
+  {
+    "text": "BBC Earth",
+    "value": "bbcearth.in",
+    "logo": "bbcearth",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Bbc News",
+    "value": "bbcnews.in",
+    "logo": "bbcnews",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "BBC World",
+    "value": "bbcworld.in",
+    "logo": "bbcworld",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "BD SADHNA",
+    "value": "bdsadhna.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "BD TS AAKAASH AATH",
+    "value": "bdtsaakaashaath.in",
+    "logo": "aakaashaath",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "BD TS ABP ANANDA",
+    "value": "bdtsabpananda.in",
+    "logo": "abpananda",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "BD TS CALCUTTA NEWS",
+    "value": "bdtscalcuttanews.in",
+    "logo": "calcuttanews",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "BD TS FOX LIFE",
+    "value": "bdtsfoxlife.in",
+    "logo": "foxlife",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "BD TS KOLKATA TV",
+    "value": "bdtskolkatatv.in",
+    "logo": "kolkatatv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "BD TS NATIONAL GEO",
+    "value": "bdtsnationalgeo.in",
+    "logo": "nationalgeographic",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "BD TS NATIONAL GEOGRAPHIC",
+    "value": "bdtsnationalgeographic.in",
+    "logo": "nationalgeographic",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "BD TS RUPOSHI BANGLA",
+    "value": "bdtsruposhibangla.in",
+    "logo": "logoruposhibangla1",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "BEAT",
+    "value": "beat.in",
+    "logo": "ubeat",
+    "unix": "1722045600.000000",
+    "days": false
+  },
+  {
+    "text": "BEATmy",
+    "value": "beatmy.in",
+    "logo": null,
+    "unix": "1721995200.000000",
+    "days": false
+  },
+  {
+    "text": "BFLIX MOVIE",
+    "value": "bflixmovie.in",
+    "logo": "bflixmovies",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Bflix Movies",
+    "value": "bflixmovies.in",
+    "logo": "bflixmovies",
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "Bhojpuri Cinema",
+    "value": "bhojpuricinema.in",
+    "logo": "bhojpuricinema",
+    "unix": "1722007800.000000",
+    "days": false
+  },
+  {
+    "text": "Big Ganga",
+    "value": "bigganga.in",
+    "logo": "bigganga",
+    "unix": "1721929320.000000",
+    "days": false
+  },
+  {
+    "text": "Big Magic",
+    "value": "bigmagic.in",
+    "logo": "bigmagic",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Bindass",
+    "value": "bindass.in",
+    "logo": "bindass",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "Bloomberg TV",
+    "value": "bloombergtv.in",
+    "logo": "bloombergtv",
+    "unix": "1721995200.000000",
+    "days": false
+  },
+  {
+    "text": "Bollywood Hungama Active",
+    "value": "bollywoodhungamaactive.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "BOLLYWOOD PREMIER",
+    "value": "bollywoodpremier.in",
+    "logo": "bollywoodpremiere",
+    "unix": "1721931960.000000",
+    "days": false
+  },
+  {
+    "text": "BOUNCE BLOOMINGTONWCLJ",
+    "value": "bouncebloomingtonwclj.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "Buzz 2",
+    "value": "buzz2.in",
+    "logo": "buzzr",
+    "unix": "1721933100.000000",
+    "days": false
+  },
+  {
+    "text": "Buzz Duplicate",
+    "value": "buzzduplicate.in",
+    "logo": null,
+    "unix": "1721921700.000000",
+    "days": false
+  },
+  {
+    "text": "Buzz Duplicate 1",
+    "value": "buzzduplicate1.in",
+    "logo": null,
+    "unix": "1721921700.000000",
+    "days": false
+  },
+  {
+    "text": "Calcutta News",
+    "value": "calcuttanews.in",
+    "logo": "calcuttanews",
+    "unix": "1721996880.000000",
+    "days": false
+  },
+  {
+    "text": "Cartoon Network",
+    "value": "cartoonnetwork.in",
+    "logo": "cartoonnetwork",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "CaughtProvidence",
+    "value": "caughtprovidence.in",
+    "logo": null,
+    "unix": "1721928720.000000",
+    "days": false
+  },
+  {
+    "text": "Cbeebies",
+    "value": "cbeebies.in",
+    "logo": "cbeebies",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "CBS BLOOMINGTONWTTV",
+    "value": "cbsbloomingtonwttv.in",
+    "logo": "bloomingtontv",
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "CBS EVANSVILLEWEVV",
+    "value": "cbsevansvillewevv.in",
+    "logo": "cbs44wevvevansville",
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "CBS FORT WAYNEWANE",
+    "value": "cbsfortwaynewane.in",
+    "logo": "localscbs15wanefortwayne",
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "CBS KOKOMOWTTK",
+    "value": "cbskokomowttk.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "CBS LAFAYETTEWLFI",
+    "value": "cbslafayettewlfi.in",
+    "logo": "lafayettecbscwwlfi",
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "CBS SOUTH BENDWSBT",
+    "value": "cbssouthbendwsbt.in",
+    "logo": "localscbs22wsbtsouthbend",
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "CBS TERRE HAUTEWTHI",
+    "value": "cbsterrehautewthi.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "CHANNEL WIN",
+    "value": "channelwin.in",
+    "logo": "channelwin",
+    "unix": "1722085200.000000",
+    "days": true
+  },
+  {
+    "text": "ChristmasJuly",
+    "value": "christmasjuly.in",
+    "logo": null,
+    "unix": "1722037080.000000",
+    "days": false
+  },
+  {
+    "text": "Chumbak Tv",
+    "value": "chumbaktv.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "CHUTTI TV",
+    "value": "chuttitv.in",
+    "logo": "chuttitv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Cielo Streaming",
+    "value": "cielostreaming.in",
+    "logo": null,
+    "unix": "1721970000.000000",
+    "days": false
+  },
+  {
+    "text": "Cine Voice",
+    "value": "cinevoice.in",
+    "logo": "cinevoice",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "CNBC Awaaz",
+    "value": "cnbcawaaz.in",
+    "logo": "cnbcawaaz",
+    "unix": "1721975220.000000",
+    "days": false
+  },
+  {
+    "text": "CNBC Bajar",
+    "value": "cnbcbajar.in",
+    "logo": "cnbcbajar",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "CNBC TV18 Prime",
+    "value": "cnbctv18prime.in",
+    "logo": "cnbctv18prime",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "CNBC TV 18",
+    "value": "cnbctv18.in",
+    "logo": "cnbctv18",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Cnn",
+    "value": "cnn.in",
+    "logo": "cnn",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "CNN INTERNATIONAL",
+    "value": "cnninternational.in",
+    "logo": "cnn",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "CNN Intl",
+    "value": "cnnintl.in",
+    "logo": "cnnintl",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "CnnNews18",
+    "value": "cnnnews18.in",
+    "logo": "cnnnews18",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Colors",
+    "value": "colors.in",
+    "logo": "colors",
+    "unix": "1721941200.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Bangla",
+    "value": "colorsbangla.in",
+    "logo": "colorsbangla",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Bangla Cinema",
+    "value": "colorsbanglacinema.in",
+    "logo": "colorsbangla",
+    "unix": "1722022200.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Cineplex",
+    "value": "colorscineplex.in",
+    "logo": "colorscineplex",
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Cineplex Bollywood",
+    "value": "colorscineplexbollywood.in",
+    "logo": "colorscineplex",
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Cineplex Superhits",
+    "value": "colorscineplexsuperhits.in",
+    "logo": "colorscineplex",
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Gujarati",
+    "value": "colorsgujarati.in",
+    "logo": "colorsgujarati",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Gujarati Cinema",
+    "value": "colorsgujaraticinema.in",
+    "logo": "colorsgujarati",
+    "unix": "1722022200.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Infinity",
+    "value": "colorsinfinity.in",
+    "logo": "colorsinfinity",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Kannada",
+    "value": "colorskannada.in",
+    "logo": "colorskannada",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Kannada Cinema",
+    "value": "colorskannadacinema.in",
+    "logo": "colorskannada",
+    "unix": "1721926800.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Marathi",
+    "value": "colorsmarathi.in",
+    "logo": "colorsmarathi",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Odia",
+    "value": "colorsodia.in",
+    "logo": "colorsindia",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "COLORS Oriya",
+    "value": "colorsoriya.in",
+    "logo": "colorsoriya",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Colors Rishtey",
+    "value": "colorsrishtey.in",
+    "logo": "colorsrishtey",
+    "unix": "1721935800.000000",
+    "days": false
+  },
+  {
+    "text": "COLORS SUPER",
+    "value": "colorssuper.in",
+    "logo": "colorssuper",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Colors Tamil",
+    "value": "colorstamil.in",
+    "logo": "colorstamil",
+    "unix": "1721986200.000000",
+    "days": false
+  },
+  {
+    "text": "Comedy Active",
+    "value": "comedyactive.in",
+    "logo": "comedyactive",
+    "unix": "1721935800.000000",
+    "days": false
+  },
+  {
+    "text": "Comedy Central",
+    "value": "comedycentral.in",
+    "logo": "comedycentral",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Country TV Dish",
+    "value": "countrytvdish.in",
+    "logo": "countrytv",
+    "unix": "1722384000.000000",
+    "days": true
+  },
+  {
+    "text": "Cricket STAR SPORTS SELECT 2",
+    "value": "cricketstarsportsselect2.in",
+    "logo": "starsportsselect2",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "CTVN AKD Plus",
+    "value": "ctvnakdplus.in",
+    "logo": "ctvnakdpl",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Customer Care",
+    "value": "customercare.in",
+    "logo": null,
+    "unix": "1722025800.000000",
+    "days": false
+  },
+  {
+    "text": "CW EVANSVILLEWTVW",
+    "value": "cwevansvillewtvw.in",
+    "logo": null,
+    "unix": "1722117600.000000",
+    "days": true
+  },
+  {
+    "text": "CW FORT WAYNEWISE",
+    "value": "cwfortwaynewise.in",
+    "logo": null,
+    "unix": "1722117600.000000",
+    "days": true
+  },
+  {
+    "text": "CW INDIANAPOLISWISH",
+    "value": "cwindianapoliswish.in",
+    "logo": "indianapoliscwwish",
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "CW LAFAYETTEWLFI",
+    "value": "cwlafayettewlfi.in",
+    "logo": "lafayettecbscwwlfi",
+    "unix": "1722117600.000000",
+    "days": true
+  },
+  {
+    "text": "CW SOUTH BENDWCWW",
+    "value": "cwsouthbendwcww.in",
+    "logo": null,
+    "unix": "1722117600.000000",
+    "days": true
+  },
+  {
+    "text": "CW TERRE HAUTEWTHI",
+    "value": "cwterrehautewthi.in",
+    "logo": null,
+    "unix": "1722117600.000000",
+    "days": true
+  },
+  {
+    "text": "D2H 9XM",
+    "value": "d2h9xm.in",
+    "logo": "9xm",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "D2H &FLIX",
+    "value": "d2h&flix.in",
+    "logo": "&flix",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "D2H EPIC",
+    "value": "d2hepic.in",
+    "logo": "epic",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "D2H MNX",
+    "value": "d2hmnx.in",
+    "logo": "mnx",
+    "unix": "1721928000.000000",
+    "days": false
+  },
+  {
+    "text": "D2H MOVIES NOW",
+    "value": "d2hmoviesnow.in",
+    "logo": "moviesnow",
+    "unix": "1721931000.000000",
+    "days": false
+  },
+  {
+    "text": "D2H MTV BEATS",
+    "value": "d2hmtvbeats.in",
+    "logo": "mtvbeats",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "D2H SONY MAX",
+    "value": "d2hsonymax.in",
+    "logo": "sonymax",
+    "unix": "1722094200.000000",
+    "days": true
+  },
+  {
+    "text": "D2H SONY PIX",
+    "value": "d2hsonypix.in",
+    "logo": "sonypix",
+    "unix": "1721929860.000000",
+    "days": false
+  },
+  {
+    "text": "D2H SONY SAB",
+    "value": "d2hsonysab.in",
+    "logo": "sonysab",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "D2H STAR GOLD SELECT",
+    "value": "d2hstargoldselect.in",
+    "logo": "stargoldselect",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "D2H STAR MOVIES SELECT",
+    "value": "d2hstarmoviesselect.in",
+    "logo": "starmoviesselect",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "D2H STAR SPORTS 1 KANNADA",
+    "value": "d2hstarsports1kannada.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "D2H STAR SPORTS 1 TAMIL",
+    "value": "d2hstarsports1tamil.in",
+    "logo": "starsports1tamil",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "D2H STAR SPORTS 1 TELUGU",
+    "value": "d2hstarsports1telugu.in",
+    "logo": "starsports1telugu",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "D2H STAR UTSAV",
+    "value": "d2hstarutsav.in",
+    "logo": "starutsav",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "D2H ZEE CAFÉ",
+    "value": "d2hzeecafé.in",
+    "logo": "zeecafe",
+    "unix": "1721931900.000000",
+    "days": false
+  },
+  {
+    "text": "D Tamil",
+    "value": "dtamil.in",
+    "logo": null,
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "DABL INDIANAPOLISWTHR",
+    "value": "dablindianapoliswthr.in",
+    "logo": "indianapolisnbcwthr",
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "Daily Live",
+    "value": "dailylive.in",
+    "logo": null,
+    "unix": "1721984400.000000",
+    "days": false
+  },
+  {
+    "text": "Daily Post Punjab Haryana Himachal",
+    "value": "dailypostpunjabharyanahimachal.in",
+    "logo": "zeepunjabharyanahimachal",
+    "unix": "1722017700.000000",
+    "days": false
+  },
+  {
+    "text": "DANGAL",
+    "value": "dangal.in",
+    "logo": "dangal",
+    "unix": "1722085200.000000",
+    "days": true
+  },
+  {
+    "text": "Dangal 2",
+    "value": "dangal2.in",
+    "logo": "dangal",
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "DARSHAN 24",
+    "value": "darshan24.in",
+    "logo": "darshan24",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "DD",
+    "value": "dd.in",
+    "logo": "dd",
+    "unix": "1721986200.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Arun Prabha",
+    "value": "ddarunprabha.in",
+    "logo": "ddarunprabha",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Assam",
+    "value": "ddassam.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "DD Bangla",
+    "value": "ddbangla.in",
+    "logo": "ddbangla",
+    "unix": "1721927700.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Bharati",
+    "value": "ddbharati.in",
+    "logo": "ddbharati",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Bihar",
+    "value": "ddbihar.in",
+    "logo": "ddbihar",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Chandana",
+    "value": "ddchandana.in",
+    "logo": "ddchandana",
+    "unix": "1722017700.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Girnar",
+    "value": "ddgirnar.in",
+    "logo": "ddgirnar",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Goa",
+    "value": "ddgoa.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "DD Gyan Darshan",
+    "value": "ddgyandarshan.in",
+    "logo": "ddgyandarshan",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Hissar",
+    "value": "ddhissar.in",
+    "logo": null,
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Kashir",
+    "value": "ddkashir.in",
+    "logo": "ddkashir",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Kisan",
+    "value": "ddkisan.in",
+    "logo": "ddkisan",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Madhya Pradesh",
+    "value": "ddmadhyapradesh.in",
+    "logo": "ddmadhyapradesh",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Malayalam",
+    "value": "ddmalayalam.in",
+    "logo": "ddmalayalam",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "DD Manipur",
+    "value": "ddmanipur.in",
+    "logo": "ddmanipur",
+    "unix": "1721931300.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Meghalaya",
+    "value": "ddmeghalaya.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "DD MP",
+    "value": "ddmp.in",
+    "logo": null,
+    "unix": "1721931300.000000",
+    "days": false
+  },
+  {
+    "text": "DD National",
+    "value": "ddnational.in",
+    "logo": "ddnational",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "DD NE",
+    "value": "ddne.in",
+    "logo": "ddne",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "DD News",
+    "value": "ddnews.in",
+    "logo": "ddnews",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "DD North",
+    "value": "ddnorth.in",
+    "logo": "ddnortheast",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "DD Odia",
+    "value": "ddodia.in",
+    "logo": "ddodia",
+    "unix": "1721977200.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Oriya",
+    "value": "ddoriya.in",
+    "logo": "ddoriya",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "DD PODHIGAI",
+    "value": "ddpodhigai.in",
+    "logo": "ddpodhigai",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Dd Punjabi",
+    "value": "ddpunjabi.in",
+    "logo": "ddpunjabi",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Rajasthan",
+    "value": "ddrajasthan.in",
+    "logo": "ddrajasthan",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Sahyadri",
+    "value": "ddsahyadri.in",
+    "logo": "ddsahyadri",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Saptagiri",
+    "value": "ddsaptagiri.in",
+    "logo": "ddsaptagiri",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "DD Sports",
+    "value": "ddsports.in",
+    "logo": "ddsports",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Sports Duplicate1",
+    "value": "ddsportsduplicate1.in",
+    "logo": null,
+    "unix": "1721939400.000000",
+    "days": false
+  },
+  {
+    "text": "DD UP",
+    "value": "ddup.in",
+    "logo": "ddup",
+    "unix": "1722094200.000000",
+    "days": true
+  },
+  {
+    "text": "Dd Urdu",
+    "value": "ddurdu.in",
+    "logo": "ddurdu",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "DD Uttar Pradesh",
+    "value": "dduttarpradesh.in",
+    "logo": "dduttarpradesh",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Dd Yadagiri",
+    "value": "ddyadagiri.in",
+    "logo": "ddyadagiri",
+    "unix": "1722018000.000000",
+    "days": false
+  },
+  {
+    "text": "Ddin",
+    "value": "ddin.in",
+    "logo": "dd",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Dharam Sandesh",
+    "value": "dharamsandesh.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Dhinchaak",
+    "value": "dhinchaak.in",
+    "logo": "dhinchaak",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "Dhoom Music",
+    "value": "dhoommusic.in",
+    "logo": "dhoommusic",
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "diafilm",
+    "value": "diafilm.in",
+    "logo": null,
+    "unix": "1722204000.000000",
+    "days": true
+  },
+  {
+    "text": "DIGHVIJAY NEWS",
+    "value": "dighvijaynews.in",
+    "logo": "dighvijaynews",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Dighvijay News 24x7",
+    "value": "dighvijaynews24x7.in",
+    "logo": "dighvijay24x7news",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Discovery",
+    "value": "discovery.in",
+    "logo": "discovery",
+    "unix": "1721930520.000000",
+    "days": false
+  },
+  {
+    "text": "Discovery Kids",
+    "value": "discoverykids.in",
+    "logo": "discoverykids",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Discovery Life Channel TV",
+    "value": "discoverylifechanneltv.in",
+    "logo": "discoverylifechannel",
+    "unix": "1721970000.000000",
+    "days": false
+  },
+  {
+    "text": "Discovery Science",
+    "value": "discoveryscience.in",
+    "logo": "discoveryscience",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Discovery Tamil",
+    "value": "discoverytamil.in",
+    "logo": "discoverytamil",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Discovery Turbo",
+    "value": "discoveryturbo.in",
+    "logo": "discoveryturbo",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Discovery World",
+    "value": "discoveryworld.in",
+    "logo": "discoveryworld",
+    "unix": "1722103320.000000",
+    "days": true
+  },
+  {
+    "text": "Dish Bhakti Active",
+    "value": "dishbhaktiactive.in",
+    "logo": null,
+    "unix": "1722016680.000000",
+    "days": false
+  },
+  {
+    "text": "Dish Buzz",
+    "value": "dishbuzz.in",
+    "logo": null,
+    "unix": "1721921700.000000",
+    "days": false
+  },
+  {
+    "text": "Dish Cine Active",
+    "value": "dishcineactive.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Dish Cooking Active",
+    "value": "dishcookingactive.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Dish Fitness Active",
+    "value": "dishfitnessactive.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Dish Ibadat Active",
+    "value": "dishibadatactive.in",
+    "logo": null,
+    "unix": "1722014880.000000",
+    "days": false
+  },
+  {
+    "text": "Dish Kids Rhymes",
+    "value": "dishkidsrhymes.in",
+    "logo": null,
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Dish Kids Toon",
+    "value": "dishkidstoon.in",
+    "logo": null,
+    "unix": "1722014940.000000",
+    "days": false
+  },
+  {
+    "text": "Dish Music Active Hits",
+    "value": "dishmusicactivehits.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Dish Thriller Active",
+    "value": "dishthrilleractive.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Dish Tv Evergreen Classic",
+    "value": "dishtvevergreenclassic.in",
+    "logo": "d2hevergreenclassic",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Disney",
+    "value": "disney.in",
+    "logo": "disney",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "Disney Channel",
+    "value": "disneychannel.in",
+    "logo": "disneychannel",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Disney International",
+    "value": "disneyinternational.in",
+    "logo": "disneyinternational",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Disney Junior",
+    "value": "disneyjunior.in",
+    "logo": "disneyjunior",
+    "unix": "1722016260.000000",
+    "days": false
+  },
+  {
+    "text": "Divya",
+    "value": "divya.in",
+    "logo": "divya",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "DIVYA TV",
+    "value": "divyatv.in",
+    "logo": "divyatv",
+    "unix": "1722092400.000000",
+    "days": true
+  },
+  {
+    "text": "DMAX Streaming",
+    "value": "dmaxstreaming.in",
+    "logo": null,
+    "unix": "1721972400.000000",
+    "days": false
+  },
+  {
+    "text": "DSPORT",
+    "value": "dsport.in",
+    "logo": "dsport",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "DW",
+    "value": "dw.in",
+    "logo": "dw",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "Dy365",
+    "value": "dy365.in",
+    "logo": "dy365",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "E24",
+    "value": "e24.in",
+    "logo": "e24",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "Ek Onkar",
+    "value": "ekonkar.in",
+    "logo": null,
+    "unix": "1721970000.000000",
+    "days": false
+  },
+  {
+    "text": "EN V MENBLACK TV",
+    "value": "envmenblacktv.in",
+    "logo": null,
+    "unix": "1722111420.000000",
+    "days": true
+  },
+  {
+    "text": "Enterr10",
+    "value": "enterr10.in",
+    "logo": "enterr10",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "Enterr10 Bangla",
+    "value": "enterr10bangla.in",
+    "logo": "enterr10rangeela",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "EPIC",
+    "value": "epic.in",
+    "logo": "epic",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Epic Tv",
+    "value": "epictv.in",
+    "logo": "epic",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Epix Drive",
+    "value": "epixdrive.in",
+    "logo": "epixdrive",
+    "unix": "1721965200.000000",
+    "days": false
+  },
+  {
+    "text": "ET NOW",
+    "value": "etnow.in",
+    "logo": "etnow",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ETV",
+    "value": "etv.in",
+    "logo": "etv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "ETV Abhiruchi",
+    "value": "etvabhiruchi.in",
+    "logo": "etvabhiruchi",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "ETV Andhra Pradesh",
+    "value": "etvandhrapradesh.in",
+    "logo": "etvandhrapradesh",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Etv Bal Bharat",
+    "value": "etvbalbharat.in",
+    "logo": "etvbalbharat",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "ETV Cinema",
+    "value": "etvcinema.in",
+    "logo": "etvcinema",
+    "unix": "1721979000.000000",
+    "days": false
+  },
+  {
+    "text": "ETV Life",
+    "value": "etvlife.in",
+    "logo": "etvlife",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ETV Plus",
+    "value": "etvplus.in",
+    "logo": "etvplus",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "ETV Telangana",
+    "value": "etvtelangana.in",
+    "logo": "etvtelengana",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Etv Telugu",
+    "value": "etvtelugu.in",
+    "logo": "zeetelugu",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Eurosport",
+    "value": "eurosport.in",
+    "logo": "eurosport",
+    "unix": "1721979000.000000",
+    "days": false
+  },
+  {
+    "text": "Evansville NBC Wfie",
+    "value": "evansvillenbcwfie.in",
+    "logo": "evansvillenbcwfie",
+    "unix": "1722009600.000000",
+    "days": false
+  },
+  {
+    "text": "Ez Mall",
+    "value": "ezmall.in",
+    "logo": "ezmall",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Ez Mall#2",
+    "value": "ezmall#2.in",
+    "logo": "ezmall",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "EzmallCom Duplicate3",
+    "value": "ezmallcomduplicate3.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "FAKHT MARATHI",
+    "value": "fakhtmarathi.in",
+    "logo": "faktmarathi",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Fakt Marathi",
+    "value": "faktmarathi.in",
+    "logo": "faktmarathi",
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "Fashion TV",
+    "value": "fashiontv.in",
+    "logo": "fashiontv",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "FD Dangal",
+    "value": "fddangal.in",
+    "logo": "dangal",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "FD Vedic",
+    "value": "fdvedic.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Filamchi Bhojpuri",
+    "value": "filamchibhojpuri.in",
+    "logo": "filamchibhojpuri",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "FirstRajasthan",
+    "value": "firstrajasthan.in",
+    "logo": "firstnewsrajasthan",
+    "unix": "1721984400.000000",
+    "days": false
+  },
+  {
+    "text": "Flowers",
+    "value": "flowers.in",
+    "logo": "flowers",
+    "unix": "1721926800.000000",
+    "days": false
+  },
+  {
+    "text": "Focus TvStreaming",
+    "value": "focustvstreaming.in",
+    "logo": null,
+    "unix": "1721973600.000000",
+    "days": false
+  },
+  {
+    "text": "Food Food",
+    "value": "foodfood.in",
+    "logo": "foodfood",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Fort Wayne CBS Wane",
+    "value": "fortwaynecbswane.in",
+    "logo": null,
+    "unix": "1722009600.000000",
+    "days": false
+  },
+  {
+    "text": "Fort Wayne FOX Wfft",
+    "value": "fortwaynefoxwfft.in",
+    "logo": "ftwaynefoxwfft",
+    "unix": "1722007800.000000",
+    "days": false
+  },
+  {
+    "text": "Fort Wayne NBC Wpta",
+    "value": "fortwaynenbcwpta.in",
+    "logo": "ftwayneabcwpta",
+    "unix": "1722009600.000000",
+    "days": false
+  },
+  {
+    "text": "FOX EVANSVILLEWEVV",
+    "value": "foxevansvillewevv.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "FOX FORT WAYNEWFFT",
+    "value": "foxfortwaynewfft.in",
+    "logo": "localsfox55wfftfortwayne",
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "FOX INDIANAPOLISWXIN",
+    "value": "foxindianapoliswxin.in",
+    "logo": "localsfox59wxinindianapolis",
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "FOX LAFAYETTEWPBI",
+    "value": "foxlafayettewpbi.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "FOX LIFE",
+    "value": "foxlife.in",
+    "logo": "foxlife",
+    "unix": "1722092400.000000",
+    "days": true
+  },
+  {
+    "text": "FOX TERRE HAUTEWTHI",
+    "value": "foxterrehautewthi.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "FOX WXIN Indianapolis",
+    "value": "foxwxinindianapolis.in",
+    "logo": "indianapolisfoxwxin",
+    "unix": "1722139200.000000",
+    "days": true
+  },
+  {
+    "text": "France 24",
+    "value": "france24.in",
+    "logo": "24",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "France 24 Arabic",
+    "value": "france24arabic.in",
+    "logo": "earabic",
+    "unix": "1722398400.000000",
+    "days": true
+  },
+  {
+    "text": "France 24 English",
+    "value": "france24english.in",
+    "logo": "dwenglish",
+    "unix": "1722312000.000000",
+    "days": true
+  },
+  {
+    "text": "Gambero Rosso Streaming LIVE",
+    "value": "gamberorossostreaminglive.in",
+    "logo": null,
+    "unix": "1721970000.000000",
+    "days": false
+  },
+  {
+    "text": "Gemini Comedy",
+    "value": "geminicomedy.in",
+    "logo": "geminicomedy",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Gemini Life",
+    "value": "geminilife.in",
+    "logo": "geminilife",
+    "unix": "1721982600.000000",
+    "days": false
+  },
+  {
+    "text": "Gemini Movies",
+    "value": "geminimovies.in",
+    "logo": "geminimovies",
+    "unix": "1721979000.000000",
+    "days": false
+  },
+  {
+    "text": "Gemini Tv",
+    "value": "geminitv.in",
+    "logo": "geminitv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Global",
+    "value": "global.in",
+    "logo": "global",
+    "unix": "1721991600.000000",
+    "days": false
+  },
+  {
+    "text": "Goa 24x7",
+    "value": "goa24x7.in",
+    "logo": null,
+    "unix": "1721982600.000000",
+    "days": false
+  },
+  {
+    "text": "Goldmines",
+    "value": "goldmines.in",
+    "logo": null,
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "Goldmines Bollywood",
+    "value": "goldminesbollywood.in",
+    "logo": null,
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "Goldmines Movies",
+    "value": "goldminesmovies.in",
+    "logo": null,
+    "unix": "1722020340.000000",
+    "days": false
+  },
+  {
+    "text": "Good Times",
+    "value": "goodtimes.in",
+    "logo": "goodtimes",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "GOODNESS TV",
+    "value": "goodnesstv.in",
+    "logo": "goodnewstv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "GSTV",
+    "value": "gstv.in",
+    "logo": "gujarati",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Guarda Canale GialloStreaming",
+    "value": "guardacanalegiallostreaming.in",
+    "logo": null,
+    "unix": "1721971500.000000",
+    "days": false
+  },
+  {
+    "text": "Guarda Sport italiaStreaming",
+    "value": "guardasportitaliastreaming.in",
+    "logo": null,
+    "unix": "1721952000.000000",
+    "days": false
+  },
+  {
+    "text": "Gubbare Tv",
+    "value": "gubbaretv.in",
+    "logo": "gubbare",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "GUJ GUJRAT SAMACHAR TV",
+    "value": "gujgujratsamachartv.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "GUJ PRARTHANA",
+    "value": "gujprarthana.in",
+    "logo": "prarthana",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "GUJ TS CNBC BAZAR",
+    "value": "gujtscnbcbazar.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "GUJ TS SANDESH NEWS",
+    "value": "gujtssandeshnews.in",
+    "logo": "sandeshnews",
+    "unix": "1721930100.000000",
+    "days": false
+  },
+  {
+    "text": "GUJ TS TV9 BHARATVARSH",
+    "value": "gujtstv9bharatvarsh.in",
+    "logo": "tv9bharatvarsh",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "GUJ TS TV9 GUJARATI",
+    "value": "gujtstv9gujarati.in",
+    "logo": "tv9gujarati",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "GUJ TSNEWS",
+    "value": "gujtsnews.in",
+    "logo": "news",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Gujarat First",
+    "value": "gujaratfirst.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Gujarat Samachar TV",
+    "value": "gujaratsamachartv.in",
+    "logo": "bharatsamachar",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "Gulistan News",
+    "value": "gulistannews.in",
+    "logo": "gulistannews",
+    "unix": "1721931600.000000",
+    "days": false
+  },
+  {
+    "text": "Gyandarshan",
+    "value": "gyandarshan.in",
+    "logo": "ddgyandarshan",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Hare Krsna",
+    "value": "harekrsna.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "HEROES & ICONS EVANSVILLEWZDS",
+    "value": "heroes&iconsevansvillewzds.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "HindiDevotional Jinvani TV",
+    "value": "hindidevotionaljinvanitv.in",
+    "logo": "jinvanitv",
+    "unix": "1721931000.000000",
+    "days": false
+  },
+  {
+    "text": "HindiDevotional Paras tv",
+    "value": "hindidevotionalparastv.in",
+    "logo": "parastv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "HindiEnt Discovery Jeet",
+    "value": "hindientdiscoveryjeet.in",
+    "logo": "discoveryjeet",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "HindiInfo Animal Planet",
+    "value": "hindiinfoanimalplanet.in",
+    "logo": "animalplanet",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "HindiInfo Living Foodz",
+    "value": "hindiinfolivingfoodz.in",
+    "logo": "livingfoodz",
+    "unix": "1721931360.000000",
+    "days": false
+  },
+  {
+    "text": "HindiInfo National Geographic Wild",
+    "value": "hindiinfonationalgeographicwild.in",
+    "logo": "natgeowild",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "HindiInfo Sony BBC Earth",
+    "value": "hindiinfosonybbcearth.in",
+    "logo": "sonybbcearth",
+    "unix": "1721931240.000000",
+    "days": false
+  },
+  {
+    "text": "HindiKids Disney International",
+    "value": "hindikidsdisneyinternational.in",
+    "logo": "disneyinternational",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "HindiLifestyle TLC World",
+    "value": "hindilifestyletlcworld.in",
+    "logo": "tlcworld",
+    "unix": "1721931300.000000",
+    "days": false
+  },
+  {
+    "text": "HindiLifestyle Travel XP English",
+    "value": "hindilifestyletravelxpenglish.in",
+    "logo": "travelxp",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "HindiMovies Romedy Now",
+    "value": "hindimoviesromedynow.in",
+    "logo": "ddurdu",
+    "unix": "1721926800.000000",
+    "days": false
+  },
+  {
+    "text": "HindiNews dw",
+    "value": "hindinewsdw.in",
+    "logo": "news",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "HindiNews Hindi Khabar",
+    "value": "hindinewshindikhabar.in",
+    "logo": "hindikhabar",
+    "unix": "1721931000.000000",
+    "days": false
+  },
+  {
+    "text": "HindiNews mh1 News",
+    "value": "hindinewsmh1news.in",
+    "logo": "mhonenews",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "HindiNews Voice",
+    "value": "hindinewsvoice.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "HindiSports Eurosport",
+    "value": "hindisportseurosport.in",
+    "logo": "eurosport",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "HindiSports Star Sports First",
+    "value": "hindisportsstarsportsfirst.in",
+    "logo": "starsportsfirst",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "HINDU DHARMAM",
+    "value": "hindudharmam.in",
+    "logo": "hindudharmam",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "HIRU TV",
+    "value": "hirutv.in",
+    "logo": "chintutv",
+    "unix": "1721917800.000000",
+    "days": false
+  },
+  {
+    "text": "His Own Words",
+    "value": "hisownwords.in",
+    "logo": null,
+    "unix": "1722236400.000000",
+    "days": true
+  },
+  {
+    "text": "History Tv18",
+    "value": "historytv18.in",
+    "logo": "historytv18",
+    "unix": "1722015120.000000",
+    "days": false
+  },
+  {
+    "text": "Hits Active",
+    "value": "hitsactive.in",
+    "logo": null,
+    "unix": "1721934780.000000",
+    "days": false
+  },
+  {
+    "text": "HM TV",
+    "value": "hmtv.in",
+    "logo": "hmtv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Hollywood Indie Active",
+    "value": "hollywoodindieactive.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Hungama",
+    "value": "hungama.in",
+    "logo": "hungama",
+    "unix": "1721921100.000000",
+    "days": false
+  },
+  {
+    "text": "IBC 24",
+    "value": "ibc24.in",
+    "logo": "ibc24",
+    "unix": "1722092400.000000",
+    "days": true
+  },
+  {
+    "text": "INDI Sanskar TV",
+    "value": "indisanskartv.in",
+    "logo": "sanskar",
+    "unix": "1722013200.000000",
+    "days": false
+  },
+  {
+    "text": "INDI SONY MAX 2",
+    "value": "indisonymax2.in",
+    "logo": "sonymax2",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "INDI SONY PIX",
+    "value": "indisonypix.in",
+    "logo": "sonypix",
+    "unix": "1722014880.000000",
+    "days": false
+  },
+  {
+    "text": "INDI SONY SETMAX",
+    "value": "indisonysetmax.in",
+    "logo": "sonymax",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "INDI Sony WAH",
+    "value": "indisonywah.in",
+    "logo": "sonywah",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "INDI Star Jalsha",
+    "value": "indistarjalsha.in",
+    "logo": "jalshamovies",
+    "unix": "1722016500.000000",
+    "days": false
+  },
+  {
+    "text": "INDI Star Movies Action",
+    "value": "indistarmoviesaction.in",
+    "logo": "starmovies",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "INDI Ten Sports",
+    "value": "inditensports.in",
+    "logo": "ten1",
+    "unix": "1721998800.000000",
+    "days": false
+  },
+  {
+    "text": "Indianapolis FOX Wxin",
+    "value": "indianapolisfoxwxin.in",
+    "logo": "indianapolisfoxwxin",
+    "unix": "1722007800.000000",
+    "days": false
+  },
+  {
+    "text": "Indianapolis NBC Wthr",
+    "value": "indianapolisnbcwthr.in",
+    "logo": "indianapolisnbcwthr",
+    "unix": "1722009600.000000",
+    "days": false
+  },
+  {
+    "text": "INDRADHANU",
+    "value": "indradhanu.in",
+    "logo": "indradhanu",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "Investigation Discovery",
+    "value": "investigationdiscovery.in",
+    "logo": "investigationdiscovery",
+    "unix": "1721968800.000000",
+    "days": false
+  },
+  {
+    "text": "IRAQI EDUCATIONAL TV 2 IRAQ KIDS",
+    "value": "iraqieducationaltv2iraqkids.in",
+    "logo": "kalingatv",
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "Isai Aruvi",
+    "value": "isaiaruvi.in",
+    "logo": "isaiaruvi",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Ishara",
+    "value": "ishara.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "ISHWAR TV",
+    "value": "ishwartv.in",
+    "logo": "ishwartv",
+    "unix": "1722094200.000000",
+    "days": true
+  },
+  {
+    "text": "J Movie",
+    "value": "jmovie.in",
+    "logo": "jmovies",
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "J MOVIES",
+    "value": "jmovies.in",
+    "logo": "jmovies",
+    "unix": "1722087000.000000",
+    "days": true
+  },
+  {
+    "text": "JAIHIND TV",
+    "value": "jaihindtv.in",
+    "logo": "jaihindtv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Jalsha Movies",
+    "value": "jalshamovies.in",
+    "logo": "jalshamovies",
+    "unix": "1722022500.000000",
+    "days": false
+  },
+  {
+    "text": "JANAM TV",
+    "value": "janamtv.in",
+    "logo": "janamtv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "JANTA TV",
+    "value": "jantatv.in",
+    "logo": "jantatv",
+    "unix": "1722092400.000000",
+    "days": true
+  },
+  {
+    "text": "Jantantra",
+    "value": "jantantra.in",
+    "logo": "jantantratv",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "Jay Jagannath",
+    "value": "jayjagannath.in",
+    "logo": null,
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "Jaya",
+    "value": "jaya.in",
+    "logo": "jayatv",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "Jaya Max",
+    "value": "jayamax.in",
+    "logo": "jayamax",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Jaya Plus",
+    "value": "jayaplus.in",
+    "logo": "jayaplus",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Jaya TV",
+    "value": "jayatv.in",
+    "logo": "jayatv",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Jeet Prime",
+    "value": "jeetprime.in",
+    "logo": "primetv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Jeevan TV",
+    "value": "jeevantv.in",
+    "logo": null,
+    "unix": "1722101100.000000",
+    "days": true
+  },
+  {
+    "text": "Jinvani Tv",
+    "value": "jinvanitv.in",
+    "logo": "jinvanitv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Jonack",
+    "value": "jonack.in",
+    "logo": "jonacktv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Kairali News",
+    "value": "kairalinews.in",
+    "logo": "kairalinews",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "KAIRALI TV",
+    "value": "kairalitv.in",
+    "logo": "kairalitv",
+    "unix": "1722087000.000000",
+    "days": true
+  },
+  {
+    "text": "Kalaignar",
+    "value": "kalaignar.in",
+    "logo": "kalaignartv",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "KALINGA",
+    "value": "kalinga.in",
+    "logo": null,
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Kalinga Tv",
+    "value": "kalingatv.in",
+    "logo": "kalingatv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Kanak News",
+    "value": "kanaknews.in",
+    "logo": "kanaknews",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Kannada Naapton",
+    "value": "kannadanaapton.in",
+    "logo": "naaptontelugu",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "KAPPA TV",
+    "value": "kappatv.in",
+    "logo": "kappatv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "KAUMUDY",
+    "value": "kaumudy.in",
+    "logo": null,
+    "unix": "1722083100.000000",
+    "days": true
+  },
+  {
+    "text": "Kaumudy TV",
+    "value": "kaumudytv.in",
+    "logo": "kaumudytv",
+    "unix": "1721930700.000000",
+    "days": false
+  },
+  {
+    "text": "KHABAR",
+    "value": "khabar.in",
+    "logo": "alkhabar°",
+    "unix": "1722092400.000000",
+    "days": true
+  },
+  {
+    "text": "Khabrain Abhi Tak",
+    "value": "khabrainabhitak.in",
+    "logo": "khabarainabhitak",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Khushboo Bangla",
+    "value": "khushboobangla.in",
+    "logo": null,
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "Kids TV Nursery Rhymes and Baby Songs",
+    "value": "kidstvnurseryrhymesandbabysongs.in",
+    "logo": null,
+    "unix": "1722038340.000000",
+    "days": false
+  },
+  {
+    "text": "KN D2H CHINTU TV",
+    "value": "knd2hchintutv.in",
+    "logo": "chintutv",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "KN TS AYUSH TV",
+    "value": "kntsayushtv.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "KN TS DIGHVIJAY 24X7 NEWS",
+    "value": "kntsdighvijay24x7news.in",
+    "logo": "dighvijaynews",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "KN TS DISCOVERY KIDS",
+    "value": "kntsdiscoverykids.in",
+    "logo": "discoverykids",
+    "unix": "1721931840.000000",
+    "days": false
+  },
+  {
+    "text": "KOCHU TV",
+    "value": "kochutv.in",
+    "logo": "kochutv",
+    "unix": "1722090600.000000",
+    "days": true
+  },
+  {
+    "text": "Kolkata TV",
+    "value": "kolkatatv.in",
+    "logo": "kolkatatv",
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "Korean Drama Active",
+    "value": "koreandramaactive.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "KTV",
+    "value": "ktv.in",
+    "logo": "ktv",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "LAFF TERRE HAUTEWTWO",
+    "value": "laffterrehautewtwo.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "Laurel & Hardy BabesToyland",
+    "value": "laurel&hardybabestoyland.in",
+    "logo": null,
+    "unix": "1722006000.000000",
+    "days": false
+  },
+  {
+    "text": "Law and Crime LAWC",
+    "value": "lawandcrimelawc.in",
+    "logo": "lawandcrime",
+    "unix": "1721980800.000000",
+    "days": false
+  },
+  {
+    "text": "Liberty Индия",
+    "value": "libertyиндия.in",
+    "logo": null,
+    "unix": "1722081600.000000",
+    "days": true
+  },
+  {
+    "text": "LIVING FOODZ",
+    "value": "livingfoodz.in",
+    "logo": "livingfoodz",
+    "unix": "1721924160.000000",
+    "days": false
+  },
+  {
+    "text": "LivingNews",
+    "value": "livingnews.in",
+    "logo": "living",
+    "unix": "1721982360.000000",
+    "days": false
+  },
+  {
+    "text": "Lok Sabha TV",
+    "value": "loksabhatv.in",
+    "logo": "loksabhatv",
+    "unix": "1722101100.000000",
+    "days": true
+  },
+  {
+    "text": "Lokshahi",
+    "value": "lokshahi.in",
+    "logo": null,
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Lokshahi Marathi",
+    "value": "lokshahimarathi.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "MAA Gold",
+    "value": "maagold.in",
+    "logo": null,
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "MAA MOVIES",
+    "value": "maamovies.in",
+    "logo": "maamovies",
+    "unix": "1721923200.000000",
+    "days": false
+  },
+  {
+    "text": "MAA MUSIC",
+    "value": "maamusic.in",
+    "logo": "maamusic",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "MAA TV",
+    "value": "maatv.in",
+    "logo": "maatv",
+    "unix": "1721939400.000000",
+    "days": false
+  },
+  {
+    "text": "MadeHollywood",
+    "value": "madehollywood.in",
+    "logo": "madehollywoodtv",
+    "unix": "1721939400.000000",
+    "days": false
+  },
+  {
+    "text": "MADHA TV",
+    "value": "madhatv.in",
+    "logo": "madhatv",
+    "unix": "1722082500.000000",
+    "days": true
+  },
+  {
+    "text": "Maha Punjabi",
+    "value": "mahapunjabi.in",
+    "logo": "wahpunjabi",
+    "unix": "1722027600.000000",
+    "days": false
+  },
+  {
+    "text": "Maiboli",
+    "value": "maiboli.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "MAKKAL TV",
+    "value": "makkaltv.in",
+    "logo": "makkaltv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "MALAI MURASU SEITHIKAL",
+    "value": "malaimurasuseithikal.in",
+    "logo": "malaimurasuseithigal",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "MalaiMurasu Seithigal",
+    "value": "malaimurasuseithigal.in",
+    "logo": "malaimurasuseithigal",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MANORAMA NEWS",
+    "value": "manoramanews.in",
+    "logo": "manoramanews",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Manoranjan Grand",
+    "value": "manoranjangrand.in",
+    "logo": "manoranjan",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Manoranjan Movies",
+    "value": "manoranjanmovies.in",
+    "logo": "manoranjanmovies",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "Manoranjan Prime",
+    "value": "manoranjanprime.in",
+    "logo": "manoranjan",
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "Manoranjan TV",
+    "value": "manoranjantv.in",
+    "logo": "manoranjantv",
+    "unix": "1722115800.000000",
+    "days": true
+  },
+  {
+    "text": "MAR D2H LOKSHAHI",
+    "value": "mard2hlokshahi.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MAR D2H ZEE YUVA",
+    "value": "mard2hzeeyuva.in",
+    "logo": "zeeyuva",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MASTII",
+    "value": "mastii.in",
+    "logo": "mastiii",
+    "unix": "1722087000.000000",
+    "days": true
+  },
+  {
+    "text": "Mathrubhumi News",
+    "value": "mathrubhuminews.in",
+    "logo": "mathrubhuminews",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "MAZAVIL MANORAMA",
+    "value": "mazavilmanorama.in",
+    "logo": "mazhavilmanorama",
+    "unix": "1722085200.000000",
+    "days": true
+  },
+  {
+    "text": "Mazhavil Manorama",
+    "value": "mazhavilmanorama.in",
+    "logo": "mazhavilmanorama",
+    "unix": "1721975040.000000",
+    "days": false
+  },
+  {
+    "text": "MEDIA ONE",
+    "value": "mediaone.in",
+    "logo": "mediaone",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Mediaone News",
+    "value": "mediaonenews.in",
+    "logo": "mhonenews",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "MEGA 24",
+    "value": "mega24.in",
+    "logo": "mega24",
+    "unix": "1721919600.000000",
+    "days": false
+  },
+  {
+    "text": "MEGA MUSIQ",
+    "value": "megamusiq.in",
+    "logo": "megamusiq",
+    "unix": "1721914200.000000",
+    "days": false
+  },
+  {
+    "text": "MEGA TV",
+    "value": "megatv.in",
+    "logo": null,
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "MenBlack Movies",
+    "value": "menblackmovies.in",
+    "logo": "starzblackmovies",
+    "unix": "1722099600.000000",
+    "days": true
+  },
+  {
+    "text": "METV EVANSVILLEWFIE",
+    "value": "metvevansvillewfie.in",
+    "logo": "evansvillenbcwfie",
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "METV FORT WAYNEWISE",
+    "value": "metvfortwaynewise.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "METV INDIANAPOLISWALV",
+    "value": "metvindianapoliswalv.in",
+    "logo": "indianapolis",
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "MGM Drive",
+    "value": "mgmdrive.in",
+    "logo": null,
+    "unix": "1722470400.000000",
+    "days": true
+  },
+  {
+    "text": "Mh1",
+    "value": "mh1.in",
+    "logo": null,
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "MH One",
+    "value": "mhone.in",
+    "logo": "mhone",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MH One Shraddha",
+    "value": "mhoneshraddha.in",
+    "logo": "mhoneshraddha",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MikeBrazil",
+    "value": "mikebrazil.in",
+    "logo": "brazil",
+    "unix": "1721941200.000000",
+    "days": false
+  },
+  {
+    "text": "Mirror Now",
+    "value": "mirrornow.in",
+    "logo": "mirrornow",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "MN",
+    "value": "mn.in",
+    "logo": null,
+    "unix": "1722015600.000000",
+    "days": false
+  },
+  {
+    "text": "MN PLUS",
+    "value": "mnplus.in",
+    "logo": "plus",
+    "unix": "1722094200.000000",
+    "days": true
+  },
+  {
+    "text": "MNX",
+    "value": "mnx.in",
+    "logo": "mnx",
+    "unix": "1722015600.000000",
+    "days": false
+  },
+  {
+    "text": "Movies Active",
+    "value": "moviesactive.in",
+    "logo": "moviesactive",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "MOVIES NOW",
+    "value": "moviesnow.in",
+    "logo": "moviesnow",
+    "unix": "1722094200.000000",
+    "days": true
+  },
+  {
+    "text": "MTV",
+    "value": "mtv.in",
+    "logo": "mtv",
+    "unix": "1722384000.000000",
+    "days": true
+  },
+  {
+    "text": "Mtv Beats",
+    "value": "mtvbeats.in",
+    "logo": "mtvbeats",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "MTV MTVIbs",
+    "value": "mtvmtvibs.in",
+    "logo": null,
+    "unix": "1721988000.000000",
+    "days": false
+  },
+  {
+    "text": "MTV MUSIC MADESPAIN",
+    "value": "mtvmusicmadespain.in",
+    "logo": null,
+    "unix": "1721883720.000000",
+    "days": false
+  },
+  {
+    "text": "MTVsg",
+    "value": "mtvsg.in",
+    "logo": "mtvs",
+    "unix": "1721955600.000000",
+    "days": false
+  },
+  {
+    "text": "MURASU TV",
+    "value": "murasutv.in",
+    "logo": "murasutv",
+    "unix": "1721923200.000000",
+    "days": false
+  },
+  {
+    "text": "Musicin",
+    "value": "musicin.in",
+    "logo": "b4umusicin",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "MY CNA",
+    "value": "mycna.in",
+    "logo": "channelnewsasia",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MY D2H ATE TV",
+    "value": "myd2hatetv.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MY D2H DISCOVERY",
+    "value": "myd2hdiscovery.in",
+    "logo": null,
+    "unix": "1721930520.000000",
+    "days": false
+  },
+  {
+    "text": "MY D2H JAIHIND TV",
+    "value": "myd2hjaihindtv.in",
+    "logo": "jaihindtv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MY D2H RAJ MUSIX",
+    "value": "myd2hrajmusix.in",
+    "logo": "rajmusixmalayalam",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MY JEEVAN TV",
+    "value": "myjeevantv.in",
+    "logo": "jeevantv",
+    "unix": "1721932080.000000",
+    "days": false
+  },
+  {
+    "text": "MY KOCHU TV",
+    "value": "mykochutv.in",
+    "logo": "kochutv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MY POWER VISION",
+    "value": "mypowervision.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MY SAFARI CHANNEL",
+    "value": "mysafarichannel.in",
+    "logo": "safaritv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MY TS AMRITA TV",
+    "value": "mytsamritatv.in",
+    "logo": "amritatv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MY TS ASIANET",
+    "value": "mytsasianet.in",
+    "logo": "asianet",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MY TS ASIANET MOVIES",
+    "value": "mytsasianetmovies.in",
+    "logo": "asianetmovies",
+    "unix": "1721926500.000000",
+    "days": false
+  },
+  {
+    "text": "MY TS ASIANET PLUS",
+    "value": "mytsasianetplus.in",
+    "logo": "asianetplus",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "MY TS DD MALAYALAM",
+    "value": "mytsddmalayalam.in",
+    "logo": "ddmalayalam",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "MY TS FLOWER TV",
+    "value": "mytsflowertv.in",
+    "logo": "flowerstv",
+    "unix": "1721926800.000000",
+    "days": false
+  },
+  {
+    "text": "MY TS GOD TV",
+    "value": "mytsgodtv.in",
+    "logo": "godtv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MY TS KAIRALI WE TV",
+    "value": "mytskairaliwetv.in",
+    "logo": "wetv",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "MY TS SHALOM TV",
+    "value": "mytsshalomtv.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MY TS TWENTY FOUR NEWS",
+    "value": "mytstwentyfournews.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "MYTV FORT WAYNEWPTA",
+    "value": "mytvfortwaynewpta.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "MYTV LAFAYETTEWPBY",
+    "value": "mytvlafayettewpby.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "MYTV MARIONWNDY",
+    "value": "mytvmarionwndy.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "MYTV SOUTH BENDWMYS",
+    "value": "mytvsouthbendwmys.in",
+    "logo": null,
+    "unix": "1722106800.000000",
+    "days": true
+  },
+  {
+    "text": "NAMBIKKAI TV",
+    "value": "nambikkaitv.in",
+    "logo": "nambikkaitv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "NamMa TV",
+    "value": "nammatv.in",
+    "logo": "namatv",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Nandighosha Tv",
+    "value": "nandighoshatv.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "NAT GEO",
+    "value": "natgeo.in",
+    "logo": "nationalgeographic",
+    "unix": "1722087000.000000",
+    "days": true
+  },
+  {
+    "text": "Nat Geo Wild",
+    "value": "natgeowild.in",
+    "logo": "natgeowild",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "National Geographic",
+    "value": "nationalgeographic.in",
+    "logo": "nationalgeographic",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "National Geographic Channel",
+    "value": "nationalgeographicchannel.in",
+    "logo": "nationalgeographicchannel",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Nazara",
+    "value": "nazara.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Nb News",
+    "value": "nbnews.in",
+    "logo": "news",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "NBC EVANSVILLEWFIE",
+    "value": "nbcevansvillewfie.in",
+    "logo": "evansvillenbcwfie",
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "NBC FORT WAYNEWPTA",
+    "value": "nbcfortwaynewpta.in",
+    "logo": null,
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "NBC INDIANAPOLISWTHR",
+    "value": "nbcindianapoliswthr.in",
+    "logo": "indianapolisnbcwthr",
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "NBC LAFAYETTEWPBI",
+    "value": "nbclafayettewpbi.in",
+    "logo": null,
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "NBC SOUTH BENDWNDU",
+    "value": "nbcsouthbendwndu.in",
+    "logo": null,
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "NBC TERRE HAUTEWTWO",
+    "value": "nbcterrehautewtwo.in",
+    "logo": "nbc2terrehauteinwtwo",
+    "unix": "1722110400.000000",
+    "days": true
+  },
+  {
+    "text": "NBC WTHR Indianapolis",
+    "value": "nbcwthrindianapolis.in",
+    "logo": "indianapolisnbcwthr",
+    "unix": "1722142800.000000",
+    "days": true
+  },
+  {
+    "text": "ND24New aily",
+    "value": "nd24newaily.in",
+    "logo": null,
+    "unix": "1721982600.000000",
+    "days": false
+  },
+  {
+    "text": "Nd24New ailyin",
+    "value": "nd24newailyin.in",
+    "logo": null,
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "NDTV",
+    "value": "ndtv.in",
+    "logo": "ndtv",
+    "unix": "1721986200.000000",
+    "days": false
+  },
+  {
+    "text": "NDTV 24x7",
+    "value": "ndtv24x7.in",
+    "logo": "ndtv24x7",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "NDTV Good Times",
+    "value": "ndtvgoodtimes.in",
+    "logo": "ndtvgoodtimes",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "NDTV PROFIT",
+    "value": "ndtvprofit.in",
+    "logo": "ndtvprofit",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "NDTV Profit Prime",
+    "value": "ndtvprofitprime.in",
+    "logo": "ndtvprofit",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NDTVin",
+    "value": "ndtvin.in",
+    "logo": "ndtv",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "NDTVsg",
+    "value": "ndtvsg.in",
+    "logo": "ndtv",
+    "unix": "1721957400.000000",
+    "days": false
+  },
+  {
+    "text": "Nepal 1",
+    "value": "nepal1.in",
+    "logo": "nepal1",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "News",
+    "value": "news.in",
+    "logo": "news",
+    "unix": "1721984400.000000",
+    "days": false
+  },
+  {
+    "text": "News11 Bharat",
+    "value": "news11bharat.in",
+    "logo": null,
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "News18 AssamNorth",
+    "value": "news18assamnorth.in",
+    "logo": "news18assamne",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "News18 Bangla",
+    "value": "news18bangla.in",
+    "logo": "news18bangla",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "News18 BiharJharkhand",
+    "value": "news18biharjharkhand.in",
+    "logo": "news18biharjharkhand",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "News18 Kerala",
+    "value": "news18kerala.in",
+    "logo": "news18kerala",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "News18 Lokmat",
+    "value": "news18lokmat.in",
+    "logo": "news18lokmat",
+    "unix": "1722016620.000000",
+    "days": false
+  },
+  {
+    "text": "News18 Odia",
+    "value": "news18odia.in",
+    "logo": "news18odia",
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "News18 Punjab Haryana Himachal",
+    "value": "news18punjabharyanahimachal.in",
+    "logo": "news18punjabharyanahimachal",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "News18 PunjabHaryana",
+    "value": "news18punjabharyana.in",
+    "logo": "news18punjabharyana",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "News18 Tamil Nadu",
+    "value": "news18tamilnadu.in",
+    "logo": "news18tamilnadu",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "News24x7",
+    "value": "news24x7.in",
+    "logo": "news24",
+    "unix": "1721984400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS 1",
+    "value": "news1.in",
+    "logo": "news11",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "News 11",
+    "value": "news11.in",
+    "logo": "news11",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS 18",
+    "value": "news18.in",
+    "logo": "news18",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS 18 GUJARATI",
+    "value": "news18gujarati.in",
+    "logo": "news18gujarati",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "NEWS 18 KANNADA",
+    "value": "news18kannada.in",
+    "logo": "news18kannada",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "News 18 Madhya Pradesh & Chhattisgarh",
+    "value": "news18madhyapradesh&chhattisgarh.in",
+    "logo": null,
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "NEWS 18 NADU",
+    "value": "news18nadu.in",
+    "logo": "news18tamilnadu",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "News 18IN",
+    "value": "news18in.in",
+    "logo": "news18",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "News 24",
+    "value": "news24.in",
+    "logo": "news24",
+    "unix": "1721930160.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS BHARAT SAMACHAR",
+    "value": "newsbharatsamachar.in",
+    "logo": "bharatsamachar",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS CHANNEL NEWS ASIA",
+    "value": "newschannelnewsasia.in",
+    "logo": "channelnewsasia",
+    "unix": "1721916000.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS D2H MIRROR NOW",
+    "value": "newsd2hmirrornow.in",
+    "logo": "mirrornow",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS D2H ZEE BUSINESS",
+    "value": "newsd2hzeebusiness.in",
+    "logo": "zeebusiness",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS D2HTODAY",
+    "value": "newsd2htoday.in",
+    "logo": "today",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS FD Good News Today",
+    "value": "newsfdgoodnewstoday.in",
+    "logo": "ndtvgoodtimes",
+    "unix": "1721923200.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS FD NDTV",
+    "value": "newsfdndtv.in",
+    "logo": "ndtv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS FD Republic Bharat",
+    "value": "newsfdrepublicbharat.in",
+    "logo": "republictv",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS FD Zee News",
+    "value": "newsfdzeenews.in",
+    "logo": "zeenews",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS FDTV",
+    "value": "newsfdtv.in",
+    "logo": "tv",
+    "unix": "1721930280.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS FRANCE 24",
+    "value": "newsfrance24.in",
+    "logo": "24",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "News Gujarat",
+    "value": "newsgujarat.in",
+    "logo": "news18gujarat",
+    "unix": "1721982600.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS GULISTAN NEWS",
+    "value": "newsgulistannews.in",
+    "logo": "gulistannews",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "News Haryana",
+    "value": "newsharyana.in",
+    "logo": "indianewsharyana",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "News Live",
+    "value": "newslive.in",
+    "logo": "newslive",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "News MP CG",
+    "value": "newsmpcg.in",
+    "logo": "news",
+    "unix": "1721984400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS NATION",
+    "value": "newsnation.in",
+    "logo": "newsnation",
+    "unix": "1722092400.000000",
+    "days": true
+  },
+  {
+    "text": "NEWS NEWS18 BIHAR JHARKHAND",
+    "value": "newsnews18biharjharkhand.in",
+    "logo": "zeenewsbihar",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS NEWS STATE BIHAR JHARKHAND",
+    "value": "newsnewsstatebiharjharkhand.in",
+    "logo": "newsstate",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS PUNJAB",
+    "value": "newspunjab.in",
+    "logo": "indianewspunjab",
+    "unix": "1722083220.000000",
+    "days": true
+  },
+  {
+    "text": "NEWS RAJASTHAN",
+    "value": "newsrajasthan.in",
+    "logo": "newsrajasthan",
+    "unix": "1722092400.000000",
+    "days": true
+  },
+  {
+    "text": "NEWS TIME",
+    "value": "newstime.in",
+    "logo": "newstimebangla",
+    "unix": "1722018420.000000",
+    "days": false
+  },
+  {
+    "text": "News Time Bangla",
+    "value": "newstimebangla.in",
+    "logo": "newstimebangla",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TIMES NOW WORLD",
+    "value": "newstimesnowworld.in",
+    "logo": "timesnowworld",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TOTAL TV",
+    "value": "newstotaltv.in",
+    "logo": "totaltv",
+    "unix": "1721930100.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS AAJ TAK",
+    "value": "newstsaajtak.in",
+    "logo": "aajtak",
+    "unix": "1721931600.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS APN NEWS",
+    "value": "newstsapnnews.in",
+    "logo": "apnnews",
+    "unix": "1721932020.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS BANSAL NEWS",
+    "value": "newstsbansalnews.in",
+    "logo": "bansalnews",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS BHARAT SAMACHAR",
+    "value": "newstsbharatsamachar.in",
+    "logo": "bharatsamachar",
+    "unix": "1721931900.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS CNN NEWS 18",
+    "value": "newstscnnnews18.in",
+    "logo": "cnnnews18",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS FIRSTRAJASTHAN",
+    "value": "newstsfirstrajasthan.in",
+    "logo": "firstnewsrajasthan",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS GOOD NEWS TODAY",
+    "value": "newstsgoodnewstoday.in",
+    "logo": null,
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS INH 24X7",
+    "value": "newstsinh24x7.in",
+    "logo": "inh24x7",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS JAN TV",
+    "value": "newstsjantv.in",
+    "logo": "anjantv",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS JANTA TV",
+    "value": "newstsjantatv.in",
+    "logo": "anjantv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS JANTANTRA",
+    "value": "newstsjantantra.in",
+    "logo": "jantantratv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS KHABARAIN ABHI TAK",
+    "value": "newstskhabarainabhitak.in",
+    "logo": "khabarainabhitak",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS NDTV 24x7",
+    "value": "newstsndtv24x7.in",
+    "logo": "ndtv24x7",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS NEWS 11 BHARAT",
+    "value": "newstsnews11bharat.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS NEWS 18 MADHYAPRADESH CHHATTISGARH",
+    "value": "newstsnews18madhyapradeshchhattisgarh.in",
+    "logo": "newsmadhyapradeshchhattisgarh",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS NEWS 18 UP",
+    "value": "newstsnews18up.in",
+    "logo": "zeeuttarpradeshuttarakhand",
+    "unix": "1721928360.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS NEWS NATION",
+    "value": "newstsnewsnation.in",
+    "logo": "newsnation",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS NEWS STATE MPCG",
+    "value": "newstsnewsstatempcg.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS SUDARSHAN NEWS",
+    "value": "newstssudarshannews.in",
+    "logo": "sudarshannews",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS SWARAJ EXPRESS SMBC",
+    "value": "newstsswarajexpresssmbc.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS TV 5 MONDE",
+    "value": "newststv5monde.in",
+    "logo": "tv5mondeasie",
+    "unix": "1721927820.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TS ZEE NEWS MPCHATTISGARH",
+    "value": "newstszeenewsmpchattisgarh.in",
+    "logo": "zeemadhyapradeshchattisgarh",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TSNEWS HARYANA",
+    "value": "newstsnewsharyana.in",
+    "logo": "indianewsharyana",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TSNEWS MP CH",
+    "value": "newstsnewsmpch.in",
+    "logo": "news",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TSNEWS RAJASTHAN",
+    "value": "newstsnewsrajasthan.in",
+    "logo": "newsrajasthan",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "NEWS TSNEWS UP",
+    "value": "newstsnewsup.in",
+    "logo": "news",
+    "unix": "1721932020.000000",
+    "days": false
+  },
+  {
+    "text": "NewsX",
+    "value": "newsx.in",
+    "logo": "newsx",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Nick",
+    "value": "nick.in",
+    "logo": "nick",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Nick Jr",
+    "value": "nickjr.in",
+    "logo": "nickjr",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Nick Junior",
+    "value": "nickjunior.in",
+    "logo": "nickjunior",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Nickelodeon Sonic",
+    "value": "nickelodeonsonic.in",
+    "logo": null,
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "NickelodeonStreaming",
+    "value": "nickelodeonstreaming.in",
+    "logo": "nickelodeoneast",
+    "unix": "1721970000.000000",
+    "days": false
+  },
+  {
+    "text": "Nktv Plus",
+    "value": "nktvplus.in",
+    "logo": "ktvplus",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "North Live",
+    "value": "northlive.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "NTV NEWS",
+    "value": "ntvnews.in",
+    "logo": "ntvnews",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "NTV Telugu",
+    "value": "ntvtelugu.in",
+    "logo": null,
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "ODIA D2H DD ODIYA",
+    "value": "odiad2hddodiya.in",
+    "logo": "ddodia",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ODIA ETV NEWS ORIYA",
+    "value": "odiaetvnewsoriya.in",
+    "logo": "zeetelugu",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ODIA TS ALANKAR TV",
+    "value": "odiatsalankartv.in",
+    "logo": null,
+    "unix": "1721917800.000000",
+    "days": false
+  },
+  {
+    "text": "ODIA TS KANAK NEWS",
+    "value": "odiatskanaknews.in",
+    "logo": "kanaknews",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ODIA TS TARANG MUSIC",
+    "value": "odiatstarangmusic.in",
+    "logo": "tarangmusic",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ODIA TS TARANG TV",
+    "value": "odiatstarangtv.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ODIA TS ZEE KALINGA",
+    "value": "odiatszeekalinga.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Oscar Movies Bhojpuri",
+    "value": "oscarmoviesbhojpuri.in",
+    "logo": "oscarmoviesbhojpuri",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Otv",
+    "value": "otv.in",
+    "logo": "otv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "PA CANAL SONY",
+    "value": "pacanalsony.in",
+    "logo": "sony",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Paras Gold",
+    "value": "parasgold.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Pasand",
+    "value": "pasand.in",
+    "logo": null,
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "PEACE OF MIND",
+    "value": "peaceofmind.in",
+    "logo": "peaceofmind",
+    "unix": "1722092400.000000",
+    "days": true
+  },
+  {
+    "text": "People TV",
+    "value": "peopletv.in",
+    "logo": "peopletv",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "PEPPERS",
+    "value": "peppers.in",
+    "logo": "pepperstv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Pictures",
+    "value": "pictures.in",
+    "logo": "andpictures",
+    "unix": "1722013140.000000",
+    "days": false
+  },
+  {
+    "text": "Pitaara",
+    "value": "pitaara.in",
+    "logo": "pitaara",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "PL TravelXP R",
+    "value": "pltravelxpr.in",
+    "logo": "travelxpr",
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "POGO",
+    "value": "pogo.in",
+    "logo": "pogo",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "POLIMER NEWS",
+    "value": "polimernews.in",
+    "logo": "polimernews",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Polimer tv",
+    "value": "polimertv.in",
+    "logo": "polimertv",
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "Popular Tv",
+    "value": "populartv.in",
+    "logo": "populartv",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Prag News",
+    "value": "pragnews.in",
+    "logo": "pragnews",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Pramaya News 7",
+    "value": "pramayanews7.in",
+    "logo": "prameyanews7",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Prameya News 7",
+    "value": "prameyanews7.in",
+    "logo": "prameyanews7",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "PRARTHANA BHAWAN",
+    "value": "prarthanabhawan.in",
+    "logo": "prarthanatv",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "Prarthana Tv",
+    "value": "prarthanatv.in",
+    "logo": "prarthanatv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Pratidin Time",
+    "value": "pratidintime.in",
+    "logo": "protidintime",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Pravah Picture",
+    "value": "pravahpicture.in",
+    "logo": null,
+    "unix": "1722015780.000000",
+    "days": false
+  },
+  {
+    "text": "PROTIDIN TIME",
+    "value": "protidintime.in",
+    "logo": "protidintime",
+    "unix": "1721916900.000000",
+    "days": false
+  },
+  {
+    "text": "PTC CHAKDE",
+    "value": "ptcchakde.in",
+    "logo": "ptcchakde",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Ptc Music",
+    "value": "ptcmusic.in",
+    "logo": "cmusic",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "PTC News",
+    "value": "ptcnews.in",
+    "logo": "ptcnews",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Ptc Punjabi",
+    "value": "ptcpunjabi.in",
+    "logo": "ptcpunjabi",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "PTC Punjabi Gold",
+    "value": "ptcpunjabigold.in",
+    "logo": "ptcpunjabi",
+    "unix": "1722105000.000000",
+    "days": true
+  },
+  {
+    "text": "PTC Simran",
+    "value": "ptcsimran.in",
+    "logo": null,
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Public Movies",
+    "value": "publicmovies.in",
+    "logo": null,
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "Public Music",
+    "value": "publicmusic.in",
+    "logo": "publicmusic",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Public TV",
+    "value": "publictv.in",
+    "logo": "publictv",
+    "unix": "1721931300.000000",
+    "days": false
+  },
+  {
+    "text": "PUNJ TS MH ONE",
+    "value": "punjtsmhone.in",
+    "logo": "mhone",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Punjabi CHARDIKLA TIME TV",
+    "value": "punjabichardiklatimetv.in",
+    "logo": "chardiklatimetv",
+    "unix": "1722012300.000000",
+    "days": false
+  },
+  {
+    "text": "Punjabi Haryana TV",
+    "value": "punjabiharyanatv.in",
+    "logo": "indianewsharyana",
+    "unix": "1722013200.000000",
+    "days": false
+  },
+  {
+    "text": "Punjabi Hits",
+    "value": "punjabihits.in",
+    "logo": null,
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Punjabi Pitaara",
+    "value": "punjabipitaara.in",
+    "logo": "pitaara",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Puthiya Thalaimurai",
+    "value": "puthiyathalaimurai.in",
+    "logo": "puthiyathalaimurai6",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "PUTHIYA THALIMURAI",
+    "value": "puthiyathalimurai.in",
+    "logo": "puthiyathalaimurai6",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "R Bangla",
+    "value": "rbangla.in",
+    "logo": "ddbangla",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "RAI 5",
+    "value": "rai5.in",
+    "logo": "prag",
+    "unix": "1721917440.000000",
+    "days": false
+  },
+  {
+    "text": "RAJ DIGITAL PLUS",
+    "value": "rajdigitalplus.in",
+    "logo": "rajdigitalplus",
+    "unix": "1722087000.000000",
+    "days": true
+  },
+  {
+    "text": "RAJ MUSIC KANNADA",
+    "value": "rajmusickannada.in",
+    "logo": "rajmusixkannada",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Raj Musix",
+    "value": "rajmusix.in",
+    "logo": "rajmusix",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Raj Musix Kannada",
+    "value": "rajmusixkannada.in",
+    "logo": "rajmusixkannada",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Raj Musix Malayalam",
+    "value": "rajmusixmalayalam.in",
+    "logo": "rajmusixmalayalam",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "Raj Musix Tamil",
+    "value": "rajmusixtamil.in",
+    "logo": "rajmusix",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Raj Musix Telugu",
+    "value": "rajmusixtelugu.in",
+    "logo": "rajmusixtelugu",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "RAJ NEWS KANNADA",
+    "value": "rajnewskannada.in",
+    "logo": "rajnewskannada",
+    "unix": "1722083220.000000",
+    "days": true
+  },
+  {
+    "text": "RAJ NEWS MALAYALAM",
+    "value": "rajnewsmalayalam.in",
+    "logo": "rajnewsmalayalam",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Raj News Tamil",
+    "value": "rajnewstamil.in",
+    "logo": "rajnewstamil",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Raj News Telugu",
+    "value": "rajnewstelugu.in",
+    "logo": "rajnewstelugu",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Raj tv",
+    "value": "rajtv.in",
+    "logo": "rajtv",
+    "unix": "1721977200.000000",
+    "days": false
+  },
+  {
+    "text": "Rajya Sabha",
+    "value": "rajyasabha.in",
+    "logo": "rajyasabha",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "Ramdhenu",
+    "value": "ramdhenu.in",
+    "logo": "ramdhenutv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Rang",
+    "value": "rang.in",
+    "logo": null,
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "RANGLA PUNJAB",
+    "value": "ranglapunjab.in",
+    "logo": "punjabrang",
+    "unix": "1721914200.000000",
+    "days": false
+  },
+  {
+    "text": "Rangmanch Active",
+    "value": "rangmanchactive.in",
+    "logo": null,
+    "unix": "1721934720.000000",
+    "days": false
+  },
+  {
+    "text": "RBharat",
+    "value": "rbharat.in",
+    "logo": "starbharat",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "Real News Kerala",
+    "value": "realnewskerala.in",
+    "logo": "news18kerala",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Recharge Reminder",
+    "value": "rechargereminder.in",
+    "logo": null,
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Rengoni",
+    "value": "rengoni.in",
+    "logo": "rengonitv",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Rengoni Tv",
+    "value": "rengonitv.in",
+    "logo": "rengonitv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Republic Bharat",
+    "value": "republicbharat.in",
+    "logo": "republicbharat",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "REPUBLIC NEWS",
+    "value": "republicnews.in",
+    "logo": "publicnews",
+    "unix": "1722085200.000000",
+    "days": true
+  },
+  {
+    "text": "Republic Tv",
+    "value": "republictv.in",
+    "logo": "republictv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Romedy Now",
+    "value": "romedynow.in",
+    "logo": "romedynow",
+    "unix": "1721976300.000000",
+    "days": false
+  },
+  {
+    "text": "Rongeen Tv",
+    "value": "rongeentv.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Rt",
+    "value": "rt.in",
+    "logo": "rt",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "Rupashi Bangla",
+    "value": "rupashibangla.in",
+    "logo": "rupashibangla",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Ruposhi Bangla",
+    "value": "ruposhibangla.in",
+    "logo": "rupashibangla",
+    "unix": "1721977200.000000",
+    "days": false
+  },
+  {
+    "text": "Russia Today",
+    "value": "russiatoday.in",
+    "logo": "today",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Saam Tv",
+    "value": "saamtv.in",
+    "logo": "saamtv",
+    "unix": "1722016560.000000",
+    "days": false
+  },
+  {
+    "text": "Sada TV",
+    "value": "sadatv.in",
+    "logo": "madhatv",
+    "unix": "1722103200.000000",
+    "days": true
+  },
+  {
+    "text": "SADHNA PRIME NEWS",
+    "value": "sadhnaprimenews.in",
+    "logo": "sadhanatv",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "SAFARI TV",
+    "value": "safaritv.in",
+    "logo": "safaritv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "SAHANA",
+    "value": "sahana.in",
+    "logo": "sahana",
+    "unix": "1722082500.000000",
+    "days": true
+  },
+  {
+    "text": "SAHANA TV",
+    "value": "sahanatv.in",
+    "logo": null,
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "SAHARA SAMAY",
+    "value": "saharasamay.in",
+    "logo": "saharasamaybihar",
+    "unix": "1721989800.000000",
+    "days": false
+  },
+  {
+    "text": "Saileela Tv",
+    "value": "saileelatv.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Sakshi TV",
+    "value": "sakshitv.in",
+    "logo": "sakshitv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Salaam Tv",
+    "value": "salaamtv.in",
+    "logo": "salaamtv",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Samo bedakikonji",
+    "value": "samobedakikonji.in",
+    "logo": null,
+    "unix": "1722031140.000000",
+    "days": false
+  },
+  {
+    "text": "SANDESH NEWS",
+    "value": "sandeshnews.in",
+    "logo": "sandeshnews",
+    "unix": "1722083100.000000",
+    "days": true
+  },
+  {
+    "text": "SANGEET BANGLA",
+    "value": "sangeetbangla.in",
+    "logo": "sangeetbangla",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "SANGEET BHOJPORI",
+    "value": "sangeetbhojpori.in",
+    "logo": "bhojpuricinema",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "Sangeet Bhojpuri",
+    "value": "sangeetbhojpuri.in",
+    "logo": "sangeetbhojpuri",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "SANGEET MARATHI",
+    "value": "sangeetmarathi.in",
+    "logo": "sangeetmarathi",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "SANKARA TV",
+    "value": "sankaratv.in",
+    "logo": "srisankaratv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Sansad Tv",
+    "value": "sansadtv.in",
+    "logo": "sansadtv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Sansad Tv Rajya Sabha Duplicate",
+    "value": "sansadtvrajyasabhaduplicate.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Sanskar TV",
+    "value": "sanskartv.in",
+    "logo": "sanskartv",
+    "unix": "1721931000.000000",
+    "days": false
+  },
+  {
+    "text": "Santvani Tv",
+    "value": "santvanitv.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "SATHIYAM TV",
+    "value": "sathiyamtv.in",
+    "logo": "sathiyamtv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Satsang TV",
+    "value": "satsangtv.in",
+    "logo": "satsangtv",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "SEITHIGAL",
+    "value": "seithigal.in",
+    "logo": "kalaignarseithigal",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Set",
+    "value": "set.in",
+    "logo": null,
+    "unix": "1721935800.000000",
+    "days": false
+  },
+  {
+    "text": "SG maa movies",
+    "value": "sgmaamovies.in",
+    "logo": "starmaamovies",
+    "unix": "1721923200.000000",
+    "days": false
+  },
+  {
+    "text": "SG SAB TV",
+    "value": "sgsabtv.in",
+    "logo": "sonysab",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "SG Sun Music",
+    "value": "sgsunmusic.in",
+    "logo": "sunmusic",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "SG Sun News",
+    "value": "sgsunnews.in",
+    "logo": "sunnews",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "SG Sun TV",
+    "value": "sgsuntv.in",
+    "logo": "suntv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "SG Vijay TV",
+    "value": "sgvijaytv.in",
+    "logo": "vijaytv",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "SG Zee TV",
+    "value": "sgzeetv.in",
+    "logo": "zeetv",
+    "unix": "1721929500.000000",
+    "days": false
+  },
+  {
+    "text": "Shalom TV",
+    "value": "shalomtv.in",
+    "logo": "shalomtv",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "Shemaroo Marathibana",
+    "value": "shemaroomarathibana.in",
+    "logo": "shemaroomarathibana",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Shemaroo TV",
+    "value": "shemarootv.in",
+    "logo": "shemaroo",
+    "unix": "1722103200.000000",
+    "days": true
+  },
+  {
+    "text": "Shorts Tv",
+    "value": "shortstv.in",
+    "logo": "shortstv",
+    "unix": "1721925840.000000",
+    "days": false
+  },
+  {
+    "text": "SHOWBOX",
+    "value": "showbox.in",
+    "logo": "showbox",
+    "unix": "1722087000.000000",
+    "days": true
+  },
+  {
+    "text": "SHUBH TV",
+    "value": "shubhtv.in",
+    "logo": "shubhtv",
+    "unix": "1722087000.000000",
+    "days": true
+  },
+  {
+    "text": "Sidharth Bhakti",
+    "value": "sidharthbhakti.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Sidharth Gold",
+    "value": "sidharthgold.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Sidharth Tv",
+    "value": "sidharthtv.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Sikh Spiritual Centre Toronto",
+    "value": "sikhspiritualcentretoronto.in",
+    "logo": "zpunjabhrhp",
+    "unix": "1721914200.000000",
+    "days": false
+  },
+  {
+    "text": "Siri Kannada",
+    "value": "sirikannada.in",
+    "logo": null,
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "Siripoli tv",
+    "value": "siripolitv.in",
+    "logo": "sirippoli",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Sky TG24 Streaming",
+    "value": "skytg24streaming.in",
+    "logo": null,
+    "unix": "1721970000.000000",
+    "days": false
+  },
+  {
+    "text": "Softball Johnston IA vs Floyds Knobs",
+    "value": "softballjohnstoniavsfloydsknobs.in",
+    "logo": null,
+    "unix": "1721941200.000000",
+    "days": false
+  },
+  {
+    "text": "Songdew",
+    "value": "songdew.in",
+    "logo": null,
+    "unix": "1721903700.000000",
+    "days": false
+  },
+  {
+    "text": "Sonic",
+    "value": "sonic.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Sonic Nickelodeon",
+    "value": "sonicnickelodeon.in",
+    "logo": "sonicnickelodeon",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Sony",
+    "value": "sony.in",
+    "logo": "sonytv",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "SONY AATH",
+    "value": "sonyaath.in",
+    "logo": "sonyaath",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Sony Bbc Earth",
+    "value": "sonybbcearth.in",
+    "logo": "sonybbcearth",
+    "unix": "1722017040.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Entertainment Television",
+    "value": "sonyentertainmenttelevision.in",
+    "logo": "sonyentertainmenttelevision",
+    "unix": "1721977800.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Entertainment Television Asia",
+    "value": "sonyentertainmenttelevisionasia.in",
+    "logo": "sonytv",
+    "unix": "1722384000.000000",
+    "days": true
+  },
+  {
+    "text": "Sony Marathi",
+    "value": "sonymarathi.in",
+    "logo": "sonymarathi",
+    "unix": "1722015060.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Max",
+    "value": "sonymax.in",
+    "logo": "sonymax",
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Max 2",
+    "value": "sonymax2.in",
+    "logo": "sonymax2",
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Pal",
+    "value": "sonypal.in",
+    "logo": "sonypal",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Pix",
+    "value": "sonypix.in",
+    "logo": "sonypix",
+    "unix": "1721981340.000000",
+    "days": false
+  },
+  {
+    "text": "SONY SAB",
+    "value": "sonysab.in",
+    "logo": "sonysab",
+    "unix": "1722013200.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Six",
+    "value": "sonysix.in",
+    "logo": "sonysix",
+    "unix": "1721977200.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Sports Ten 1",
+    "value": "sonysportsten1.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Sports Ten 2",
+    "value": "sonysportsten2.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Sports Ten 3",
+    "value": "sonysportsten3.in",
+    "logo": null,
+    "unix": "1721934000.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Sports TEN 4",
+    "value": "sonysportsten4.in",
+    "logo": null,
+    "unix": "1722087000.000000",
+    "days": true
+  },
+  {
+    "text": "Sony Sports Ten 5",
+    "value": "sonysportsten5.in",
+    "logo": null,
+    "unix": "1721941200.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Ten 1",
+    "value": "sonyten1.in",
+    "logo": "sonyten1",
+    "unix": "1721982600.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Ten 2",
+    "value": "sonyten2.in",
+    "logo": "sonyten2",
+    "unix": "1721984400.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Ten 3",
+    "value": "sonyten3.in",
+    "logo": "sonyten3",
+    "unix": "1721982600.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Ten 5",
+    "value": "sonyten5.in",
+    "logo": "sonysix",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Sony TV",
+    "value": "sonytv.in",
+    "logo": "sonytv",
+    "unix": "1721989800.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Wah",
+    "value": "sonywah.in",
+    "logo": "sonywah",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "Sony Yay",
+    "value": "sonyyay.in",
+    "logo": "sonyyay",
+    "unix": "1722100320.000000",
+    "days": true
+  },
+  {
+    "text": "SONY YAY !",
+    "value": "sonyyay!.in",
+    "logo": "sonyyay",
+    "unix": "1721931000.000000",
+    "days": false
+  },
+  {
+    "text": "South Bend NBC Wndu",
+    "value": "southbendnbcwndu.in",
+    "logo": "southbendabcwbnd",
+    "unix": "1722009600.000000",
+    "days": false
+  },
+  {
+    "text": "South Bend Stirr Cities",
+    "value": "southbendstirrcities.in",
+    "logo": null,
+    "unix": "1722006000.000000",
+    "days": false
+  },
+  {
+    "text": "SP TEN 2",
+    "value": "spten2.in",
+    "logo": "sonyten2",
+    "unix": "1722099600.000000",
+    "days": true
+  },
+  {
+    "text": "SP TEN 3",
+    "value": "spten3.in",
+    "logo": "sonyten3",
+    "unix": "1722087000.000000",
+    "days": true
+  },
+  {
+    "text": "Sports18",
+    "value": "sports18.in",
+    "logo": "sports1",
+    "unix": "1722115800.000000",
+    "days": true
+  },
+  {
+    "text": "Sports18 – 1",
+    "value": "sports18–1.in",
+    "logo": "sports1",
+    "unix": "1721942700.000000",
+    "days": false
+  },
+  {
+    "text": "Sports18 – Khel",
+    "value": "sports18–khel.in",
+    "logo": null,
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "Sports 18 1",
+    "value": "sports181.in",
+    "logo": "sports1",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Sri Sankara TV",
+    "value": "srisankaratv.in",
+    "logo": "srisankaratv",
+    "unix": "1721931300.000000",
+    "days": false
+  },
+  {
+    "text": "Star Bharat",
+    "value": "starbharat.in",
+    "logo": "starbharat",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Star Bharat StBharat",
+    "value": "starbharatstbharat.in",
+    "logo": null,
+    "unix": "1721982600.000000",
+    "days": false
+  },
+  {
+    "text": "Star Gold",
+    "value": "stargold.in",
+    "logo": "stargold",
+    "unix": "1722115800.000000",
+    "days": true
+  },
+  {
+    "text": "STAR GOLD 2",
+    "value": "stargold2.in",
+    "logo": "stargold2",
+    "unix": "1722007800.000000",
+    "days": false
+  },
+  {
+    "text": "Star Gold Romance",
+    "value": "stargoldromance.in",
+    "logo": null,
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "STAR GOLD SELECT rec",
+    "value": "stargoldselectrec.in",
+    "logo": "stargoldselect",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "Star Gold Thrills",
+    "value": "stargoldthrills.in",
+    "logo": null,
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "STAR JALSHA",
+    "value": "starjalsha.in",
+    "logo": "starjalsha",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Star Jalsha Movies",
+    "value": "starjalshamovies.in",
+    "logo": "starjalshamovies",
+    "unix": "1721976600.000000",
+    "days": false
+  },
+  {
+    "text": "Star Kiran",
+    "value": "starkiran.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Star Maa",
+    "value": "starmaa.in",
+    "logo": "starmaa",
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "Star Maa Gold",
+    "value": "starmaagold.in",
+    "logo": "starmaagold",
+    "unix": "1721982600.000000",
+    "days": false
+  },
+  {
+    "text": "Star Maa Movies",
+    "value": "starmaamovies.in",
+    "logo": "starmaamovies",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Star Movies",
+    "value": "starmovies.in",
+    "logo": "starmovies",
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "Star Movies Select",
+    "value": "starmoviesselect.in",
+    "logo": "starmoviesselect",
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "STAR PARVAH",
+    "value": "starparvah.in",
+    "logo": "starpravah",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "Star Plus",
+    "value": "starplus.in",
+    "logo": "starplus",
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "STAR PLUS ʳᵉᶜ",
+    "value": "starplusʳᵉᶜ.in",
+    "logo": "starbharat",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "STAR PRAVAH",
+    "value": "starpravah.in",
+    "logo": "starpravah",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Star Sport 1",
+    "value": "starsport1.in",
+    "logo": "starsports1",
+    "unix": "1722085800.000000",
+    "days": true
+  },
+  {
+    "text": "Star Sports",
+    "value": "starsports.in",
+    "logo": "starsports3",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Star Sports 1",
+    "value": "starsports1.in",
+    "logo": "starsports1",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Star Sports 1 Tamil",
+    "value": "starsports1tamil.in",
+    "logo": "starsports1tamil",
+    "unix": "1721986200.000000",
+    "days": false
+  },
+  {
+    "text": "Star Sports 1 Telugu",
+    "value": "starsports1telugu.in",
+    "logo": "starsports1telugu",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Star Sports 2",
+    "value": "starsports2.in",
+    "logo": "starsports2",
+    "unix": "1721953800.000000",
+    "days": false
+  },
+  {
+    "text": "STAR SPORTS 3",
+    "value": "starsports3.in",
+    "logo": "starsports3",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Star Sports First",
+    "value": "starsportsfirst.in",
+    "logo": "starsportsfirst",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "Star Sports Hindi 1",
+    "value": "starsportshindi1.in",
+    "logo": "starsports1hindi",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Star Sports Select 1",
+    "value": "starsportsselect1.in",
+    "logo": "starsportsselect1",
+    "unix": "1721979000.000000",
+    "days": false
+  },
+  {
+    "text": "Star Sports Select 2",
+    "value": "starsportsselect2.in",
+    "logo": "starsportsselect2",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Star Suvarna",
+    "value": "starsuvarna.in",
+    "logo": "starsuvarna",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "STAR SUVARNA PLUS",
+    "value": "starsuvarnaplus.in",
+    "logo": "starsuvarnaplus",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "Star Utsav",
+    "value": "starutsav.in",
+    "logo": "starutsav",
+    "unix": "1721938500.000000",
+    "days": false
+  },
+  {
+    "text": "Star Utsav Movies",
+    "value": "starutsavmovies.in",
+    "logo": "starutsavmovies",
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "Star Vijay",
+    "value": "starvijay.in",
+    "logo": "starvijay",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "STARGOLD SELECT",
+    "value": "stargoldselect.in",
+    "logo": "stargoldselect",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "StarPlus SPLUS",
+    "value": "starplussplus.in",
+    "logo": "starplus",
+    "unix": "1721980800.000000",
+    "days": false
+  },
+  {
+    "text": "StarPlus SPLUSbs",
+    "value": "starplussplusbs.in",
+    "logo": null,
+    "unix": "1721988000.000000",
+    "days": false
+  },
+  {
+    "text": "StarsGefahr",
+    "value": "starsgefahr.in",
+    "logo": null,
+    "unix": "1722414900.000000",
+    "days": true
+  },
+  {
+    "text": "StarzBlack",
+    "value": "starzblack.in",
+    "logo": "starzblack",
+    "unix": "1722470400.000000",
+    "days": true
+  },
+  {
+    "text": "Stingray Classical",
+    "value": "stingrayclassical.in",
+    "logo": "stingrayclassica",
+    "unix": "1722384000.000000",
+    "days": true
+  },
+  {
+    "text": "Stingray Sounds of South",
+    "value": "stingraysoundsofsouth.in",
+    "logo": null,
+    "unix": "1722384000.000000",
+    "days": true
+  },
+  {
+    "text": "STUDIO ONEP",
+    "value": "studioonep.in",
+    "logo": "studionnews",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "Subhavaartha TV",
+    "value": "subhavaarthatv.in",
+    "logo": "shubhavaartatv",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "SUDARSHAN NEWS",
+    "value": "sudarshannews.in",
+    "logo": "sudarshannews",
+    "unix": "1722094080.000000",
+    "days": true
+  },
+  {
+    "text": "Sun Bangla",
+    "value": "sunbangla.in",
+    "logo": "atnbangla",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "SUN LIFE",
+    "value": "sunlife.in",
+    "logo": "sunlife",
+    "unix": "1721932140.000000",
+    "days": false
+  },
+  {
+    "text": "Sun Marathi",
+    "value": "sunmarathi.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Sun Marathi Duplicate",
+    "value": "sunmarathiduplicate.in",
+    "logo": null,
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "SUN MUSIC",
+    "value": "sunmusic.in",
+    "logo": "sunmusic",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Sun News",
+    "value": "sunnews.in",
+    "logo": "sunnews",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Sun Tv",
+    "value": "suntv.in",
+    "logo": "suntv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Super Hungama",
+    "value": "superhungama.in",
+    "logo": "hungama",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "SURYA",
+    "value": "surya.in",
+    "logo": "surya",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Surya Comedy",
+    "value": "suryacomedy.in",
+    "logo": "suryacomedy",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Surya Movies",
+    "value": "suryamovies.in",
+    "logo": "suryamovies",
+    "unix": "1721979000.000000",
+    "days": false
+  },
+  {
+    "text": "Surya Music",
+    "value": "suryamusic.in",
+    "logo": "suryamusic",
+    "unix": "1721979000.000000",
+    "days": false
+  },
+  {
+    "text": "Surya TV",
+    "value": "suryatv.in",
+    "logo": "surya",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "SUVARNA TV",
+    "value": "suvarnatv.in",
+    "logo": "suvarna",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "SVBC",
+    "value": "svbc.in",
+    "logo": "svbc",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "SVBC 2",
+    "value": "svbc2.in",
+    "logo": "svbc2",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "T NEWS",
+    "value": "tnews.in",
+    "logo": "tnews",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "Tamil DISCOVERY",
+    "value": "tamildiscovery.in",
+    "logo": "discoverychannel",
+    "unix": "1722013740.000000",
+    "days": false
+  },
+  {
+    "text": "TAMIL NAAPTOL",
+    "value": "tamilnaaptol.in",
+    "logo": null,
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "Tamil Peppers",
+    "value": "tamilpeppers.in",
+    "logo": "pepperstv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Tamil Travel XP",
+    "value": "tamiltravelxp.in",
+    "logo": "travelxp",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Tamil Vasanth TV",
+    "value": "tamilvasanthtv.in",
+    "logo": "vasanthtv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Tarang",
+    "value": "tarang.in",
+    "logo": "tarang",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Tarang Music",
+    "value": "tarangmusic.in",
+    "logo": "tarangmusic",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Tarang TV",
+    "value": "tarangtv.in",
+    "logo": "tarangtv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Beauty",
+    "value": "tataskybeauty.in",
+    "logo": "tataskybeauty",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Bollywood Premiere",
+    "value": "tataskybollywoodpremiere.in",
+    "logo": null,
+    "unix": "1721931960.000000",
+    "days": false
+  },
+  {
+    "text": "TATA SKY BOLLYWOOD rec",
+    "value": "tataskybollywoodrec.in",
+    "logo": "tataskyhollywoodlocal",
+    "unix": "1721929800.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Cooking",
+    "value": "tataskycooking.in",
+    "logo": "tataskycooking",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Fitness",
+    "value": "tataskyfitness.in",
+    "logo": "tataskyfitness",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Fun Learn Junior",
+    "value": "tataskyfunlearnjunior.in",
+    "logo": "tataskyfunlearn",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Fun Learn Preschool",
+    "value": "tataskyfunlearnpreschool.in",
+    "logo": "tataskyfunlearn",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Hits",
+    "value": "tataskyhits.in",
+    "logo": "tataskyhits",
+    "unix": "1721968200.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Hollywood Local",
+    "value": "tataskyhollywoodlocal.in",
+    "logo": "hollywood",
+    "unix": "1721967900.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Javed Akhtar",
+    "value": "tataskyjavedakhtar.in",
+    "logo": "tataskyjavedakhtar",
+    "unix": "1721968200.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Marathi Cinema",
+    "value": "tataskymarathicinema.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Seniors",
+    "value": "tataskyseniors.in",
+    "logo": "tataskyseniors",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky ShortsTV",
+    "value": "tataskyshortstv.in",
+    "logo": "tataskyshortstv",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Smart Manager",
+    "value": "tataskysmartmanager.in",
+    "logo": "tataskysmartmanager",
+    "unix": "1721968200.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Tamil Cinema",
+    "value": "tataskytamilcinema.in",
+    "logo": "tataskytamilcinema",
+    "unix": "1721930100.000000",
+    "days": false
+  },
+  {
+    "text": "TATA SKY TAMIL CINEMA rec",
+    "value": "tataskytamilcinemarec.in",
+    "logo": "tataskytamilcinema",
+    "unix": "1721930100.000000",
+    "days": false
+  },
+  {
+    "text": "TATA SKY TELUGU CINEMA",
+    "value": "tataskytelugucinema.in",
+    "logo": "tataskytelugucinema",
+    "unix": "1721914200.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Theatre",
+    "value": "tataskytheatre.in",
+    "logo": "tataskytheatre",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Tata Sky Vedic Maths",
+    "value": "tataskyvedicmaths.in",
+    "logo": "tataskyvedicmaths",
+    "unix": "1721968200.000000",
+    "days": false
+  },
+  {
+    "text": "Telugu Aradana TV",
+    "value": "teluguaradanatv.in",
+    "logo": "aradanatv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Telugu History 18",
+    "value": "teluguhistory18.in",
+    "logo": "historytv18",
+    "unix": "1721930040.000000",
+    "days": false
+  },
+  {
+    "text": "Telugu Kushi TV",
+    "value": "telugukushitv.in",
+    "logo": "kushitv",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TELUGU NAAPTOL",
+    "value": "telugunaaptol.in",
+    "logo": "naaptontelugu",
+    "unix": "1721912400.000000",
+    "days": false
+  },
+  {
+    "text": "Ten 1",
+    "value": "ten1.in",
+    "logo": "ten1",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Terre Haute NBC Wtwo",
+    "value": "terrehautenbcwtwo.in",
+    "logo": "nbc2terrehauteinwtwo",
+    "unix": "1722007800.000000",
+    "days": false
+  },
+  {
+    "text": "TEZ",
+    "value": "tez.in",
+    "logo": "tez",
+    "unix": "1721968440.000000",
+    "days": false
+  },
+  {
+    "text": "TG D2H 10 TV",
+    "value": "tgd2h10tv.in",
+    "logo": "network10",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TG D2H ETV ABHIRUCHI",
+    "value": "tgd2hetvabhiruchi.in",
+    "logo": "etvabhiruchi",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TG D2H HISTORY TV18",
+    "value": "tgd2hhistorytv18.in",
+    "logo": "historytv18",
+    "unix": "1721930040.000000",
+    "days": false
+  },
+  {
+    "text": "TG D2H NTV",
+    "value": "tgd2hntv.in",
+    "logo": "gtvbangla",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TG D2H V6 NEWS",
+    "value": "tgd2hv6news.in",
+    "logo": "v6news",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TG GEMINI MUSIC",
+    "value": "tggeminimusic.in",
+    "logo": "geminimusic",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TG SRI VENKATESHWAR BHAKTI",
+    "value": "tgsrivenkateshwarbhakti.in",
+    "logo": null,
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TG TS ETV ANDHRA PRADESH",
+    "value": "tgtsetvandhrapradesh.in",
+    "logo": "etvandhrapradesh",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TG TS ETV PLUS",
+    "value": "tgtsetvplus.in",
+    "logo": "etvplus",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "TG TS ETV TELANGANA",
+    "value": "tgtsetvtelangana.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TG TS HINDU DHARMAM",
+    "value": "tgtshindudharmam.in",
+    "logo": "hindudharmam",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TG TS NAT GEO WILD",
+    "value": "tgtsnatgeowild.in",
+    "logo": "natgeowild",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TG TS SHUBHAVAARTA TV",
+    "value": "tgtsshubhavaartatv.in",
+    "logo": "shubhavaartatv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TG TS SWARA SAGAR",
+    "value": "tgtsswarasagar.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TG TS T NEWS",
+    "value": "tgtstnews.in",
+    "logo": "tnews",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TG TS TV9 TELUGU",
+    "value": "tgtstv9telugu.in",
+    "logo": null,
+    "unix": "1721931300.000000",
+    "days": false
+  },
+  {
+    "text": "THANTHI TV",
+    "value": "thanthitv.in",
+    "logo": "thanthitv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "The Q",
+    "value": "theq.in",
+    "logo": "theq",
+    "unix": "1721966760.000000",
+    "days": false
+  },
+  {
+    "text": "The Qin",
+    "value": "theqin.in",
+    "logo": "theq",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Times Now",
+    "value": "timesnow.in",
+    "logo": "timesnow",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Tlc",
+    "value": "tlc.in",
+    "logo": "tlc",
+    "unix": "1722017700.000000",
+    "days": false
+  },
+  {
+    "text": "TLC World",
+    "value": "tlcworld.in",
+    "logo": "tlcworld",
+    "unix": "1721975580.000000",
+    "days": false
+  },
+  {
+    "text": "TLG BHAKTI TV",
+    "value": "tlgbhaktitv.in",
+    "logo": "bhaktitv",
+    "unix": "1722092400.000000",
+    "days": true
+  },
+  {
+    "text": "TLG GEMINI MUSIC",
+    "value": "tlggeminimusic.in",
+    "logo": "geminimusic",
+    "unix": "1722094200.000000",
+    "days": true
+  },
+  {
+    "text": "TLG HUNGAMA",
+    "value": "tlghungama.in",
+    "logo": "hungama",
+    "unix": "1722097800.000000",
+    "days": true
+  },
+  {
+    "text": "TLG KUSHI TV",
+    "value": "tlgkushitv.in",
+    "logo": "ushuaiatv",
+    "unix": "1722094200.000000",
+    "days": true
+  },
+  {
+    "text": "TLG SAKSHI TV",
+    "value": "tlgsakshitv.in",
+    "logo": "sakshitv",
+    "unix": "1722085200.000000",
+    "days": true
+  },
+  {
+    "text": "TLG SONY YAY",
+    "value": "tlgsonyyay.in",
+    "logo": "sonyyay",
+    "unix": "1722092040.000000",
+    "days": true
+  },
+  {
+    "text": "TLG STAR MAA",
+    "value": "tlgstarmaa.in",
+    "logo": "starmaa",
+    "unix": "1722092400.000000",
+    "days": true
+  },
+  {
+    "text": "TLG STAR MAA MOVIES",
+    "value": "tlgstarmaamovies.in",
+    "logo": "starmaamovies",
+    "unix": "1722094200.000000",
+    "days": true
+  },
+  {
+    "text": "TLG ZEE CINEMALU",
+    "value": "tlgzeecinemalu.in",
+    "logo": "zeecinemalu",
+    "unix": "1722094200.000000",
+    "days": true
+  },
+  {
+    "text": "TM D2H ADITHYA TV",
+    "value": "tmd2hadithyatv.in",
+    "logo": "adithyatv",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TM D2H CHUTTI TV",
+    "value": "tmd2hchuttitv.in",
+    "logo": "chuttitv",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TM D2H DISCOVERY",
+    "value": "tmd2hdiscovery.in",
+    "logo": "discovery",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TM D2H KALAIGNAR TV",
+    "value": "tmd2hkalaignartv.in",
+    "logo": "kalaignartv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TM D2H KTV",
+    "value": "tmd2hktv.in",
+    "logo": "ktv",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "TM D2H MEGA MUSIQ",
+    "value": "tmd2hmegamusiq.in",
+    "logo": "megamusiq",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TM D2H SEITHIGAL TV",
+    "value": "tmd2hseithigaltv.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TM D2H VENDHAR NEWS",
+    "value": "tmd2hvendharnews.in",
+    "logo": "vendhartv",
+    "unix": "1721926800.000000",
+    "days": false
+  },
+  {
+    "text": "TM D2H VIJAY SUPER",
+    "value": "tmd2hvijaysuper.in",
+    "logo": "vijaysuper",
+    "unix": "1721923200.000000",
+    "days": false
+  },
+  {
+    "text": "TM IBC TAMIL",
+    "value": "tmibctamil.in",
+    "logo": "ibc24",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TM ISAI ARUVI",
+    "value": "tmisaiaruvi.in",
+    "logo": "isaiaruvi",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TM TS JAYA TV",
+    "value": "tmtsjayatv.in",
+    "logo": "jayatv",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "TM TS MEGA TV",
+    "value": "tmtsmegatv.in",
+    "logo": "megatv",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TM TS NEWS J",
+    "value": "tmtsnewsj.in",
+    "logo": "newsnet",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TM TS SATHIYAM TV",
+    "value": "tmtssathiyamtv.in",
+    "logo": "sathiyamtv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TM TS SIRIPPOLI",
+    "value": "tmtssirippoli.in",
+    "logo": "sirippoli",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TM TS SVBC 2",
+    "value": "tmtssvbc2.in",
+    "logo": "svbc2",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TM TS Vijay Music",
+    "value": "tmtsvijaymusic.in",
+    "logo": null,
+    "unix": "1721923200.000000",
+    "days": false
+  },
+  {
+    "text": "Today",
+    "value": "today.in",
+    "logo": "today",
+    "unix": "1721989800.000000",
+    "days": false
+  },
+  {
+    "text": "Topper Tv",
+    "value": "toppertv.in",
+    "logo": "choppertown",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "TRAVEL XP",
+    "value": "travelxp.in",
+    "logo": "travelxp",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Travelxp Tamil",
+    "value": "travelxptamil.in",
+    "logo": "travelxptamil",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TS B4U BHOJPURI",
+    "value": "tsb4ubhojpuri.in",
+    "logo": "oscarmoviesbhojpuri",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "TS B4U MUSIC",
+    "value": "tsb4umusic.in",
+    "logo": "b4umusic",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TS BBC WORLD NEWS",
+    "value": "tsbbcworldnews.in",
+    "logo": "bbcworld",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TS BINDASS",
+    "value": "tsbindass.in",
+    "logo": "bindass",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "TS CHANNEL WIN",
+    "value": "tschannelwin.in",
+    "logo": "channelwin",
+    "unix": "1721931300.000000",
+    "days": false
+  },
+  {
+    "text": "TS DD SPORTS",
+    "value": "tsddsports.in",
+    "logo": "ddsports",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "TS DD UTTAR PRADESH",
+    "value": "tsdduttarpradesh.in",
+    "logo": "dduttarpradesh",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TS E24",
+    "value": "tse24.in",
+    "logo": "e24",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "TS FOOD FOOD",
+    "value": "tsfoodfood.in",
+    "logo": "foodfood",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TS GOOD TIMES",
+    "value": "tsgoodtimes.in",
+    "logo": "goodtimes",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TS ISHWAR TV DEVOTIONAL",
+    "value": "tsishwartvdevotional.in",
+    "logo": "ishwartv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TS MASTIII",
+    "value": "tsmastiii.in",
+    "logo": "mastiii",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "TS MN MOVIES",
+    "value": "tsmnmovies.in",
+    "logo": "hitsmovies",
+    "unix": "1721930100.000000",
+    "days": false
+  },
+  {
+    "text": "TS MTV BEATS",
+    "value": "tsmtvbeats.in",
+    "logo": "mtvbeats",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TS PEACE OF MIND",
+    "value": "tspeaceofmind.in",
+    "logo": "peaceofmind",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TS SATSANG TV",
+    "value": "tssatsangtv.in",
+    "logo": "satsangtv",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TS SHOWBOX MUSIC",
+    "value": "tsshowboxmusic.in",
+    "logo": "showbox",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TS SHUBH TV",
+    "value": "tsshubhtv.in",
+    "logo": "shubhtv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TS STAR BHARAT",
+    "value": "tsstarbharat.in",
+    "logo": "starbharat",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TS TATA SKY THEATRE",
+    "value": "tstataskytheatre.in",
+    "logo": "tataskytheatre",
+    "unix": "1721889000.000000",
+    "days": false
+  },
+  {
+    "text": "TS THE Q ENTERTAINMENT",
+    "value": "tstheqentertainment.in",
+    "logo": "eentertainmenthevc",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TS ZEE ANMOL",
+    "value": "tszeeanmol.in",
+    "logo": "zeeanmol",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TS ZEE CINEMALU",
+    "value": "tszeecinemalu.in",
+    "logo": "zeecinemalu",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "TS ZEE GANGA",
+    "value": "tszeeganga.in",
+    "logo": "bigganga",
+    "unix": "1721929320.000000",
+    "days": false
+  },
+  {
+    "text": "TS ZEE KERALAM",
+    "value": "tszeekeralam.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TS ZEE MARATHI",
+    "value": "tszeemarathi.in",
+    "logo": "zeemarathi",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TS ZEE TELUGU",
+    "value": "tszeetelugu.in",
+    "logo": "geminicomedy",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TV",
+    "value": "tv.in",
+    "logo": "tv",
+    "unix": "1721986080.000000",
+    "days": false
+  },
+  {
+    "text": "TV5",
+    "value": "tv5.in",
+    "logo": "tv5",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "TV5 Kannada",
+    "value": "tv5kannada.in",
+    "logo": "tv5kannada",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "TV5 Monde Asie",
+    "value": "tv5mondeasie.in",
+    "logo": "tv5mondeasie",
+    "unix": "1721966460.000000",
+    "days": false
+  },
+  {
+    "text": "TV9",
+    "value": "tv9.in",
+    "logo": "tv9",
+    "unix": "1721931300.000000",
+    "days": false
+  },
+  {
+    "text": "Tv9 Bangla",
+    "value": "tv9bangla.in",
+    "logo": "gtvbangla",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "TV9 Bharatvarsh",
+    "value": "tv9bharatvarsh.in",
+    "logo": "tv9bharatvarsh",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TV9 Gujarati",
+    "value": "tv9gujarati.in",
+    "logo": "tv9gujarati",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "TV9 KANNADA",
+    "value": "tv9kannada.in",
+    "logo": "tv9kannada",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Tv9 Marathi",
+    "value": "tv9marathi.in",
+    "logo": "tv9marathi",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "TV 4",
+    "value": "tv4.in",
+    "logo": "tv4",
+    "unix": "1721914200.000000",
+    "days": false
+  },
+  {
+    "text": "TV 5 Telugu News",
+    "value": "tv5telugunews.in",
+    "logo": "tv5news",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "TV 9 Telugu",
+    "value": "tv9telugu.in",
+    "logo": "logotv9telugu3",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "UDAYA",
+    "value": "udaya.in",
+    "logo": "udayatv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "UDAYA COMEDY",
+    "value": "udayacomedy.in",
+    "logo": "udayacomedy",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "UDAYA MOVIES",
+    "value": "udayamovies.in",
+    "logo": "udayamovies",
+    "unix": "1722087000.000000",
+    "days": true
+  },
+  {
+    "text": "UDAYA MUSIC",
+    "value": "udayamusic.in",
+    "logo": "udayamusic",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Udaya TV",
+    "value": "udayatv.in",
+    "logo": "udayatv",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Unique Tv",
+    "value": "uniquetv.in",
+    "logo": "cliquetv",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "UnityBlack by kweliTV",
+    "value": "unityblackbykwelitv.in",
+    "logo": null,
+    "unix": "1721912340.000000",
+    "days": false
+  },
+  {
+    "text": "UTV Action",
+    "value": "utvaction.in",
+    "logo": "utvaction",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "UTV Bindass",
+    "value": "utvbindass.in",
+    "logo": "bindass",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "UTV Movies",
+    "value": "utvmovies.in",
+    "logo": "utvmovies",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "V6 News",
+    "value": "v6news.in",
+    "logo": "v6news",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Vas Promos1",
+    "value": "vaspromos1.in",
+    "logo": null,
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "Vas Promos Duplicate",
+    "value": "vaspromosduplicate.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "VASANTH TV",
+    "value": "vasanthtv.in",
+    "logo": "vasanthtv",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "VEDIC TV",
+    "value": "vedictv.in",
+    "logo": "vedic",
+    "unix": "1722087000.000000",
+    "days": true
+  },
+  {
+    "text": "Vh1",
+    "value": "vh1.in",
+    "logo": "vh1",
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "Vijay",
+    "value": "vijay.in",
+    "logo": "starvijay",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Vijay Super",
+    "value": "vijaysuper.in",
+    "logo": "vijaysuper",
+    "unix": "1721923200.000000",
+    "days": false
+  },
+  {
+    "text": "Vijay TV",
+    "value": "vijaytv.in",
+    "logo": "vijaytv",
+    "unix": "1721970000.000000",
+    "days": false
+  },
+  {
+    "text": "Vip Telugu",
+    "value": "viptelugu.in",
+    "logo": "svbctelugu",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Vissa TV",
+    "value": "vissatv.in",
+    "logo": "vissatv",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Voice",
+    "value": "voice.in",
+    "logo": "voice",
+    "unix": "1721984400.000000",
+    "days": false
+  },
+  {
+    "text": "VT COLORS CINEPLEX",
+    "value": "vtcolorscineplex.in",
+    "logo": "colorscineplex",
+    "unix": "1722094200.000000",
+    "days": true
+  },
+  {
+    "text": "VT NICK",
+    "value": "vtnick.in",
+    "logo": "nick",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "VTV NEWS",
+    "value": "vtvnews.in",
+    "logo": "vtvnews",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "WE TV",
+    "value": "wetv.in",
+    "logo": "wetv",
+    "unix": "1722088800.000000",
+    "days": true
+  },
+  {
+    "text": "WION",
+    "value": "wion.in",
+    "logo": "wion",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Womens Active",
+    "value": "womensactive.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "WOW Cinema",
+    "value": "wowcinema.in",
+    "logo": "cinemaone",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "WOW CINEMA ONE",
+    "value": "wowcinemaone.in",
+    "logo": "cinemaone",
+    "unix": "1721921400.000000",
+    "days": false
+  },
+  {
+    "text": "Zee 24 Ghanta",
+    "value": "zee24ghanta.in",
+    "logo": "zee24ghanta",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "Zee 24 Kalak",
+    "value": "zee24kalak.in",
+    "logo": "zee24kalak",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Zee 24 Taas",
+    "value": "zee24taas.in",
+    "logo": "zee24taas",
+    "unix": "1722101400.000000",
+    "days": true
+  },
+  {
+    "text": "ZEE ACTION",
+    "value": "zeeaction.in",
+    "logo": "zeeaction",
+    "unix": "1722011220.000000",
+    "days": false
+  },
+  {
+    "text": "ZEE ANMOL",
+    "value": "zeeanmol.in",
+    "logo": "zeeanmolcinema",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Anmol Cinema",
+    "value": "zeeanmolcinema.in",
+    "logo": "zeeanmolcinema",
+    "unix": "1721939400.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Bangla",
+    "value": "zeebangla.in",
+    "logo": "zeebangla",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Bangla Cinema",
+    "value": "zeebanglacinema.in",
+    "logo": "zeebanglacinema",
+    "unix": "1722021300.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Bihar Jharkhand",
+    "value": "zeebiharjharkhand.in",
+    "logo": "zeebiharjharkhand",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Bollywood",
+    "value": "zeebollywood.in",
+    "logo": "zeebollywood",
+    "unix": "1722007800.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Business",
+    "value": "zeebusiness.in",
+    "logo": "zeebusiness",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ZEE CAFE",
+    "value": "zeecafe.in",
+    "logo": "zeecafe",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Zee Chitramandir",
+    "value": "zeechitramandir.in",
+    "logo": null,
+    "unix": "1722029400.000000",
+    "days": false
+  },
+  {
+    "text": "ZEE CINEMA",
+    "value": "zeecinema.in",
+    "logo": "zeecinema",
+    "unix": "1722094200.000000",
+    "days": true
+  },
+  {
+    "text": "Zee Cinemalu",
+    "value": "zeecinemalu.in",
+    "logo": "zeecinemalu",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "ZEE CLASSIC",
+    "value": "zeeclassic.in",
+    "logo": "zeeclassic",
+    "unix": "1722018720.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Ganga",
+    "value": "zeeganga.in",
+    "logo": "zeeganga",
+    "unix": "1722015960.000000",
+    "days": false
+  },
+  {
+    "text": "ZEE HINDUSTAN",
+    "value": "zeehindustan.in",
+    "logo": "zeehindustan",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "ZEE KANNADA",
+    "value": "zeekannada.in",
+    "logo": "zeekannada",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Zee Keralam",
+    "value": "zeekeralam.in",
+    "logo": null,
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Zee kope",
+    "value": "zeekope.in",
+    "logo": "zeekope",
+    "unix": "1722027600.000000",
+    "days": false
+  },
+  {
+    "text": "ZEE Madhya Pradesh Chattisgarh",
+    "value": "zeemadhyapradeshchattisgarh.in",
+    "logo": "zeemadhyapradeshchattisgarh",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Marathi",
+    "value": "zeemarathi.in",
+    "logo": "zeemarathi",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "ZEE MP CG",
+    "value": "zeempcg.in",
+    "logo": "zeempcg",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Zee News",
+    "value": "zeenews.in",
+    "logo": "zeenews",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "ZEE NEWS MP & CH",
+    "value": "zeenewsmp&ch.in",
+    "logo": "indianewsmpch",
+    "unix": "1722092400.000000",
+    "days": true
+  },
+  {
+    "text": "ZEE NEWS UP",
+    "value": "zeenewsup.in",
+    "logo": "zeeuttarpradeshuttarakhand",
+    "unix": "1722092220.000000",
+    "days": true
+  },
+  {
+    "text": "Zee Odisha",
+    "value": "zeeodisha.in",
+    "logo": null,
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Picchar",
+    "value": "zeepicchar.in",
+    "logo": null,
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Punjab Haryana Himachal",
+    "value": "zeepunjabharyanahimachal.in",
+    "logo": "zeepunjabharyanahimachal",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "ZEE Punjab Haryana Himachal Pradesh",
+    "value": "zeepunjabharyanahimachalpradesh.in",
+    "logo": "zeepunjabharyanahimachal",
+    "unix": "1721966400.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Punjabi",
+    "value": "zeepunjabi.in",
+    "logo": "zeepunjabi",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "ZEE SALAAM",
+    "value": "zeesalaam.in",
+    "logo": "zeesalaam",
+    "unix": "1721930400.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Sarthak",
+    "value": "zeesarthak.in",
+    "logo": "zeesarthak",
+    "unix": "1722016800.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Talkies",
+    "value": "zeetalkies.in",
+    "logo": "zeetalkies",
+    "unix": "1722020400.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Tamil",
+    "value": "zeetamil.in",
+    "logo": "zeetamil",
+    "unix": "1722105000.000000",
+    "days": true
+  },
+  {
+    "text": "Zee Telugu",
+    "value": "zeetelugu.in",
+    "logo": "zeetelugu",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Thirai",
+    "value": "zeethirai.in",
+    "logo": null,
+    "unix": "1722024000.000000",
+    "days": false
+  },
+  {
+    "text": "Zee TV",
+    "value": "zeetv.in",
+    "logo": "zeetv",
+    "unix": "1721975400.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Yuva",
+    "value": "zeeyuva.in",
+    "logo": "zeeyuva",
+    "unix": "1722018600.000000",
+    "days": false
+  },
+  {
+    "text": "Zee Zest",
+    "value": "zeezest.in",
+    "logo": "zeezest",
+    "unix": "1722015000.000000",
+    "days": false
+  },
+  {
+    "text": "Zindagi Active",
+    "value": "zindagiactive.in",
+    "logo": null,
+    "unix": "1721932200.000000",
+    "days": false
+  },
+  {
+    "text": "ZING",
+    "value": "zing.in",
+    "logo": "zing",
+    "unix": "1722083400.000000",
+    "days": true
+  },
+  {
+    "text": "Zing Home",
+    "value": "zinghome.in",
+    "logo": null,
+    "unix": "1721943000.000000",
+    "days": false
+  },
+  {
+    "text": "ZING ʳᵉᶜ",
+    "value": "zingʳᵉᶜ.in",
+    "logo": "zing",
+    "unix": "1721928600.000000",
+    "days": false
+  },
+  {
+    "text": "Zoom",
+    "value": "zoom.in",
+    "logo": "zoom",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "Zoom TV",
+    "value": "zoomtv.in",
+    "logo": "zoom",
+    "unix": "1721925000.000000",
+    "days": false
+  },
+  {
+    "text": "КANAL М Para",
+    "value": "кanalмpara.in",
+    "logo": null,
+    "unix": "1721916000.000000",
+    "days": false
+  },
+  {
+    "text": "ТВИН",
+    "value": "твин.in",
+    "logo": null,
+    "unix": "1722193800.000000",
+    "days": true
+  },
+  {
+    "text": "زي ألوان",
+    "value": "زيألوان.in",
+    "logo": null,
+    "unix": "1721955600.000000",
+    "days": false
+  },
+  {
+    "text": "中國 MTV",
+    "value": "中國mtv.in",
+    "logo": null,
+    "unix": "1722182400.000000",
+    "days": true
+  },
+  {
+    "text": "中國 Sony TV",
+    "value": "中國sonytv.in",
+    "logo": "sonytv",
+    "unix": "1722186000.000000",
+    "days": true
+  }
+]
