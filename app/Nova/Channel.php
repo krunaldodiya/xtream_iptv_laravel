@@ -64,7 +64,7 @@ class Channel extends Resource
             Text::make('Name'),
             Text::make('Epg'),
             Text::make('Number'),
-            Text::make('Url')->onlyOnDetail()->copyable(),
+            Text::make('Url')->copyable(),
 
             Text::make('Logo', 'logo')->onlyOnForms(),
 
