@@ -7,10 +7,13 @@ use App\Http\Controllers\PlanController;
 use App\Http\Controllers\ChannelController;
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Http;
 use Inertia\Inertia;
 
 Route::get('/test', function () {
-    return 'test';
+    $response = Http::get('http://opplex.tv:8080/live/hitesh/hitesh123/355565.ts');
+
+    return $response;
 });
 Route::get('/', function () {
     return Inertia::render('Welcome');

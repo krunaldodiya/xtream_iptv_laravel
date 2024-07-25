@@ -108,7 +108,7 @@ class ChannelRepository implements ChannelRepositoryInterface
             ]);
     }
 
-    public function generate_m3u_playlist($playlist_id) {        
+    public function generate_m3u_playlist($playlist_id) {
         $playlist_channels = PlaylistChannel::query()
             ->with(['playlist', 'channel.xtream_account', 'category'])
             ->where(['playlist_id' => $playlist_id])
@@ -137,9 +137,9 @@ class ChannelRepository implements ChannelRepositoryInterface
             
             $name = $channel['name'];
 
-            $category = $channel['category']['name'];
+            $url = $channel['url'];
 
-            $url = "{$xtream_account->server}/live/{$xtream_account->username}/{$xtream_account->password}/{$streamId}.ts";
+            $category = $channel['category']['name'];
 
             $playlist_template .= (
                 "#EXTINF:-1 tvg-id=\"{$epg}\" tvg-chno=\"{$number}\" tvg-name=\"{$name}\" "

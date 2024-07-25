@@ -12,6 +12,7 @@ use Illuminate\Support\Facades\Storage;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Image;
+use Laravel\Nova\Fields\URL;
 use Laravel\Nova\Fields\BelongsTo;
 
 use Laravel\Nova\Http\Requests\NovaRequest;
@@ -56,13 +57,14 @@ class Channel extends Resource
 
             BelongsTo::make('Xtream Account', 'xtream_account'),
             BelongsTo::make("Category", 'category'),
-            BelongsTo::make('Language')->sortable(),
-            BelongsTo::make('Country')->sortable(),
+            BelongsTo::make('Language', 'language')->sortable(),
+            BelongsTo::make('Country', 'country')->sortable(),
 
             Text::make('Stream ID'),
             Text::make('Name'),
             Text::make('Epg'),
             Text::make('Number'),
+            Text::make('Url')->onlyOnDetail()->copyable(),
 
             Text::make('Logo', 'logo')->onlyOnForms(),
 
