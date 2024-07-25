@@ -11,9 +11,9 @@ use Illuminate\Support\Facades\Http;
 use Inertia\Inertia;
 
 Route::get('/test', function () {
-    $response = Http::get('http://opplex.tv:8080/live/hitesh/hitesh123/355565.ts');
+    $response = Http::get('http://opplex.tv:8080/live/hitesh/hitesh123/355655.ts');
 
-    return $response;
+    dd($response);
 });
 Route::get('/', function () {
     return Inertia::render('Welcome');

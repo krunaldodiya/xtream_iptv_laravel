@@ -60,6 +60,8 @@ return new class extends Migration
             $table->text("number")->nullable();
 
             $table->string('epg')->nullable();
+
+            $table->text('url')->nullable();
             
             $table->timestamps();
         });

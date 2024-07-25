@@ -15,8 +15,6 @@ class Channel extends Model
 
     public $timestamps = true;
 
-    protected $appends = ['url'];
-
     public function xtream_account() {
         return $this->belongsTo(XtreamAccount::class);
     }
@@ -31,20 +29,5 @@ class Channel extends Model
 
     public function country() {
         return $this->belongsTo(Country::class);
-    }
-
-    public function getUrlAttribute()
-    {
-        $xtream_account = $this->xtream_account;
-
-        $server = $xtream_account->server;
-
-        $username = $xtream_account->username;
-
-        $password = $xtream_account->password;
-
-        $stream_id = $this->stream_id;
-
-        return "{$server}/live/{$username}/{$password}/{$stream_id}.ts";
     }
 }

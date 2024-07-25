@@ -5,6 +5,8 @@ namespace App\Nova;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\HasMany;
+
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 use App\Nova\Actions\BackupXtreamAccount;
@@ -48,6 +50,8 @@ class XtreamAccount extends Resource
             Text::make('Server'),
             Text::make('Username'),
             Text::make('Password'),
+
+            HasMany::make("Channels"),
         ];
     }
 
