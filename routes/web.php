@@ -8,9 +8,10 @@ use App\Http\Controllers\ChannelController;
 
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Models\Channel;
 
 Route::get('/test', function () {
-    return "test";
+    Channel::query()->where('xtream_account_id', 4)->delete();
 });
 Route::get('/', function () {
     return Inertia::render('Welcome');
