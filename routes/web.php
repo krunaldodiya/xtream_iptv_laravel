@@ -12,7 +12,7 @@ use Inertia\Inertia;
 use App\Repositories\XtreamRepositoryInterface;
 
 Route::get('/test', function (XtreamRepositoryInterface $xtreamRepositoryInterface) {
-    $channels = $xtreamRepositoryInterface->sync_all_channels();
+    $channels = $xtreamRepositoryInterface->sync_channels();
     return $channels;
 });
 

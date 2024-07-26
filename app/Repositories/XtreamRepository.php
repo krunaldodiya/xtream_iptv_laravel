@@ -5,6 +5,7 @@ namespace App\Repositories;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Str;
 
 use App\Models\Epg;
 use App\Models\Category;
@@ -34,9 +35,9 @@ class XtreamRepository implements XtreamRepositoryInterface
         ]);
     }
 
-    public function sync_all_streams(XtreamAccount $xtream_account)
+    public function sync_streams(XtreamAccount $xtream_account)
     {
-        $cacheKey = "get_live_streams:{$xtream_account->server}";
+        $cacheKey = "sync_streams:{$xtream_account->server}";
         $cacheDuration = 60 * 60;
 
         $streams = Cache::remember($cacheKey, $cacheDuration, function () use ($xtream_account) {
@@ -72,9 +73,9 @@ class XtreamRepository implements XtreamRepositoryInterface
         }
     }
 
-    public function sync_epg()
+    public function sync_epgs()
     {
-        $cacheKey = "get_epgs";
+        $cacheKey = "sync_epgs";
         $cacheDuration = 60 * 60;
 
         $epgs = Cache::remember($cacheKey, $cacheDuration, function () {
@@ -104,6 +105,65 @@ class XtreamRepository implements XtreamRepositoryInterface
 
             return $epgs;
         });
+
+        if (!empty($epgs)) {
+            $existing_epgs = Epg::all()->keyBy(['value']);
+
+            $new_epgs = collect($epgs)
+                ->reject(function ($channel) use ($existing_epgs) {
+                    return $existing_epgs->has($channel['value']);
+                });
+
+            foreach ($new_epgs as $new_epg) {
+                Epg::create([
+                    'name' => $new_epg['name'],
+                    'value' => $new_epg['value'],
+                    'logo' => $new_epg['logo'],
+                ]);
+            }
+        }
+
+        return true;
+    }
+
+    public function sync_channels()
+    {
+        $cacheKey = "sync_channels";
+        $cacheDuration = 60 * 60;
+
+        $channels = Cache::remember($cacheKey, $cacheDuration, function () {
+            $response = Http::get($this->channel_api_url);
+
+            $channels = [];
+
+            if ($response->ok()) {
+                $array = $response->json();
+
+                foreach ($array['data']['packages'] as $package) {
+                    foreach ($package['items'] as $item) {
+                        foreach ($item['language'] as $language) {
+                            $channel_name = $item['pack_friendly_name'];
+
+                            $slug = Str::of($channel_name)->slug('-');
+
+                            $logo = "https://www.tataplay.com/s3-api/v1/assets/channels/{$slug}.gif";
+
+                            $channels[] = [
+                                'category' => $item['category'],
+                                'language' => $language,
+                                'pack_friendly_name' => $channel_name,
+                                'channel_number' => $item['bouquet_channels'][0]['EPG_NUMBER'],
+                                'logo' => $logo,
+                            ];
+                        }
+                    }
+                }
+            }
+
+            return $channels;
+        });
+
+        dd($channels);
 
         if (!empty($epgs)) {
             $existing_epgs = Epg::all()->keyBy(['value']);

@@ -28,7 +28,7 @@ class SyncChannel extends Action
     {
         $xtreamRepositoryInterface = resolve(XtreamRepositoryInterface::class);
 
-        $xtreamRepositoryInterface->sync_all_channels();
+        $xtreamRepositoryInterface->sync_channels();
     }
 
     /**

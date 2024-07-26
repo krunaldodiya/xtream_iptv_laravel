@@ -31,7 +31,7 @@ class SyncStream extends Action
 
         $xtreamRepositoryInterface = resolve(XtreamRepositoryInterface::class);
 
-        $xtreamRepositoryInterface->sync_all_streams($xtream_account);
+        $xtreamRepositoryInterface->sync_streams($xtream_account);
     }
 
     /**

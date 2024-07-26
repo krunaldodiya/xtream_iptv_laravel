@@ -27,7 +27,7 @@ class SyncEpg extends Action
     {
         $xtreamRepositoryInterface = resolve(XtreamRepositoryInterface::class);
 
-        $xtreamRepositoryInterface->sync_epg();
+        $xtreamRepositoryInterface->sync_epgs();
     }
 
     /**
