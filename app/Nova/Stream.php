@@ -2,10 +2,6 @@
 
 namespace App\Nova;
 
-use App\Nova\Actions\BackupChannel;
-use App\Nova\Actions\SyncChannel;
-use App\Nova\Actions\AssignEpg;
-
 use Illuminate\Http\Request;
 
 use Laravel\Nova\Fields\ID;
@@ -16,14 +12,14 @@ use Laravel\Nova\Fields\BelongsTo;
 
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-class Channel extends Resource
+class Stream extends Resource
 {
     /**
      * The model the resource corresponds to.
      *
-     * @var class-string<\App\Models\Channel>
+     * @var class-string<\App\Models\Stream>
      */
-    public static $model = \App\Models\Channel::class;
+    public static $model = \App\Models\Stream::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
@@ -54,12 +50,11 @@ class Channel extends Resource
         return [
             ID::make()->sortable(),
 
-            BelongsTo::make('Xtream Account', 'xtream_account'),
+            BelongsTo::make('Stream', 'stream'),
             BelongsTo::make("Category", 'category'),
             BelongsTo::make('Language', 'language')->sortable(),
             BelongsTo::make('Country', 'country')->sortable(),
 
-            Text::make('Stream ID'),
             Text::make('Name'),
             Text::make('Epg'),
             Text::make('Number'),
@@ -116,10 +111,6 @@ class Channel extends Resource
      */
     public function actions(NovaRequest $request)
     {
-        return [
-            BackupChannel::make()->standalone(),
-            SyncChannel::make()->standalone(),
-            AssignEpg::make()->standalone()->onlyOnDetail(),
-        ];
+        return [];
     }
 }

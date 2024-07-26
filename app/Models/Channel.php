@@ -15,8 +15,8 @@ class Channel extends Model
 
     public $timestamps = true;
 
-    public function xtream_account() {
-        return $this->belongsTo(XtreamAccount::class);
+    public function stream() {
+        return $this->belongsTo(Stream::class);
     }
 
     public function category() {
