@@ -63,6 +63,64 @@ class XtreamRepository implements XtreamRepositoryInterface
         }
     }
 
+    public function sync_all_channels()
+    {
+        $cacheKey = "get_channels";
+        $cacheDuration = 60 * 60;
+
+        $channels = Cache::remember($cacheKey, $cacheDuration, function () {
+            $response = Http::get('https://www.tsepg.cf/epg.xml.gz');
+
+            $xml_channels = [];
+
+            if ($response->ok()) {
+                $compressedData = $response->body();
+
+                $decompressedData = gzdecode($compressedData);
+
+                $xml = simplexml_load_string($decompressedData);
+
+                $json = json_encode($xml);
+
+                $array = json_decode($json, true);
+
+                foreach ($array['channels']['channel'] as $channel) {
+                    $xml_channels[] = [
+                        'id' => $channel['@attributes']['id'],
+                        'title' => $channel['display-name'],
+                        'image' => $channel['icon']['@attributes']['src'],
+                    ];
+                }
+            }
+
+            return $xml_channels;
+        });
+
+        if (!empty($channels)) {
+            $existing_channels = Channel::all()->keyBy(['number']);
+
+            $new_channels = collect($channels)
+                ->reject(function ($channel) use ($existing_channels) {
+                    return $existing_channels->has($channel['id']);
+                });
+
+            foreach ($new_channels as $new_channel) {
+                Channel::create([
+                    'number' => $new_channel['id'],
+                    'epg' => $new_channel['id'],
+                    'name' => $new_channel['title'],
+                    'logo' => $new_channel['image'],
+                    'stream_id' => 1,
+                    'category_id' => 1,
+                    'language_id' => 1,
+                    'country_id' => 1,
+                ]);
+            }
+        }
+
+        return true;
+    }
+
     public function generate_m3u_playlist($playlist_id) {
         $playlist_channels = PlaylistChannel::query()
             ->with([
@@ -109,45 +167,5 @@ class XtreamRepository implements XtreamRepositoryInterface
         $file = "{$playlist_id}.m3u";
 
         Storage::disk('playlists')->put($file, $playlist_template);
-    }
-
-
-    public function sync_all_channels()
-    {
-        $cacheKey = "get_channels";
-        $cacheDuration = 60 * 60;
-
-        $channels = Cache::remember($cacheKey, $cacheDuration, function () {
-            $response = $this->client->get("https://ts-api.videoready.tv/content-detail/pub/api/v1/channels?limit=2000");
-
-            if ($response->successful()) {
-                return $response->json();
-            }
-
-            return [];
-        });
-
-        if (!empty($channels)) {
-            $existing_channels = Channel::all()->keyBy(['number']);
-
-            $new_channels = collect($channels['data']['list'])
-                ->reject(function ($channel) use ($existing_channels) {
-                    return $existing_channels->has($channel['id']);
-                });
-
-            foreach ($new_channels as $new_channel) {
-                Channel::create([
-                    'number' => $new_channel['id'],
-                    'name' => $new_channel['title'],
-                    'logo' => $new_channel['image'],
-                    'stream_id' => 1,
-                    'category_id' => 1,
-                    'language_id' => 1,
-                    'country_id' => 1,
-                ]);
-            }
-        }
-
-        return true;
     }
 }
