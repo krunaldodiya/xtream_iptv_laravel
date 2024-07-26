@@ -9,5 +9,5 @@ https://xteam-itpv.vercel.app/stream/232689
 https://xteam-itpv.vercel.app/stream/112993
 #EXTINF:-1 tvg-id="ts123" tvg-chno="123" tvg-name="Zee Cinema" tvg-country="India" tvg-language="Hindi" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11028-j8yjr9bs-v1/imageContent-11028-j8yjr9bs-m1.jpg" group-title="Hindi Movies",Zee Cinema
 https://xteam-itpv.vercel.app/stream/206271
-#EXTINF:-1 tvg-id="1000009253" tvg-chno="503" tvg-name="Zee Cinema HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11913-j9l5clzs-v1/imageContent-11913-j9l5clzs-m1.jpg" group-title="Hindi Movies",Zee Cinema HD
-https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="ts503" tvg-chno="503" tvg-name="Zee Cinema HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11913-j9l5clzs-v1/imageContent-11913-j9l5clzs-m1.jpg" group-title="Hindi Movies",Zee Cinema HD
+https://xteam-itpv.vercel.app/stream/206307
