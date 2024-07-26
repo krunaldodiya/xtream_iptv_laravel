@@ -13,50 +13,57 @@ return new class extends Migration
     {
         Schema::create('channels', function (Blueprint $table) {
             $table->id();
-        
-            $table->unsignedBigInteger('language_id');
 
-            $table
-                ->foreign('language_id')
-                ->references('id')
-                ->on('languages')
-                ->onUpdate('cascade')
-                ->onDelete('cascade');
-
-            $table->unsignedBigInteger('country_id');
+            $table->unsignedBigInteger('country_id')->nullable();
 
             $table
                 ->foreign('country_id')
                 ->references('id')
                 ->on('countries')
                 ->onUpdate('cascade')
-                ->onDelete('cascade');
+                ->onDelete('SET NULL');
+        
+            $table->unsignedBigInteger('language_id')->nullable();
 
-            $table->unsignedBigInteger('category_id');
+            $table
+                ->foreign('language_id')
+                ->references('id')
+                ->on('languages')
+                ->onUpdate('cascade')
+                ->onDelete('SET NULL');
+
+            $table->unsignedBigInteger('category_id')->nullable();
 
             $table
                 ->foreign('category_id')
                 ->references('id')
                 ->on('categories')
                 ->onUpdate('cascade')
-                ->onDelete('cascade');
+                ->onDelete('SET NULL');
 
-            $table->unsignedBigInteger('stream_id');
+            $table->unsignedBigInteger('stream_id')->nullable();
 
             $table
                 ->foreign('stream_id')
                 ->references('id')
                 ->on('streams')
                 ->onUpdate('cascade')
-                ->onDelete('cascade');
+                ->onDelete('SET NULL');
+
+            $table->unsignedBigInteger('epg_id')->nullable();
+
+            $table
+                ->foreign('epg_id')
+                ->references('id')
+                ->on('epgs')
+                ->onUpdate('cascade')
+                ->onDelete('SET NULL');
 
             $table->string("name");
 
             $table->text("logo")->nullable();
 
             $table->text("number")->nullable();
-
-            $table->text("epg")->nullable();
             
             $table->timestamps();
         });

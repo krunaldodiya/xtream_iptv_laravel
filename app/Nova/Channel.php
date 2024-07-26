@@ -37,7 +37,7 @@ class Channel extends Resource
      * @var array
      */
     public static $search = [
-        'id', 'name', 'number', 'epg'
+        'id', 'name', 'number'
     ];
 
     /**
@@ -57,10 +57,10 @@ class Channel extends Resource
             BelongsTo::make("Category", 'category')->sortable(),
             BelongsTo::make('Language', 'language')->sortable(),
             BelongsTo::make('Country', 'country')->sortable(),
+            BelongsTo::make('Epg', 'epg')->searchable()->sortable(),
 
             Text::make('Name')->sortable(),
             Text::make('Number')->sortable(),
-            Text::make('Epg')->sortable(),
 
             Text::make('Logo', 'logo')->onlyOnForms(),
 

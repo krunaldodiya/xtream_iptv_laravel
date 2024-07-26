@@ -1,3 +1,5 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#EXTINF:-1 tvg-id="63" tvg-chno="63" tvg-name="Zee TV HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11073-j95e7nyo-v1/imageContent-11073-j95e7nyo-m1.png" group-title="Hindi Entertainment",Zee TV HD
+#EXTINF:-1 tvg-id="557" tvg-chno="143" tvg-name="Zee TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-tv.gif" group-title="Hindi Entertainment",Zee TV
+https://xteam-itpv.vercel.app/stream/221250
+#EXTINF:-1 tvg-id="63" tvg-chno="141" tvg-name="Zee TV HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-tv-hd.gif" group-title="Hindi Entertainment",Zee TV HD
 https://xteam-itpv.vercel.app/stream/66162

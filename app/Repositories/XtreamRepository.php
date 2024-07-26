@@ -202,7 +202,8 @@ class XtreamRepository implements XtreamRepositoryInterface
                 'channel.stream.xtream_account',
                 'channel.category',
                 'channel.language',
-                'channel.country'
+                'channel.country',
+                'channel.epg'
             ])
             ->where(['playlist_id' => $playlist_id])
             ->get();
@@ -218,7 +219,7 @@ class XtreamRepository implements XtreamRepositoryInterface
 
             $number = $channel['number'];
 
-            $epg = $channel['epg'];
+            $epg = $channel['epg']['value'];
 
             $language = $channel['language']['name'];
 
