@@ -159,7 +159,7 @@ class XtreamRepository implements XtreamRepositoryInterface
         $cacheKey = "get_channels";
         $cacheDuration = 60 * 60;
 
-        $channels = Cache::remember($cacheKey, $cacheDuration, function () use ($xtream_account) {
+        $channels = Cache::remember($cacheKey, $cacheDuration, function () {
             $response = $this->client->get("https://ts-api.videoready.tv/content-detail/pub/api/v1/channels?limit=2000");
 
             if ($response->successful()) {
@@ -169,26 +169,27 @@ class XtreamRepository implements XtreamRepositoryInterface
             return [];
         });
 
-        dd($channels);
-
         if (!empty($channels)) {
-            $existing_channels = Channel::all()->keyBy(['stream_id', 'category_id']);
+            $existing_channels = Channel::all()->keyBy(['number']);
 
-            $newChannels = collect($channels)->reject(function ($channel) use ($existing_channels) {
-                return $existing_channels->has($channel['stream_id']);
-            });
+            $new_channels = collect($channels['data']['list'])
+                ->reject(function ($channel) use ($existing_channels) {
+                    return $existing_channels->has($channel['id']);
+                });
 
-            foreach ($newChannels as $channel) {
+            foreach ($new_channels as $new_channel) {
                 Channel::create([
-                    'xtream_account_id' => $xtream_account['id'],
-                    'stream_id' => $channel['stream_id'],
-                    'category_id' => $channel['category_id'],
-                    'name' => $channel['name'],
+                    'number' => $new_channel['id'],
+                    'name' => $new_channel['title'],
+                    'logo' => $new_channel['image'],
+                    'stream_id' => 1,
+                    'category_id' => 1,
                     'language_id' => 1,
                     'country_id' => 1,
-                    'logo' => $channel['stream_icon'],
                 ]);
             }
         }
+
+        return true;
     }
 }
