@@ -16,8 +16,6 @@ return new class extends Migration
             $table->string('name');
             $table->string('value');
             $table->string('logo')->nullable();
-            $table->string('unix');
-            $table->boolean('days');
             $table->timestamps();
         });
     }

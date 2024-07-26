@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Storage;
 
+use App\Models\Epg;
 use App\Models\Category;
 use App\Models\Channel;
 use App\Models\Stream;
@@ -14,7 +15,7 @@ use App\Models\PlaylistChannel;
 
 class XtreamRepository implements XtreamRepositoryInterface
 {
-    public $channel_epg_url;
+    public $epg_api_url;
 
     public $channel_api_url;
 
@@ -22,7 +23,7 @@ class XtreamRepository implements XtreamRepositoryInterface
 
     public function __construct()
     {
-        $this->channel_epg_url = "https://www.tsepg.cf/epg.xml.gz";
+        $this->epg_api_url = "https://www.tsepg.cf/epg.xml.gz";
 
         $this->channel_api_url = "https://www.tataplay.com/dth/read/core-api/packages/mp/channels/eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo";
 
@@ -71,15 +72,15 @@ class XtreamRepository implements XtreamRepositoryInterface
         }
     }
 
-    public function sync_all_channels()
+    public function sync_epg()
     {
-        $cacheKey = "get_channels";
+        $cacheKey = "get_epgs";
         $cacheDuration = 60 * 60;
 
-        $channels = Cache::remember($cacheKey, $cacheDuration, function () {
-            $response = Http::get($this->channel_epg_url);
+        $epgs = Cache::remember($cacheKey, $cacheDuration, function () {
+            $response = Http::get($this->epg_api_url);
 
-            $xml_channels = [];
+            $epgs = [];
 
             if ($response->ok()) {
                 $compressedData = $response->body();
@@ -93,35 +94,30 @@ class XtreamRepository implements XtreamRepositoryInterface
                 $array = json_decode($json, true);
 
                 foreach ($array['channels']['channel'] as $channel) {
-                    $xml_channels[] = [
-                        'id' => $channel['@attributes']['id'],
-                        'title' => $channel['display-name'],
-                        'image' => $channel['icon']['@attributes']['src'],
+                    $epgs[] = [
+                        'name' => $channel['display-name'],
+                        'value' => $channel['@attributes']['id'],
+                        'logo' => $channel['icon']['@attributes']['src'],
                     ];
                 }
             }
 
-            return $xml_channels;
+            return $epgs;
         });
 
-        if (!empty($channels)) {
-            $existing_channels = Channel::all()->keyBy(['number']);
+        if (!empty($epgs)) {
+            $existing_epgs = Epg::all()->keyBy(['value']);
 
-            $new_channels = collect($channels)
-                ->reject(function ($channel) use ($existing_channels) {
-                    return $existing_channels->has($channel['id']);
+            $new_epgs = collect($epgs)
+                ->reject(function ($channel) use ($existing_epgs) {
+                    return $existing_epgs->has($channel['value']);
                 });
 
-            foreach ($new_channels as $new_channel) {
-                Channel::create([
-                    'number' => $new_channel['id'],
-                    'epg' => $new_channel['id'],
-                    'name' => $new_channel['title'],
-                    'logo' => $new_channel['image'],
-                    'stream_id' => 1,
-                    'category_id' => 1,
-                    'language_id' => 1,
-                    'country_id' => 1,
+            foreach ($new_epgs as $new_epg) {
+                Epg::create([
+                    'name' => $new_epg['name'],
+                    'value' => $new_epg['value'],
+                    'logo' => $new_epg['logo'],
                 ]);
             }
         }
@@ -141,7 +137,7 @@ class XtreamRepository implements XtreamRepositoryInterface
             ->where(['playlist_id' => $playlist_id])
             ->get();
 
-        $playlist_template = "#EXTM3U x-tvg-url=\"{$this->channel_epg_url}\"\n";
+        $playlist_template = "#EXTM3U x-tvg-url=\"{$this->epg_api_url}\"\n";
 
         foreach ($playlist_channels as $playlist_channel) {
             $channel = $playlist_channel['channel'];
