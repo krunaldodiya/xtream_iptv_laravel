@@ -56,6 +56,7 @@ class Stream extends Resource
             BelongsTo::make('Xtream Account', 'xtream_account'),
 
             Text::make('Stream ID'),
+            Text::make('Category ID'),
             Text::make('Name'),
             Text::make('Url')->copyable(),
 
