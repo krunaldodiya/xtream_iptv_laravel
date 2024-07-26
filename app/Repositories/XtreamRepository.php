@@ -75,8 +75,6 @@ class XtreamRepository implements XtreamRepositoryInterface
             ])
             ->where(['playlist_id' => $playlist_id])
             ->get();
-        
-        return $playlist_channels;
 
         $epgUrl = "http://rstream.me/epg.xml.gz";
 

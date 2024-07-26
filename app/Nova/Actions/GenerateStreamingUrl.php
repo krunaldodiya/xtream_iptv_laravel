@@ -2,7 +2,7 @@
 
 namespace App\Nova\Actions;
 
-use App\Models\Channel;
+use App\Models\Stream;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
@@ -24,12 +24,12 @@ class GenerateStreamingUrl extends Action
      */
     public function handle(ActionFields $fields, Collection $models)
     {
-        $channels = Channel::query()->where('xtream_account_id', request()->get('resources'))->get();
+        $streams = Stream::query()->where('xtream_account_id', request()->get('resources'))->get();
 
-        foreach ($channels as $channel) {
-            $stream_id = $channel->stream_id;
-            $channel->url = "https://xteam-itpv.vercel.app/stream/{$stream_id}";
-            $channel->save();
+        foreach ($streams as $stream) {
+            $stream_id = $stream->stream_id;
+            $stream->url = "https://xteam-itpv.vercel.app/stream/{$stream_id}";
+            $stream->save();
         }
     }
 
