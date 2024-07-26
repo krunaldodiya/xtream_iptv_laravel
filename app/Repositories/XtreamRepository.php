@@ -14,13 +14,17 @@ use App\Models\PlaylistChannel;
 
 class XtreamRepository implements XtreamRepositoryInterface
 {
-    public $channel_xml_url;
+    public $channel_epg_url;
+
+    public $channel_api_url;
 
     public $client;
 
     public function __construct()
     {
-        $this->channel_xml_url = "https://www.tsepg.cf/epg.xml.gz";
+        $this->channel_epg_url = "https://www.tsepg.cf/epg.xml.gz";
+
+        $this->channel_api_url = "https://www.tataplay.com/dth/read/core-api/packages/mp/channels/eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo";
 
         $this->client = Http::withHeaders([
             'Accept' => 'application/json', 
@@ -73,7 +77,7 @@ class XtreamRepository implements XtreamRepositoryInterface
         $cacheDuration = 60 * 60;
 
         $channels = Cache::remember($cacheKey, $cacheDuration, function () {
-            $response = Http::get($this->channel_xml_url);
+            $response = Http::get($this->channel_epg_url);
 
             $xml_channels = [];
 
@@ -137,7 +141,7 @@ class XtreamRepository implements XtreamRepositoryInterface
             ->where(['playlist_id' => $playlist_id])
             ->get();
 
-        $playlist_template = "#EXTM3U x-tvg-url=\"{$this->channel_xml_url}\"\n";
+        $playlist_template = "#EXTM3U x-tvg-url=\"{$this->channel_epg_url}\"\n";
 
         foreach ($playlist_channels as $playlist_channel) {
             $channel = $playlist_channel['channel'];
