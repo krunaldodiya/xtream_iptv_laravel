@@ -7,7 +7,6 @@ use App\Nova\Actions\BackupEpg;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
-use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class Epg extends Resource
@@ -47,9 +46,6 @@ class Epg extends Resource
             ID::make()->sortable(),
             Text::make('name')->sortable(),
             Text::make('value')->sortable(),
-            Text::make('logo')->sortable(),
-            Text::make('unix')->sortable(),
-            Boolean::make('days')->sortable(),
         ];
     }
 
