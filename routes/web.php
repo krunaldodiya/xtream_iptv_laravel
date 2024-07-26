@@ -9,11 +9,8 @@ use App\Http\Controllers\ChannelController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-use App\Repositories\XtreamRepositoryInterface;
-
-Route::get('/test', function (XtreamRepositoryInterface $xtreamRepositoryInterface) {
-    $channels = $xtreamRepositoryInterface->sync_channels();
-    return $channels;
+Route::get('/test', function () {
+    return 'test';
 });
 
 Route::get('/', function () {

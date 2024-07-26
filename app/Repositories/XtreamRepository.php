@@ -9,6 +9,7 @@ use Illuminate\Support\Str;
 
 use App\Models\Epg;
 use App\Models\Category;
+use App\Models\Language;
 use App\Models\Channel;
 use App\Models\Stream;
 use App\Models\XtreamAccount;
@@ -139,6 +140,10 @@ class XtreamRepository implements XtreamRepositoryInterface
             if ($response->ok()) {
                 $array = $response->json();
 
+                $categories = Category::pluck('id', 'name');
+
+                $languages = Language::pluck('id', 'name');
+
                 foreach ($array['data']['packages'] as $package) {
                     foreach ($package['items'] as $item) {
                         foreach ($item['language'] as $language) {
@@ -149,11 +154,13 @@ class XtreamRepository implements XtreamRepositoryInterface
                             $logo = "https://www.tataplay.com/s3-api/v1/assets/channels/{$slug}.gif";
 
                             $channels[] = [
-                                'category' => $item['category'],
-                                'language' => $language,
-                                'pack_friendly_name' => $channel_name,
-                                'channel_number' => $item['bouquet_channels'][0]['EPG_NUMBER'],
+                                'name' => $channel_name,
+                                'number' => $item['bouquet_channels'][0]['EPG_NUMBER'],
                                 'logo' => $logo,
+                                'stream_id' => 1,
+                                'country_id' => 2,
+                                'language_id' => $languages[$language],
+                                'category_id' => $categories[$item['category']],
                             ];
                         }
                     }
@@ -163,21 +170,24 @@ class XtreamRepository implements XtreamRepositoryInterface
             return $channels;
         });
 
-        dd($channels);
 
-        if (!empty($epgs)) {
-            $existing_epgs = Epg::all()->keyBy(['value']);
+        if (!empty($channels)) {
+            $existing_channels = Channel::all()->keyBy(['number']);
 
-            $new_epgs = collect($epgs)
-                ->reject(function ($channel) use ($existing_epgs) {
-                    return $existing_epgs->has($channel['value']);
+            $new_channels = collect($channels)
+                ->reject(function ($channel) use ($existing_channels) {
+                    return $existing_channels->has($channel['number']);
                 });
 
-            foreach ($new_epgs as $new_epg) {
-                Epg::create([
-                    'name' => $new_epg['name'],
-                    'value' => $new_epg['value'],
-                    'logo' => $new_epg['logo'],
+            foreach ($new_channels as $new_channel) {
+                Channel::create([
+                    'name' => $new_channel['name'],
+                    'number' => $new_channel['number'],
+                    'logo' => $new_channel['logo'],
+                    'stream_id' => $new_channel['stream_id'],
+                    'country_id' => $new_channel['country_id'],
+                    'language_id' => $new_channel['language_id'],
+                    'category_id' => $new_channel['category_id'],
                 ]);
             }
         }
