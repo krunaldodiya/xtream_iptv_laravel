@@ -50,14 +50,10 @@ class Stream extends Resource
         return [
             ID::make()->sortable(),
 
-            BelongsTo::make('Stream', 'stream'),
-            BelongsTo::make("Category", 'category'),
-            BelongsTo::make('Language', 'language')->sortable(),
-            BelongsTo::make('Country', 'country')->sortable(),
+            BelongsTo::make('Xtream Account', 'xtream_account'),
 
+            Text::make('Stream ID'),
             Text::make('Name'),
-            Text::make('Epg'),
-            Text::make('Number'),
             Text::make('Url')->copyable(),
 
             Text::make('Logo', 'logo')->onlyOnForms(),
