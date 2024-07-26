@@ -50,13 +50,20 @@ return new class extends Migration
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
 
+            $table->unsignedBigInteger('epg_id');
+
+            $table
+                ->foreign('epg_id')
+                ->references('id')
+                ->on('epgs')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
+
             $table->string("name");
 
             $table->text("logo")->nullable();
 
             $table->text("number")->nullable();
-
-            $table->string('epg')->nullable();
             
             $table->timestamps();
         });

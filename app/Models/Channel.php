@@ -19,6 +19,10 @@ class Channel extends Model
         return $this->belongsTo(Stream::class);
     }
 
+    public function epg() {
+        return $this->belongsTo(Epg::class);
+    }
+
     public function category() {
         return $this->belongsTo(Category::class);
     }

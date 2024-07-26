@@ -31,7 +31,7 @@ class Epg extends Resource
      * @var array
      */
     public static $search = [
-        'id', 'text'
+        'id', 'name'
     ];
 
     /**

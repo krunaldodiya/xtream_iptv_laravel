@@ -54,13 +54,13 @@ class Channel extends Resource
         return [
             ID::make()->sortable(),
 
-            BelongsTo::make('Stream', 'stream'),
+            BelongsTo::make('Stream', 'stream')->searchable(),
+            BelongsTo::make('Epg', 'epg')->searchable(),
             BelongsTo::make("Category", 'category'),
             BelongsTo::make('Language', 'language')->sortable(),
             BelongsTo::make('Country', 'country')->sortable(),
 
             Text::make('Name'),
-            Text::make('Epg'),
             Text::make('Number'),
 
             Text::make('Logo', 'logo')->onlyOnForms(),
