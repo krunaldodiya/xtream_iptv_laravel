@@ -37,7 +37,7 @@ class Channel extends Resource
      * @var array
      */
     public static $search = [
-        'id', 'name'
+        'id', 'name', 'number', 'epg'
     ];
 
     /**

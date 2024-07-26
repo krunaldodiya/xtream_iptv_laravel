@@ -14,10 +14,14 @@ use App\Models\PlaylistChannel;
 
 class XtreamRepository implements XtreamRepositoryInterface
 {
+    public $channel_xml_url;
+
     public $client;
 
     public function __construct()
     {
+        $this->channel_xml_url = "https://www.tsepg.cf/epg.xml.gz";
+
         $this->client = Http::withHeaders([
             'Accept' => 'application/json', 
             'Content-Type' => 'application/json', 
@@ -69,7 +73,7 @@ class XtreamRepository implements XtreamRepositoryInterface
         $cacheDuration = 60 * 60;
 
         $channels = Cache::remember($cacheKey, $cacheDuration, function () {
-            $response = Http::get('https://www.tsepg.cf/epg.xml.gz');
+            $response = Http::get($this->channel_xml_url);
 
             $xml_channels = [];
 
@@ -126,7 +130,6 @@ class XtreamRepository implements XtreamRepositoryInterface
             ->with([
                 'playlist',
                 'channel.stream.xtream_account',
-                'channel.epg',
                 'channel.category',
                 'channel.language',
                 'channel.country'
@@ -134,9 +137,7 @@ class XtreamRepository implements XtreamRepositoryInterface
             ->where(['playlist_id' => $playlist_id])
             ->get();
 
-        $epgUrl = "http://rstream.me/epg.xml.gz";
-
-        $playlist_template = "#EXTM3U x-tvg-url=\"{$epgUrl}\"\n";
+        $playlist_template = "#EXTM3U x-tvg-url=\"{$this->channel_xml_url}\"\n";
 
         foreach ($playlist_channels as $playlist_channel) {
             $channel = $playlist_channel['channel'];
@@ -147,13 +148,13 @@ class XtreamRepository implements XtreamRepositoryInterface
 
             $number = $channel['number'];
 
+            $epg = $channel['epg'];
+
             $language = $channel['language']['name'];
 
             $country = $channel['country']['name'];
 
             $category = $channel['category']['name'];
-
-            $epg = $channel['epg']['value'];
 
             $url = $channel['stream']['url'];
 
