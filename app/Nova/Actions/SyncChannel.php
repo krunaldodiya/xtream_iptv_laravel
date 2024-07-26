@@ -11,8 +11,7 @@ use Laravel\Nova\Fields\Select;
 use Laravel\Nova\Fields\ActionFields;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-use App\Models\XtreamAccount;
-use App\Repositories\ChannelRepositoryInterface;
+use App\Repositories\XtreamRepositoryInterface;
 
 class SyncChannel extends Action
 {
@@ -27,11 +26,9 @@ class SyncChannel extends Action
      */
     public function handle(ActionFields $fields, Collection $models)
     {
-        $xtream_account = XtreamAccount::find($fields->xtream_account);
+        $xtreamRepositoryInterface = resolve(XtreamRepositoryInterface::class);
 
-        $channelRepositoryInterface = resolve(ChannelRepositoryInterface::class);
-
-        $channelRepositoryInterface->sync_all_channels($xtream_account);
+        $xtreamRepositoryInterface->sync_all_channels();
     }
 
     /**
@@ -42,10 +39,6 @@ class SyncChannel extends Action
      */
     public function fields(NovaRequest $request)
     {
-        $xtream_accounts = XtreamAccount::pluck('name', 'id');
-
-        return [
-            Select::make("Xtream Account")->options($xtream_accounts),
-        ];
+        return [];
     }
 }
