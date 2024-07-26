@@ -11,7 +11,7 @@ use App\Models\Channel;
 use App\Models\XtreamAccount;
 use App\Models\PlaylistChannel;
 
-class ChannelRepository implements ChannelRepositoryInterface
+class XtreamRepository implements XtreamRepositoryInterface
 {
     public $client;
 
@@ -24,7 +24,7 @@ class ChannelRepository implements ChannelRepositoryInterface
         ]);
     }
 
-    public function sync_channels_by_categories(XtreamAccount $xtream_account)
+    public function sync_streams_by_categories(XtreamAccount $xtream_account)
     {
         $categories = Category::all();
 
@@ -60,7 +60,7 @@ class ChannelRepository implements ChannelRepositoryInterface
         }
     }
 
-    public function sync_all_channels(XtreamAccount $xtream_account)
+    public function sync_all_streams(XtreamAccount $xtream_account)
     {
         $cacheKey = "get_live_streams:{$xtream_account->server}";
         $cacheDuration = 60 * 60;

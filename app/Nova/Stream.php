@@ -2,6 +2,8 @@
 
 namespace App\Nova;
 
+use App\Nova\Actions\BackupStream;
+
 use Illuminate\Http\Request;
 
 use Laravel\Nova\Fields\ID;
@@ -107,6 +109,8 @@ class Stream extends Resource
      */
     public function actions(NovaRequest $request)
     {
-        return [];
+        return [
+            BackupStream::make()->standalone(),
+        ];
     }
 }

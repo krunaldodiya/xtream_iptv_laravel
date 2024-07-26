@@ -5,8 +5,8 @@ namespace App\Providers;
 use App\Repositories\PaymentTransactionRepository;
 use App\Repositories\PaymentTransactionRepositoryInterface;
 
-use App\Repositories\ChannelRepository;
-use App\Repositories\ChannelRepositoryInterface;
+use App\Repositories\XtreamRepository;
+use App\Repositories\XtreamRepositoryInterface;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -26,6 +26,6 @@ class RepositoryServiceProvider extends ServiceProvider
     public function boot(): void
     {
         app()->bind(PaymentTransactionRepositoryInterface::class, PaymentTransactionRepository::class);
-        app()->bind(ChannelRepositoryInterface::class, ChannelRepository::class);
+        app()->bind(XtreamRepositoryInterface::class, XtreamRepository::class);
     }
 }
