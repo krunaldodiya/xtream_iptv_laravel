@@ -4,6 +4,7 @@ namespace App\Nova;
 
 use App\Nova\Actions\BackupEpg;
 use App\Nova\Actions\SyncEpg;
+use App\Nova\Actions\AssignEpgToChannels;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
@@ -104,6 +105,7 @@ class Epg extends Resource
         return [
             BackupEpg::make()->standalone(),
             SyncEpg::make()->standalone(),
+            AssignEpgToChannels::make(),
         ];
     }
 }
