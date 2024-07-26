@@ -92,8 +92,6 @@ class XtreamRepository implements XtreamRepositoryInterface
                     'stream_id' => $channel['stream_id'],
                     'category_id' => $channel['category_id'],
                     'name' => $channel['name'],
-                    'language_id' => 1,
-                    'country_id' => 1,
                     'logo' => $channel['stream_icon'],
                 ]);
             }

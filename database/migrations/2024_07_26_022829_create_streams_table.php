@@ -25,6 +25,8 @@ return new class extends Migration
 
             $table->string("stream_id");
 
+            $table->string("category_id");
+
             $table->string("name");
 
             $table->text("logo")->nullable();
