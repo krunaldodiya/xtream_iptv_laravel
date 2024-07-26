@@ -52,7 +52,7 @@ class XtreamAccount extends Resource
             Text::make('Username'),
             Text::make('Password'),
 
-            HasMany::make("Channels"),
+            HasMany::make("Streams"),
         ];
     }
 

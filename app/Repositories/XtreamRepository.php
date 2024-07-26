@@ -25,42 +25,6 @@ class XtreamRepository implements XtreamRepositoryInterface
         ]);
     }
 
-    public function sync_streams_by_categories(XtreamAccount $xtream_account)
-    {
-        $categories = Category::all();
-
-        $response = $this->client->pool(fn ($pool) => 
-                $categories->map(fn ($channel_category) => 
-                    $pool->as($channel_category->category_id)->get("{$xtream_account->server}/player_api.php", [
-                        'username' => $xtream_account->username,
-                        'password' => $xtream_account->password,
-                        'action' => 'get_live_streams',
-                        'category_id' => $channel_category->category_id
-                    ])
-                )
-            );
-
-        foreach ($responses as $response) {
-            if ($response->successful()) {
-                $channels = $response->json();
-
-                foreach ($channels as $channel) {
-                    Channel::firstOrCreate(
-                        ['stream_id' => $channel['stream_id']], 
-                        [
-                            'name' => $channel['name'],
-                            'category_id' => 1,
-                            'language_id' => 1,
-                            'country_id' => 1,
-                            'number' => $channel['num'],
-                            'logo' => $channel['stream_icon'],
-                        ]
-                    );
-                }
-            }
-        }
-    }
-
     public function sync_all_streams(XtreamAccount $xtream_account)
     {
         $cacheKey = "get_live_streams:{$xtream_account->server}";
@@ -101,9 +65,18 @@ class XtreamRepository implements XtreamRepositoryInterface
 
     public function generate_m3u_playlist($playlist_id) {
         $playlist_channels = PlaylistChannel::query()
-            ->with(['playlist', 'channel.xtream_account', 'category'])
+            ->with([
+                'playlist',
+                'channel.stream.xtream_account',
+                'channel.epg',
+                'channel.category',
+                'channel.language',
+                'channel.country'
+            ])
             ->where(['playlist_id' => $playlist_id])
             ->get();
+        
+        return $playlist_channels;
 
         $epgUrl = "http://rstream.me/epg.xml.gz";
 
@@ -112,25 +85,21 @@ class XtreamRepository implements XtreamRepositoryInterface
         foreach ($playlist_channels as $playlist_channel) {
             $channel = $playlist_channel['channel'];
 
-            $streamId = $channel['stream_id'];
+            $logo = $channel['logo'];
+            
+            $name = $channel['name'];
 
-            $xtream_account = $channel['xtream_account'];
+            $number = $channel['number'];
 
             $language = $channel['language']['name'];
 
             $country = $channel['country']['name'];
 
-            $epg = $channel['epg'];
-
-            $number = $channel['number'];
-
-            $logo = $channel['logo'];
-            
-            $name = $channel['name'];
-
-            $url = $channel['url'];
-
             $category = $channel['category']['name'];
+
+            $epg = $channel['epg']['value'];
+
+            $url = $channel['stream']['url'];
 
             $playlist_template .= (
                 "#EXTINF:-1 tvg-id=\"{$epg}\" tvg-chno=\"{$number}\" tvg-name=\"{$name}\" "

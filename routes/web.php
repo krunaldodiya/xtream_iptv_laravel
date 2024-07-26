@@ -9,8 +9,11 @@ use App\Http\Controllers\ChannelController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-Route::get('/test', function () {
-    return 'test';
+use App\Repositories\XtreamRepositoryInterface;
+
+Route::get('/test', function (XtreamRepositoryInterface $xtreamRepositoryInterface) {
+    $playlist = $xtreamRepositoryInterface->generate_m3u_playlist(1);
+    return $playlist;
 });
 
 Route::get('/', function () {

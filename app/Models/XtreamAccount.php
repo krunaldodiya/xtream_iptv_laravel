@@ -15,8 +15,8 @@ class XtreamAccount extends Model
 
     public $timestamps = true;
 
-    public function channels()
+    public function streams()
     {
-        return $this->hasMany(Channel::class);
+        return $this->hasMany(Stream::class);
     }
 }
