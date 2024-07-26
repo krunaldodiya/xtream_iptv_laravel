@@ -4,7 +4,6 @@ namespace App\Nova;
 
 use App\Nova\Actions\BackupChannel;
 use App\Nova\Actions\SyncChannel;
-use App\Nova\Actions\AssignEpg;
 
 use Illuminate\Http\Request;
 
@@ -117,7 +116,6 @@ class Channel extends Resource
         return [
             BackupChannel::make()->standalone(),
             SyncChannel::make()->standalone(),
-            AssignEpg::make()->standalone()->onlyOnDetail(),
         ];
     }
 }
