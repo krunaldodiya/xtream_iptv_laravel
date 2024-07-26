@@ -32,10 +32,7 @@ class AssignEpg extends Action
 
         $channel = Channel::query()
             ->where('id', request()->get('resources'))
-            ->update([
-                'epg' => $epg['value'],
-                'logo' => "https://logo.iptveditor.com/{$epg['logo']}.png",
-            ]);
+            ->update(['epg' => $epg['value']]);
     }
 
     /**
