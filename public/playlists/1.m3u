@@ -3,3 +3,5 @@
 https://xteam-itpv.vercel.app/stream/221250
 #EXTINF:-1 tvg-id="63" tvg-chno="141" tvg-name="Zee TV HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-tv-hd.gif" group-title="Hindi Entertainment",Zee TV HD
 https://xteam-itpv.vercel.app/stream/66162
+#EXTINF:-1 tvg-id="245" tvg-chno="418" tvg-name="Star Movies Select HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-movies-select-hd.gif" group-title="English Movies",Star Movies Select HD
+https://xteam-itpv.vercel.app/stream/66315
