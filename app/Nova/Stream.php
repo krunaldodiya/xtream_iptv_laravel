@@ -3,6 +3,7 @@
 namespace App\Nova;
 
 use App\Nova\Actions\BackupStream;
+use App\Nova\Actions\SyncStream;
 
 use Illuminate\Http\Request;
 
@@ -111,6 +112,7 @@ class Stream extends Resource
     {
         return [
             BackupStream::make()->standalone(),
+            SyncStream::make()->standalone(),
         ];
     }
 }
