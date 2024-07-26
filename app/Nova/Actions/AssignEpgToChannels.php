@@ -26,7 +26,7 @@ class AssignEpgToChannels extends Action
     public function handle(ActionFields $fields, Collection $models)
     {
         foreach ($models as $model) {
-            Channel::query()->where('name', $model->name)->update(['epg_id' => $model->id]);
+            Channel::query()->where('name', 'ilike', "%{$model->name}%")->update(['epg_id' => $model->id]);
         }
     }
 
