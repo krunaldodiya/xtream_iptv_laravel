@@ -12,7 +12,7 @@ use Laravel\Nova\Actions\Action;
 use Laravel\Nova\Fields\ActionFields;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
-use App\Repositories\ChannelRepositoryInterface;
+use App\Repositories\XtreamRepositoryInterface;
 
 class GenerateM3uPlaylist extends Action
 {
@@ -29,9 +29,9 @@ class GenerateM3uPlaylist extends Action
     {
         $playlist_id = request()->get('resources');
 
-        $channelRepositoryInterface = resolve(ChannelRepositoryInterface::class);
+        $xtreamRepositoryInterface = resolve(XtreamRepositoryInterface::class);
 
-        $channelRepositoryInterface->generate_m3u_playlist($playlist_id);
+        $xtreamRepositoryInterface->generate_m3u_playlist($playlist_id);
     }
 
     /**

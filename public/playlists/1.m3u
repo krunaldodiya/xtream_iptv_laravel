@@ -1,3 +1,9 @@
 #EXTM3U x-tvg-url="http://rstream.me/epg.xml.gz"
-#EXTINF:-1 tvg-id="ts63" tvg-chno="1" tvg-name="IN | Zee TV HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://a.rstream.me/img/91504707.png" group-title="Hindi Entertainment",IN | Zee TV HD
+#EXTINF:-1 tvg-id="ts557" tvg-chno="557" tvg-name="Zee TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-12075-j9ob4gm0-v2/imageContent-12075-j9ob4gm0-m2.jpg" group-title="Hindi Entertainment",Zee TV
+https://xteam-itpv.vercel.app/stream/221250
+#EXTINF:-1 tvg-id="ts63" tvg-chno="63" tvg-name="Zee TV HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-11074-j95e7qa0-v1/imageContent-11074-j95e7qa0-m1.jpg" group-title="Hindi Entertainment",Zee TV HD
 https://xteam-itpv.vercel.app/stream/66162
+#EXTINF:-1 tvg-id="ts1388" tvg-chno="1388" tvg-name="UTV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/UTVLOC_BoxCover-v1/UTVLOC_BoxCover.jpg" group-title="Hindi Entertainment",UTV
+https://xteam-itpv.vercel.app/stream/232689
+#EXTINF:-1 tvg-id="ts142" tvg-chno="142" tvg-name="UTV Bindass" tvg-country="India" tvg-language="Hindi" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-477-j5jx4bq8-v1/imageContent-477-j5jx4bq8-m1.jpg" group-title="Hindi Entertainment",UTV Bindass
+https://xteam-itpv.vercel.app/stream/232689
