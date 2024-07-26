@@ -14,12 +14,12 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             PlanSeeder::class,
+            XtreamAccountSeeder::class,
             EpgSeeder::class,
             CategorySeeder::class,
             LanguageSeeder::class,
             CountrySeeder::class,
-            ChannelSeeder::class,
-            XtreamAccountSeeder::class,
+            StreamSeeder::class,
         ]);
     }
 }

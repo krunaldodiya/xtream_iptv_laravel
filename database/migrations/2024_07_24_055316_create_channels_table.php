@@ -13,7 +13,6 @@ return new class extends Migration
     {
         Schema::create('channels', function (Blueprint $table) {
             $table->id();
-
         
             $table->unsignedBigInteger('language_id');
 
@@ -33,15 +32,6 @@ return new class extends Migration
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
 
-            $table->unsignedBigInteger('xtream_account_id');
-
-            $table
-                ->foreign('xtream_account_id')
-                ->references('id')
-                ->on('xtream_accounts')
-                ->onUpdate('cascade')
-                ->onDelete('cascade');
-
             $table->unsignedBigInteger('category_id');
 
             $table
@@ -51,7 +41,14 @@ return new class extends Migration
                 ->onUpdate('cascade')
                 ->onDelete('cascade');
 
-            $table->string("stream_id");
+            $table->unsignedBigInteger('stream_id');
+
+            $table
+                ->foreign('stream_id')
+                ->references('id')
+                ->on('streams')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
 
             $table->string("name");
 
@@ -60,8 +57,6 @@ return new class extends Migration
             $table->text("number")->nullable();
 
             $table->string('epg')->nullable();
-
-            $table->text('url')->nullable();
             
             $table->timestamps();
         });
