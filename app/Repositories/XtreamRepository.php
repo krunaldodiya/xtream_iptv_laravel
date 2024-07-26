@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Storage;
 
 use App\Models\Category;
 use App\Models\Channel;
+use App\Models\Stream;
 use App\Models\XtreamAccount;
 use App\Models\PlaylistChannel;
 
@@ -65,7 +66,7 @@ class XtreamRepository implements XtreamRepositoryInterface
         $cacheKey = "get_live_streams:{$xtream_account->server}";
         $cacheDuration = 60 * 60;
 
-        $channels = Cache::remember($cacheKey, $cacheDuration, function () use ($xtream_account) {
+        $streams = Cache::remember($cacheKey, $cacheDuration, function () use ($xtream_account) {
             $response = $this->client->get("{$xtream_account->server}/player_api.php", [
                     'username' => $xtream_account->username,
                     'password' => $xtream_account->password,
@@ -79,31 +80,23 @@ class XtreamRepository implements XtreamRepositoryInterface
             return [];
         });
 
-        if (!empty($channels)) {
-            $existing_channels = Channel::all()->keyBy(['stream_id', 'category_id']);
+        if (!empty($streams)) {
+            $existing_streams = Channel::all()->keyBy(['stream_id', 'category_id']);
 
-            $newChannels = collect($channels)->reject(function ($channel) use ($existing_channels) {
-                return $existing_channels->has($channel['stream_id']);
+            $new_streams = collect($streams)->reject(function ($channel) use ($existing_streams) {
+                return $existing_streams->has($channel['stream_id']);
             });
 
-            foreach ($newChannels as $channel) {
-                Channel::create([
+            foreach ($new_streams as $new_stream) {
+                Stream::create([
                     'xtream_account_id' => $xtream_account['id'],
-                    'stream_id' => $channel['stream_id'],
-                    'category_id' => $channel['category_id'],
-                    'name' => $channel['name'],
-                    'logo' => $channel['stream_icon'],
+                    'stream_id' => $new_stream['stream_id'],
+                    'category_id' => $new_stream['category_id'],
+                    'name' => $new_stream['name'],
+                    'logo' => $new_stream['stream_icon'],
                 ]);
             }
         }
-    }
-
-    public function sync_categories(XtreamAccount $xtream_account) {
-        $response = $this->client->get("{$xtream_account->server}/player_api.php", [
-                'username' => $xtream_account->username,
-                'password' => $xtream_account->password,
-                'action' => 'get_live_categories',
-            ]);
     }
 
     public function generate_m3u_playlist($playlist_id) {
