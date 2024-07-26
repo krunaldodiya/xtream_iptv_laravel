@@ -55,12 +55,12 @@ class Channel extends Resource
 
             BelongsTo::make('Stream', 'stream')->searchable(),
             BelongsTo::make('Epg', 'epg')->searchable(),
-            BelongsTo::make("Category", 'category'),
+            BelongsTo::make("Category", 'category')->sortable(),
             BelongsTo::make('Language', 'language')->sortable(),
             BelongsTo::make('Country', 'country')->sortable(),
 
-            Text::make('Name'),
-            Text::make('Number'),
+            Text::make('Name')->sortable(),
+            Text::make('Number')->sortable(),
 
             Text::make('Logo', 'logo')->onlyOnForms(),
 
