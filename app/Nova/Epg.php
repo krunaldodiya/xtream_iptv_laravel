@@ -26,6 +26,16 @@ class Epg extends Resource
     public static $title = 'name';
 
     /**
+     * Get the value used to represent the resource.
+     *
+     * @return string
+     */
+    public function title()
+    {
+        return $this->name . ' | ' . $this->value;
+    }
+
+    /**
      * The columns that should be searched.
      *
      * @var array
