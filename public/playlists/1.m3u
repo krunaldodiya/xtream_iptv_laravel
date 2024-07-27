@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
+#EXTM3U x-tvg-url="https://avkb.short.gy/epg.xml.gz"
 #EXTINF:-1 tvg-id="ts1164" tvg-chno="1164" tvg-name="Aryan TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/aryan-tv.gif" group-title="Hindi Regional",Aryan TV
 https://xteam-itpv.vercel.app/stream/2
 #EXTINF:-1 tvg-id="ts1165" tvg-chno="1165" tvg-name="Asian News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/asian-news.gif" group-title="Hindi Regional",Asian News
