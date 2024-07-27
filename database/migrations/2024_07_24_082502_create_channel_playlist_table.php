@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('playlist_channels', function (Blueprint $table) {
+        Schema::create('channel_playlist', function (Blueprint $table) {
             $table->id();
 
             $table->unsignedBigInteger('playlist_id');
@@ -33,6 +33,8 @@ return new class extends Migration
                 ->onDelete('cascade');
             
             $table->timestamps();
+
+            $table->unique(['playlist_id', 'channel_id']);
         });
     }
 
@@ -41,6 +43,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('playlist_channels');
+        Schema::dropIfExists('channel_playlist');
     }
 };

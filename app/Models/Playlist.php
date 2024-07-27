@@ -19,7 +19,7 @@ class Playlist extends Model
         return $this->belongsTo(User::class);
     }
 
-    public function playlist_channels() {
-        return $this->hasMany(PlaylistChannel::class);
+    public function channels() {
+        return $this->belongsToMany(Channel::class);
     }
 }

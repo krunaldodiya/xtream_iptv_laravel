@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\BelongsTo;
-use Laravel\Nova\Fields\HasMany;
+use Laravel\Nova\Fields\BelongsToMany;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 use App\Nova\Actions\GenerateM3uPlaylist;
@@ -49,9 +49,9 @@ class Playlist extends Resource
             
             Text::make('Name'),
 
-            BelongsTo::make("User"),
+            BelongsTo::make("User", "user"),
 
-            HasMany::make("Playlist Channels", "playlist_channels"),
+            BelongsToMany::make("Channels", "channels"),
         ];
     }
 
