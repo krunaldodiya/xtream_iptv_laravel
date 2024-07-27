@@ -9,8 +9,14 @@ use App\Http\Controllers\ChannelController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-Route::get('/test', function (XtreamRepositoryInterface $test) {
-    return 'test';
+use App\Models\Epg;
+
+Route::get('/test', function () {
+    $epgs = Epg::query()
+        ->with('channel')
+        ->get();
+    
+    return collect($epgs)->filter(fn ($epg) => $epg->channel == null);
 });
 
 Route::get('/', function () {

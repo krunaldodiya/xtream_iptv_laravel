@@ -14,4 +14,8 @@ class Epg extends Model
     protected $dates = ['created_at', 'updated_at'];
 
     public $timestamps = true;
+
+    public function channel() {
+        return $this->hasOne(Channel::class);
+    }
 }

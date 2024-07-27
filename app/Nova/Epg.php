@@ -9,6 +9,8 @@ use App\Nova\Actions\AssignEpgToChannels;
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Image;
+
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class Epg extends Resource
@@ -54,10 +56,20 @@ class Epg extends Resource
      */
     public function fields(NovaRequest $request)
     {
+        $placeholder_logo = "/images/404.png";
+
         return [
             ID::make()->sortable(),
             Text::make('name')->sortable(),
             Text::make('value')->sortable(),
+
+            Text::make('Logo', 'logo')->onlyOnForms(),
+
+            Image::make('Logo', 'logo')
+                ->thumbnail(function ($value) use ($placeholder_logo) {
+                    return $value ? $value : $placeholder_logo; 
+                })
+                ->exceptOnForms(),
         ];
     }
 
