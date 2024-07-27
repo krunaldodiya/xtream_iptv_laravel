@@ -146,15 +146,18 @@ class XtreamRepository implements XtreamRepositoryInterface
 
                 foreach ($array['data']['packages'] as $package) {
                     foreach ($package['items'] as $item) {
-                        foreach ($item['language'] as $language) {
-                            $channel_name = $item['pack_friendly_name'];
+                        foreach ($item['language'] as $language) {                            
+                            $pack_friendly_name = $item['pack_friendly_name'];
+                            $pack_name = $item['pack_name'];
 
-                            $slug = Str::of($channel_name)->slug('-');
+                            $slug = Str::of($pack_friendly_name)->slug('-');
 
                             $logo = "https://www.tataplay.com/s3-api/v1/assets/channels/{$slug}.gif";
 
                             $channels[] = [
-                                'name' => $channel_name,
+                                'pack_friendly_name' => $pack_friendly_name,
+                                'pack_name' => $pack_friendly_name,
+                                'channel_name' => $item['bouquet_channels'][0]['CHANNEL_NAME'],
                                 'number' => $item['bouquet_channels'][0]['EPG_NUMBER'],
                                 'logo' => $logo,
                                 'stream_id' => 1,
@@ -170,7 +173,6 @@ class XtreamRepository implements XtreamRepositoryInterface
             return $channels;
         });
 
-
         if (!empty($channels)) {
             $existing_channels = Channel::all()->keyBy(['number']);
 
@@ -181,7 +183,7 @@ class XtreamRepository implements XtreamRepositoryInterface
 
             foreach ($new_channels as $new_channel) {
                 Channel::create([
-                    'name' => $new_channel['name'],
+                    'name' => $new_channel['pack_friendly_name'],
                     'number' => $new_channel['number'],
                     'logo' => $new_channel['logo'],
                     'stream_id' => $new_channel['stream_id'],

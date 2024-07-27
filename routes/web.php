@@ -9,7 +9,7 @@ use App\Http\Controllers\ChannelController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-Route::get('/test', function () {
+Route::get('/test', function (XtreamRepositoryInterface $test) {
     return 'test';
 });
 
