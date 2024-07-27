@@ -13,6 +13,7 @@ use App\Models\Language;
 use App\Models\Channel;
 use App\Models\Stream;
 use App\Models\XtreamAccount;
+use App\Models\Playlist;
 
 class XtreamRepository implements XtreamRepositoryInterface
 {
@@ -197,29 +198,27 @@ class XtreamRepository implements XtreamRepositoryInterface
     }
 
     public function generate_m3u_playlist($playlist_id) {
-        $channels = Playlist::query()
+        $playlist = Playlist::query()
             ->with([
-                'channel.stream.xtream_account',
-                'channel.category',
-                'channel.language',
-                'channel.country',
-                'channel.epg'
+                'channels.stream.xtream_account',
+                'channels.category',
+                'channels.language',
+                'channels.country',
+                'channels.epg'
             ])
             ->where(['id' => $playlist_id])
             ->first();
 
         $playlist_template = "#EXTM3U x-tvg-url=\"{$this->epg_api_url}\"\n";
 
-        foreach ($channelss as $channels) {
-            $channel = $channels['channel'];
-
+        foreach ($playlist->channels as $channel) {
             $logo = $channel['logo'];
             
             $name = $channel['name'];
 
             $number = $channel['number'];
 
-            $epg = $channel['epg']['value'];
+            $epg = $channel['epg'] ? $channel['epg']['value']: "none";
 
             $language = $channel['language']['name'];
 

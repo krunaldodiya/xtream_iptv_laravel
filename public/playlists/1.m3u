@@ -1,9 +1,1389 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#EXTINF:-1 tvg-id="557" tvg-chno="143" tvg-name="Zee TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-tv.gif" group-title="Hindi Entertainment",Zee TV
-https://xteam-itpv.vercel.app/stream/221250
-#EXTINF:-1 tvg-id="63" tvg-chno="141" tvg-name="Zee TV HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-tv-hd.gif" group-title="Hindi Entertainment",Zee TV HD
-https://xteam-itpv.vercel.app/stream/66162
+#EXTINF:-1 tvg-id="none" tvg-chno="1164" tvg-name="Aryan TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/aryan-tv.gif" group-title="Hindi Regional",Aryan TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1165" tvg-name="Asian News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/asian-news.gif" group-title="Hindi Regional",Asian News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="679" tvg-name="ETV Bal Bharat HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/etv-bal-bharat-hd.gif" group-title="Kids",ETV Bal Bharat HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1174" tvg-name="DD Chhattisgarh" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-chhattisgarh.gif" group-title="Hindi Regional",DD Chhattisgarh
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1995" tvg-name="DD Goa" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-goa.gif" group-title="Hindi Regional",DD Goa
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1937" tvg-name="DD Haryana" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-haryana.gif" group-title="Hindi Regional",DD Haryana
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1936" tvg-name="DD Himachal" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-himachal.gif" group-title="Hindi Regional",DD Himachal
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1376" tvg-chno="1170" tvg-name="BS TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/bs-tv.gif" group-title="News",BS TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1144" tvg-name="DD Uttarakhand" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-uttarakhand.gif" group-title="Hindi Regional",DD Uttarakhand
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1353" tvg-chno="1169" tvg-name="DA News Plus" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/da-news-plus.gif" group-title="Hindi Regional",DA News Plus
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1352" tvg-chno="1956" tvg-name="Pear TV" tvg-country="India" tvg-language="Assamese" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/pear-tv.gif" group-title="Others",Pear TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1344" tvg-chno="1778" tvg-name="Naxatra News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/naxatra-news.gif" group-title="Hindi Regional",Naxatra News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="870" tvg-chno="1185" tvg-name="Jan TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jan-tv.gif" group-title="Hindi Regional",Jan TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="365" tvg-chno="1194" tvg-name="Gulistan News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/gulistan-news.gif" group-title="Hindi Regional",Gulistan News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="354" tvg-chno="1191" tvg-name="News18 Jammu Kashmir Ladakh Himachal" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-jammu-kashmir-ladakh-himachal.gif" group-title="Hindi Regional",News18 Jammu Kashmir Ladakh Himachal
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="352" tvg-chno="1416" tvg-name="ETV Plus HD" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/etv-plus-hd.gif" group-title="Telugu Regional",ETV Plus HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="339" tvg-chno="1147" tvg-name="DD Uttar Pradesh" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-uttar-pradesh.gif" group-title="Hindi Regional",DD Uttar Pradesh
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="338" tvg-chno="1199" tvg-name="DD Urdu" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-urdu.gif" group-title="Hindi Regional",DD Urdu
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="332" tvg-chno="1190" tvg-name="DD Rajasthan" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-rajasthan.gif" group-title="Hindi Regional",DD Rajasthan
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="330" tvg-chno="1175" tvg-name="DD Madhya Pradesh" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-madhya-pradesh.gif" group-title="Hindi Regional",DD Madhya Pradesh
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="317" tvg-chno="1148" tvg-name="DD Bihar" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-bihar.gif" group-title="Hindi Regional",DD Bihar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="166" tvg-chno="1129" tvg-name="News18 Bihar Jharkhand" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-bihar-jharkhand.gif" group-title="Hindi Regional",News18 Bihar Jharkhand
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="128" tvg-chno="1439" tvg-name="ETV Cinema HD" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/etv-cinema-hd.gif" group-title="Telugu Regional",ETV Cinema HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="27" tvg-chno="1153" tvg-name="IBC 24" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ibc-24.gif" group-title="Hindi Regional",IBC 24
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="838" tvg-chno="1139" tvg-name="Kashish News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/kashish-news.gif" group-title="Hindi Regional",Kashish News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="316" tvg-chno="1146" tvg-name="DD Bharati" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-bharati.gif" group-title="Hindi Regional",DD Bharati
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1118" tvg-name="Oscar Movies Bhojpuri" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/oscar-movies-bhojpuri.gif" group-title="Hindi Regional",Oscar Movies Bhojpuri
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="426" tvg-chno="1522" tvg-name="Raj Digital Plus" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raj-digital-plus.gif" group-title="Tamil Regional",Raj Digital Plus
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="161" tvg-chno="1193" tvg-name="Channel WIN" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/channel-win.gif" group-title="Hindi Regional",Channel WIN
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1321" tvg-chno="374" tvg-name="ALL Time MOVIES" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/all-time-movies.gif" group-title="Hindi Movies",ALL Time MOVIES
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1317" tvg-chno="1570" tvg-name="Tamil Janam" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tamil-janam.gif" group-title="Tamil Regional",Tamil Janam
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1315" tvg-chno="1168" tvg-name="Vistaar News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vistaar-news.gif" group-title="Hindi Regional",Vistaar News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1286" tvg-chno="1737" tvg-name="News Capital" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-capital.gif" group-title="Hindi Regional",News Capital
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1165" tvg-chno="1123" tvg-name="RAAPCHIK" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raapchik.gif" group-title="Hindi Regional",RAAPCHIK
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1524" tvg-name="Mega 24" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mega-24.gif" group-title="Tamil Regional",Mega 24
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="425" tvg-chno="1582" tvg-name="Raj Musix" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raj-musix.gif" group-title="Tamil Regional",Raj Musix
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="421" tvg-chno="1534" tvg-name="Peppers TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/peppers-tv.gif" group-title="Tamil Regional",Peppers TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="408" tvg-chno="1592" tvg-name="Nambikkai TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nambikkai-tv.gif" group-title="Tamil Regional",Nambikkai TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="392" tvg-chno="1533" tvg-name="Makkal TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/makkal-tv.gif" group-title="Tamil Regional",Makkal TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="829" tvg-chno="1159" tvg-name="Sadhna News MP CG" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sadhna-news-mp-cg.gif" group-title="Hindi Regional",Sadhna News MP CG
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="99" tvg-chno="1578" tvg-name="DD Tamil" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-tamil.gif" group-title="Tamil Regional",DD Tamil
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="79" tvg-chno="1125" tvg-name="News18 Uttar Pradesh Uttarakhand" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-uttar-pradesh-uttarakhand.gif" group-title="Hindi Regional",News18 Uttar Pradesh Uttarakhand
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="58" tvg-chno="1562" tvg-name="News18 Tamil Nadu" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-tamil-nadu.gif" group-title="Tamil Regional",News18 Tamil Nadu
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="44" tvg-chno="1563" tvg-name="Seithigal TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/seithigal-tv.gif" group-title="Tamil Regional",Seithigal TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="20" tvg-chno="1130" tvg-name="Zee Bihar Jharkhand" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-bihar-jharkhand.gif" group-title="Hindi Regional",Zee Bihar Jharkhand
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="12" tvg-chno="1102" tvg-name="Zee Anmol Cinema 2" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-anmol-cinema-2.gif" group-title="Hindi Regional",Zee Anmol Cinema 2
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="827" tvg-chno="1138" tvg-name="Sadhna Plus News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sadhna-plus-news.gif" group-title="Hindi Regional",Sadhna Plus News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="391" tvg-chno="1566" tvg-name="Malaimurasu Seithigal" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/malaimurasu-seithigal.gif" group-title="Tamil Regional",Malaimurasu Seithigal
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="814" tvg-chno="1113" tvg-name="Zee Biskope" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-biskope.gif" group-title="Hindi Regional",Zee Biskope
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="702" tvg-chno="1568" tvg-name="News J" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-j.gif" group-title="Tamil Regional",News J
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="659" tvg-chno="1536" tvg-name="Vendhar TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vendhar-tv.gif" group-title="Tamil Regional",Vendhar TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="441" tvg-chno="1140" tvg-name="Sahara Samay UP" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sahara-samay-up.gif" group-title="Hindi Regional",Sahara Samay UP
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="390" tvg-chno="1590" tvg-name="Madha TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/madha-tv.gif" group-title="Tamil Regional",Madha TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="282" tvg-chno="1591" tvg-name="Angel TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/angel-tv.gif" group-title="Tamil Regional",Angel TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="272" tvg-chno="1532" tvg-name="Polimer TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/polimer-tv.gif" group-title="Tamil Regional",Polimer TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1559" tvg-name="Sun News" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sun-news.gif" group-title="Tamil Regional",Sun News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1583" tvg-name="Vijay Takkar" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vijay-takkar.gif" group-title="Tamil Regional",Vijay Takkar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1267" tvg-chno="1141" tvg-name="HNN News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/hnn-news.gif" group-title="Hindi Regional",HNN News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1580" tvg-name="Sun Music" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sun-music.gif" group-title="Tamil Regional",Sun Music
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1194" tvg-chno="1475" tvg-name="BRK News" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/brk-news.gif" group-title="Telugu Regional",BRK News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1543" tvg-name="Adithya TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/adithya-tv.gif" group-title="Tamil Regional",Adithya TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1188" tvg-chno="1145" tvg-name="DD Jharkhand" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-jharkhand.gif" group-title="Hindi Regional",DD Jharkhand
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1513" tvg-name="Vijay Super" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vijay-super.gif" group-title="Tamil Regional",Vijay Super
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1541" tvg-name="KTV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ktv.gif" group-title="Tamil Regional",KTV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1508" tvg-name="Star Vijay" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-vijay.gif" group-title="Tamil Regional",Star Vijay
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1554" tvg-name="Sony Sports Ten 4 HD" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sports-ten-4-hd.gif" group-title="Tamil Regional",Sony Sports Ten 4 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1550" tvg-name="Star Sports 1 Tamil HD" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-1-tamil-hd.gif" group-title="Tamil Regional",Star Sports 1 Tamil HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1551" tvg-name="Star Sports 1 Tamil" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-1-tamil.gif" group-title="Tamil Regional",Star Sports 1 Tamil
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1579" tvg-name="Sun Music HD" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sun-music-hd.gif" group-title="Tamil Regional",Sun Music HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1504" tvg-name="Sun TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sun-tv.gif" group-title="Tamil Regional",Sun TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1169" tvg-chno="1799" tvg-name="Jay Jagannath" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jay-jagannath.gif" group-title="Spiritual",Jay Jagannath
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1512" tvg-name="Vijay Super HD" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vijay-super-hd.gif" group-title="Tamil Regional",Vijay Super HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1161" tvg-chno="573" tvg-name="Swadesh News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/swadesh-news.gif" group-title="Hindi News",Swadesh News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1161" tvg-chno="537" tvg-name="Desh News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/desh-news.gif" group-title="Hindi News",Desh News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1476" tvg-name="6TV" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/6tv.gif" group-title="Telugu Regional",6TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1159" tvg-chno="1167" tvg-name="NDTV MPCG" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ndtv-mpcg.gif" group-title="Hindi Regional",NDTV MPCG
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1472" tvg-name="BIG TV" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/big-tv.gif" group-title="Telugu Regional",BIG TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1152" tvg-chno="1188" tvg-name="NDTV Rajasthan" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ndtv-rajasthan.gif" group-title="Hindi Regional",NDTV Rajasthan
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1136" tvg-chno="628" tvg-name="Bloomberg Television" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/bloomberg-television.gif" group-title="English News",Bloomberg Television
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="439" tvg-chno="1520" tvg-name="Raj TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raj-tv.gif" group-title="Tamil Regional",Raj TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="434" tvg-chno="1587" tvg-name="Jothi TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jothi-tv.gif" group-title="Tamil Regional",Jothi TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="99" tvg-chno="1521" tvg-name="D Tamil" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/d-tamil.gif" group-title="Tamil Regional",D Tamil
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="55" tvg-chno="1553" tvg-name="TravelXP Tamil" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/travelxp-tamil.gif" group-title="Tamil Regional",TravelXP Tamil
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="411" tvg-chno="1585" tvg-name="Murasu TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/murasu-tv.gif" group-title="Tamil Regional",Murasu TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="37" tvg-chno="1523" tvg-name="Mega TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mega-tv.gif" group-title="Tamil Regional",Mega TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="810" tvg-chno="1633" tvg-name="Zee Picchar HD" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-picchar-hd.gif" group-title="Kannada Regional",Zee Picchar HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="400" tvg-chno="1586" tvg-name="Mega Musiq" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mega-musiq.gif" group-title="Tamil Regional",Mega Musiq
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="380" tvg-chno="1540" tvg-name="KTV HD" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ktv-hd.gif" group-title="Tamil Regional",KTV HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="290" tvg-chno="1490" tvg-name="Bhakti TV" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/bhakti-tv.gif" group-title="Telugu Regional",Bhakti TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="285" tvg-chno="1492" tvg-name="Aradana TV" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/aradana-tv.gif" group-title="Telugu Regional",Aradana TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1151" tvg-chno="1474" tvg-name="MAHAA News" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mahaa-news.gif" group-title="Telugu Regional",MAHAA News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1102" tvg-chno="1267" tvg-name="Pudhari News" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/pudhari-news.gif" group-title="Marathi Regional",Pudhari News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1101" tvg-chno="224" tvg-name="Woman" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/woman.gif" group-title="English Entertainment",Woman
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1499" tvg-name="SVBC" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/svbc.gif" group-title="Telugu Regional",SVBC
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1491" tvg-name="Subhavaartha TV" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/subhavaartha-tv.gif" group-title="Telugu Regional",Subhavaartha TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1099" tvg-chno="1471" tvg-name="CHANNEL 36- UP/UK" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/channel-36-upuk.gif" group-title="Telugu Regional",CHANNEL 36- UP/UK
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1463" tvg-name="V6 News" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/v6-news.gif" group-title="Telugu Regional",V6 News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1425" tvg-name="Vanitha" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vanitha.gif" group-title="Telugu Regional",Vanitha
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1422" tvg-name="Vissa" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vissa.gif" group-title="Telugu Regional",Vissa
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1084" tvg-chno="536" tvg-name="India Daily Live" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/india-daily-live.gif" group-title="Hindi News",India Daily Live
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1078" tvg-chno="1933" tvg-name="Daily Post Punjab Haryana Himachal" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/daily-post-punjab-haryana-himachal.gif" group-title="Hindi News",Daily Post Punjab Haryana Himachal
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1464" tvg-name="ETV Telengana" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/etv-telengana.gif" group-title="Telugu Regional",ETV Telengana
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1484" tvg-name="Gemini Music" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/gemini-music.gif" group-title="Telugu Regional",Gemini Music
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1442" tvg-name="Gemini Comedy" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/gemini-comedy.gif" group-title="Telugu Regional",Gemini Comedy
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1486" tvg-name="Star Maa Music" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-maa-music.gif" group-title="Telugu Regional",Star Maa Music
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1075" tvg-chno="1186" tvg-name="Sach Bedhadak" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sach-bedhadak.gif" group-title="Hindi Regional",Sach Bedhadak
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1051" tvg-chno="535" tvg-name="Bharat Express" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/bharat-express.gif" group-title="Hindi News",Bharat Express
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1431" tvg-name="Gemini Movies" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/gemini-movies.gif" group-title="Telugu Regional",Gemini Movies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1045" tvg-chno="184" tvg-name="Shemaroo UMANG" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/shemaroo-umang.gif" group-title="Hindi Entertainment",Shemaroo UMANG
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1483" tvg-name="Gemini Music HD" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/gemini-music-hd.gif" group-title="Telugu Regional",Gemini Music HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1406" tvg-name="Gemini TV" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/gemini-tv.gif" group-title="Telugu Regional",Gemini TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1409" tvg-name="Star Maa" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-maa.gif" group-title="Telugu Regional",Star Maa
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1433" tvg-name="Star Maa Movies" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-maa-movies.gif" group-title="Telugu Regional",Star Maa Movies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="866" tvg-chno="1662" tvg-name="Vistara News" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vistara-news.gif" group-title="Kannada Regional",Vistara News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="430" tvg-chno="1466" tvg-name="Raj News Telugu" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raj-news-telugu.gif" group-title="Telugu Regional",Raj News Telugu
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="160" tvg-chno="1460" tvg-name="NTV Telugu" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ntv-telugu.gif" group-title="Telugu Regional",NTV Telugu
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="425" tvg-chno="1487" tvg-name="Raj Musix Telugu" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raj-musix-telugu.gif" group-title="Telugu Regional",Raj Musix Telugu
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="146" tvg-chno="1457" tvg-name="ETV Andhra Pradesh " tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/etv-andhra-pradesh.gif" group-title="Telugu Regional",ETV Andhra Pradesh 
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="145" tvg-chno="1412" tvg-name="ETV Telugu" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/etv-telugu.gif" group-title="Telugu Regional",ETV Telugu
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="128" tvg-chno="1440" tvg-name="ETV Cinema" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/etv-cinema.gif" group-title="Telugu Regional",ETV Cinema
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="49" tvg-chno="1462" tvg-name="T News" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/t-news.gif" group-title="Telugu Regional",T News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="38" tvg-chno="1743" tvg-name="Aastha Gujarati" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/aastha-gujarati.gif" group-title="Spiritual",Aastha Gujarati
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="11" tvg-chno="1459" tvg-name="TV9 Telugu" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv9-telugu.gif" group-title="Telugu Regional",TV9 Telugu
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="630" tvg-chno="1494" tvg-name="Hindu Dharmam" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/hindu-dharmam.gif" group-title="Telugu Regional",Hindu Dharmam
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="362" tvg-chno="1430" tvg-name="Gemini Movies HD" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/gemini-movies-hd.gif" group-title="Telugu Regional",Gemini Movies HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1446" tvg-name="Star Sports 1 Telugu" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-1-telugu.gif" group-title="Telugu Regional",Star Sports 1 Telugu
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1445" tvg-name="Star Sports 1 Telugu HD" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-1-telugu-hd.gif" group-title="Telugu Regional",Star Sports 1 Telugu HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="441" tvg-chno="566" tvg-name="Samay" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/samay.gif" group-title="Hindi News",Samay
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1031" tvg-chno="533" tvg-name="Surya Samachar" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/surya-samachar.gif" group-title="Hindi News",Surya Samachar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1027" tvg-chno="1468" tvg-name="Swatantra TV" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/swatantra-tv.gif" group-title="Telugu Regional",Swatantra TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1010" tvg-chno="531" tvg-name="Bharat 24" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/bharat-24.gif" group-title="Hindi News",Bharat 24
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1009" tvg-chno="1163" tvg-name="Tv27 News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv27-news.gif" group-title="Hindi Regional",Tv27 News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="993" tvg-chno="1162" tvg-name="News Hour" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-hour.gif" group-title="Hindi Regional",News Hour
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="991" tvg-chno="1991" tvg-name="DD Meghalaya" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-meghalaya.gif" group-title="DD",DD Meghalaya
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="989" tvg-chno="1932" tvg-name="STV Haryana News" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/stv-haryana-news.gif" group-title="Punjabi Regional",STV Haryana News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="568" tvg-name="Jantantra" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jantantra.gif" group-title="Hindi News",Jantantra
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="563" tvg-name="Khabrain Abhi Tak" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/khabrain-abhi-tak.gif" group-title="Hindi News",Khabrain Abhi Tak
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="567" tvg-name="Network10" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/network10.gif" group-title="Hindi News",Network10
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="988" tvg-chno="570" tvg-name="Har Khabar" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/har-khabar.gif" group-title="Hindi News",Har Khabar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="552" tvg-name="News11 Bharat" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news11-bharat.gif" group-title="Hindi News",News11 Bharat
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="972" tvg-chno="1930" tvg-name="Khabar Fast" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/khabar-fast.gif" group-title="Punjabi Regional",Khabar Fast
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="971" tvg-chno="1698" tvg-name="SVBC 3" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/svbc-3.gif" group-title="Spiritual",SVBC 3
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="831" tvg-chno="530" tvg-name="News India 24X7" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-india-24x7.gif" group-title="Hindi News",News India 24X7
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1166" tvg-name="TV24" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv24.gif" group-title="Hindi News",TV24
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="414" tvg-chno="553" tvg-name="News 1 India" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-1-india.gif" group-title="Hindi News",News 1 India
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="344" tvg-chno="557" tvg-name="Hindi Khabar" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/hindi-khabar.gif" group-title="Hindi News",Hindi Khabar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="322" tvg-chno="502" tvg-name="DD News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-news.gif" group-title="Hindi News",DD News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="291" tvg-chno="559" tvg-name="Bharat Samachar" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/bharat-samachar.gif" group-title="Hindi News",Bharat Samachar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="286" tvg-chno="542" tvg-name="APN News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/apn-news.gif" group-title="Hindi News",APN News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="278" tvg-chno="525" tvg-name="Good News Today" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/good-news-today.gif" group-title="Hindi News",Good News Today
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="250" tvg-chno="1404" tvg-name="Zee Telugu" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-telugu.gif" group-title="Telugu Regional",Zee Telugu
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="153" tvg-chno="509" tvg-name="Aaj Tak" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/aaj-tak.gif" group-title="Hindi News",Aaj Tak
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="106" tvg-chno="519" tvg-name="News18 India" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-india.gif" group-title="Hindi News",News18 India
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="104" tvg-chno="514" tvg-name="India TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/india-tv.gif" group-title="Hindi News",India TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="36" tvg-chno="523" tvg-name="News Nation" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-nation.gif" group-title="Hindi News",News Nation
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="706" tvg-chno="524" tvg-name="TV9 Bharatvarsh" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv9-bharatvarsh.gif" group-title="Hindi News",TV9 Bharatvarsh
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="213" tvg-chno="596" tvg-name="Sansad TV 1 HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sansad-tv-1-hd.gif" group-title="Hindi News",Sansad TV 1 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1313" tvg-chno="1856" tvg-name="Shekinah" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/shekinah.gif" group-title="Malayalam Regional",Shekinah
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="153" tvg-chno="508" tvg-name="Aaj Tak HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/aaj-tak-hd.gif" group-title="Hindi News",Aaj Tak HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="969" tvg-chno="1086" tvg-name="Aadinath TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/aadinath-tv.gif" group-title="Spiritual",Aadinath TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="968" tvg-chno="1569" tvg-name="News Tamil 24x7" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-tamil-24x7.gif" group-title="Tamil Regional",News Tamil 24x7
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="965" tvg-chno="187" tvg-name="Manoranjan Grand" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/manoranjan-grand.gif" group-title="Hindi Movies",Manoranjan Grand
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1874" tvg-name="DD Malayalam" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-malayalam.gif" group-title="Malayalam Regional",DD Malayalam
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1847" tvg-name="Jai Hind TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jai-hind-tv.gif" group-title="Malayalam Regional",Jai Hind TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1851" tvg-name="Kaumudy" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/kaumudy.gif" group-title="Malayalam Regional",Kaumudy
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1857" tvg-name="News Malayalam 24x7" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-malayalam-24x7.gif" group-title="Malayalam Regional",News Malayalam 24x7
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1830" tvg-name="Surya Comedy" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/surya-comedy.gif" group-title="Malayalam Regional",Surya Comedy
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1875" tvg-name="Surya Music" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/surya-music.gif" group-title="Malayalam Regional",Surya Music
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="937" tvg-chno="1161" tvg-name="Anaadi TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/anaadi-tv.gif" group-title="Hindi Regional",Anaadi TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="936" tvg-chno="1942" tvg-name="Punjabi Hits" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/punjabi-hits.gif" group-title="Punjabi Regional",Punjabi Hits
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="799" tvg-chno="1854" tvg-name="Twenty four" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/twenty-four.gif" group-title="Malayalam Regional",Twenty four
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="436" tvg-chno="1838" tvg-name="Safari TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/safari-tv.gif" group-title="Malayalam Regional",Safari TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="428" tvg-chno="1853" tvg-name="Raj News Malayalam" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raj-news-malayalam.gif" group-title="Malayalam Regional",Raj News Malayalam
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="399" tvg-chno="1104" tvg-name="MH One Dil Se" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mh-one-dil-se.gif" group-title="Hindi Regional",MH One Dil Se
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="394" tvg-chno="1844" tvg-name="Mathrubhumi News" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mathrubhumi-news.gif" group-title="Malayalam Regional",Mathrubhumi News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="90" tvg-chno="529" tvg-name="Times Now Navbharat" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/times-now-navbharat.gif" group-title="Hindi News",Times Now Navbharat
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="88" tvg-chno="594" tvg-name="ET Now Swadesh" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/et-now-swadesh.gif" group-title="Hindi News",ET Now Swadesh
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="87" tvg-chno="1843" tvg-name="Manorama News" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/manorama-news.gif" group-title="Malayalam Regional",Manorama News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="66" tvg-chno="1842" tvg-name="News18 Kerala" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-kerala.gif" group-title="Malayalam Regional",News18 Kerala
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="31" tvg-chno="1818" tvg-name="Mazhavil Manorama HD" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mazhavil-manorama-hd.gif" group-title="Malayalam Regional",Mazhavil Manorama HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="31" tvg-chno="1819" tvg-name="Mazhavil Manorama" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mazhavil-manorama.gif" group-title="Malayalam Regional",Mazhavil Manorama
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="25" tvg-chno="1820" tvg-name="Kairali TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/kairali-tv.gif" group-title="Malayalam Regional",Kairali TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="388" tvg-chno="1435" tvg-name="Star Maa Gold" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-maa-gold.gif" group-title="Telugu Regional",Star Maa Gold
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="387" tvg-chno="1432" tvg-name="Star Maa Movies HD" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-maa-movies-hd.gif" group-title="Telugu Regional",Star Maa Movies HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="377" tvg-chno="1878" tvg-name="Kappa TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/kappa-tv.gif" group-title="Malayalam Regional",Kappa TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="372" tvg-chno="1848" tvg-name="Jeevan TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jeevan-tv.gif" group-title="Malayalam Regional",Jeevan TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="356" tvg-chno="1886" tvg-name="God TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/god-tv.gif" group-title="Malayalam Regional",God TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="348" tvg-chno="1888" tvg-name="Harvest TV 24X7" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/harvest-tv-24x7.gif" group-title="Malayalam Regional",Harvest TV 24X7
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="10" tvg-chno="1814" tvg-name="Flowers" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/flowers.gif" group-title="Malayalam Regional",Flowers
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1807" tvg-name="Asianet" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/asianet.gif" group-title="Malayalam Regional",Asianet
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="935" tvg-chno="1084" tvg-name="Awakening" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/awakening.gif" group-title="Spiritual",Awakening
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="148" tvg-chno="332" tvg-name="&pictures" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/pictures.gif" group-title="Hindi Movies",&pictures
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="383" tvg-name="Chumbak" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/chumbak.gif" group-title="Hindi Movies",Chumbak
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="922" tvg-chno="1941" tvg-name="PTC Music" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ptc-music.gif" group-title="Punjabi Regional",PTC Music
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="913" tvg-chno="1661" tvg-name="News 1st Kannada" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-1st-kannada.gif" group-title="Kannada Regional",News 1st Kannada
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="323" tvg-name="Star Gold Romance" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-gold-romance.gif" group-title="Hindi Movies",Star Gold Romance
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="325" tvg-name="Star Gold Thrills" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-gold-thrills.gif" group-title="Hindi Movies",Star Gold Thrills
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="317" tvg-name="Star Gold 2" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-gold-2.gif" group-title="Hindi Movies",Star Gold 2
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="333" tvg-name="&Xplore HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/xplore-hd.gif" group-title="Hindi Movies",&Xplore HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="316" tvg-name="Star Gold 2 HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-gold-2-hd.gif" group-title="Hindi Movies",Star Gold 2 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="357" tvg-name="Star Gold Select" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-gold-select.gif" group-title="Hindi Movies",Star Gold Select
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="356" tvg-name="Star Gold Select HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-gold-select-hd.gif" group-title="Hindi Movies",Star Gold Select HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="911" tvg-chno="1085" tvg-name="Santwani" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/santwani.gif" group-title="Spiritual",Santwani
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="907" tvg-chno="1780" tvg-name="Argus News" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/argus-news.gif" group-title="Odia Regional",Argus News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="310" tvg-name="Star Gold" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-gold.gif" group-title="Hindi Movies",Star Gold
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="321" tvg-chno="1672" tvg-name="DD Chandana" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-chandana.gif" group-title="Kannada Regional",DD Chandana
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="296" tvg-chno="367" tvg-name="Bflix Movies" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/bflix-movies.gif" group-title="Hindi Movies",Bflix Movies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="293" tvg-chno="1827" tvg-name="Asianet Movies HD" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/asianet-movies-hd.gif" group-title="Malayalam Regional",Asianet Movies HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="293" tvg-chno="1828" tvg-name="Asianet Movies" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/asianet-movies.gif" group-title="Malayalam Regional",Asianet Movies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="292" tvg-chno="1806" tvg-name="Asianet HD" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/asianet-hd.gif" group-title="Malayalam Regional",Asianet HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="276" tvg-chno="365" tvg-name="Wow Cinema One" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/wow-cinema-one.gif" group-title="Hindi Movies",Wow Cinema One
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="148" tvg-chno="331" tvg-name="&pictures HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/pictures-hd.gif" group-title="Hindi Movies",&pictures HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="132" tvg-chno="314" tvg-name="Sony Max" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-max.gif" group-title="Hindi Movies",Sony Max
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="230" tvg-chno="1802" tvg-name="Surya TV HD" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/surya-tv-hd.gif" group-title="Malayalam Regional",Surya TV HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="175" tvg-chno="327" tvg-name="Zee Bollywood" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-bollywood.gif" group-title="Hindi Movies",Zee Bollywood
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="123" tvg-chno="321" tvg-name="Zee Cinema" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-cinema.gif" group-title="Hindi Movies",Zee Cinema
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="120" tvg-chno="355" tvg-name="Sony Max 2" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-max-2.gif" group-title="Hindi Movies",Sony Max 2
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="100" tvg-chno="349" tvg-name="Action Cinema" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/action-cinema.gif" group-title="Hindi Movies",Action Cinema
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="90" tvg-chno="528" tvg-name="Times Now Navbharat HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/times-now-navbharat-hd.gif" group-title="Hindi News",Times Now Navbharat HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="85" tvg-chno="1654" tvg-name="News18 Kannada" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-kannada.gif" group-title="Kannada Regional",News18 Kannada
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="80" tvg-chno="312" tvg-name="Sony Max HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-max-hd.gif" group-title="Hindi Movies",Sony Max HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="152" tvg-chno="1653" tvg-name="TV9 Kannada" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv9-kannada.gif" group-title="Kannada Regional",TV9 Kannada
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1618" tvg-name="Sirikannada All Time" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sirikannada-all-time.gif" group-title="Kannada Regional",Sirikannada All Time
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1673" tvg-name="Udaya Music" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/udaya-music.gif" group-title="Kannada Regional",Udaya Music
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1628" tvg-name="Udaya Comedy" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/udaya-comedy.gif" group-title="Kannada Regional",Udaya Comedy
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="905" tvg-chno="680" tvg-name="ETV Bal Bharat" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/etv-bal-bharat.gif" group-title="Kids",ETV Bal Bharat
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1645" tvg-name="Star Sports 1 Kannada" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-1-kannada.gif" group-title="Kannada Regional",Star Sports 1 Kannada
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1610" tvg-name="Star Suvarna" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-suvarna.gif" group-title="Kannada Regional",Star Suvarna
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1604" tvg-name="Udaya TV" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/udaya-tv.gif" group-title="Kannada Regional",Udaya TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1495" tvg-name="Calvary TV" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/calvary-tv.gif" group-title="Others",Calvary TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1986" tvg-name="DD Arunprabha" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-arunprabha.gif" group-title="Others",DD Arunprabha
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1987" tvg-name="DD Manipur" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-manipur.gif" group-title="Others",DD Manipur
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1996" tvg-name="DD Mizoram" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-mizoram.gif" group-title="Others",DD Mizoram
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1994" tvg-name="DD Nagaland" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-nagaland.gif" group-title="Others",DD Nagaland
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1985" tvg-name="DD Port Blair" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-port-blair.gif" group-title="Others",DD Port Blair
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1992" tvg-name="DD Tripura" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-tripura.gif" group-title="Others",DD Tripura
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="824" tvg-chno="1660" tvg-name="Power TV" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/power-tv.gif" group-title="Kannada Regional",Power TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="425" tvg-chno="1674" tvg-name="RAJ MUSIX KANNADA" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raj-musix-kannada.gif" group-title="Kannada Regional",RAJ MUSIX KANNADA
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="424" tvg-chno="1677" tvg-name="Public Music" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/public-music.gif" group-title="Kannada Regional",Public Music
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="33" tvg-chno="1655" tvg-name="Public TV" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/public-tv.gif" group-title="Kannada Regional",Public TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="342" tvg-chno="1659" tvg-name="R Kannada" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/r-kannada.gif" group-title="Kannada Regional",R Kannada
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="331" tvg-chno="1988" tvg-name="DD North East" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-north-east.gif" group-title="Others",DD North East
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1962" tvg-name="JONACK" tvg-country="India" tvg-language="Assamese" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jonack.gif" group-title="Others",JONACK
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1979" tvg-name="ND24Newsdaily24in" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nd24newsdaily24in.gif" group-title="Others",ND24Newsdaily24in
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1268" tvg-chno="1982" tvg-name="NE News" tvg-country="India" tvg-language="Assamese" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ne-news.gif" group-title="Others",NE News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1115" tvg-chno="1981" tvg-name="Pratham Khabar 24X7" tvg-country="India" tvg-language="Assamese" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/pratham-khabar-24x7.gif" group-title="Others",Pratham Khabar 24X7
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1076" tvg-chno="1980" tvg-name="NB NEWS" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nb-news.gif" group-title="Others",NB NEWS
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="857" tvg-name="Raj Pariwar" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raj-pariwar.gif" group-title="Others",Raj Pariwar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1074" tvg-chno="1977" tvg-name="NKTV 24X7" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nktv-24x7.gif" group-title="Others",NKTV 24X7
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1954" tvg-name="SPONDON" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/spondon.gif" group-title="Others",SPONDON
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1588" tvg-name="Raj Nagaichuvai" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raj-nagaichuvai.gif" group-title="Others",Raj Nagaichuvai
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="899" tvg-chno="1122" tvg-name="Pasand" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/pasand.gif" group-title="Hindi Regional",Pasand
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="153" tvg-name="Bindass" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/bindass.gif" group-title="Hindi Entertainment",Bindass
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="898" tvg-chno="1978" tvg-name="Hornbill TV" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/hornbill-tv.gif" group-title="Others",Hornbill TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="185" tvg-name="Nazara" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nazara.gif" group-title="Hindi Entertainment",Nazara
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="830" tvg-chno="1114" tvg-name="Filamchi Bhojpuri" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/filamchi-bhojpuri.gif" group-title="Hindi Regional",Filamchi Bhojpuri
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="823" tvg-chno="375" tvg-name="Goldmines" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/goldmines.gif" group-title="Hindi Movies",Goldmines
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="818" tvg-chno="181" tvg-name="Shemaroo TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/shemaroo-tv.gif" group-title="Hindi Entertainment",Shemaroo TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="810" tvg-chno="1634" tvg-name="Zee Picchar" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-picchar.gif" group-title="Kannada Regional",Zee Picchar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="797" tvg-chno="1545" tvg-name="Zee Thirai HD" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-thirai-hd.gif" group-title="Tamil Regional",Zee Thirai HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="423" tvg-chno="1975" tvg-name="Prag News" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/prag-news.gif" group-title="Others",Prag News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="417" tvg-chno="1976" tvg-name="North East Live" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/north-east-live.gif" group-title="Others",North East Live
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="368" tvg-chno="1961" tvg-name="Indradhanu" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/indradhanu.gif" group-title="Others",Indradhanu
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="353" tvg-chno="1970" tvg-name="DY 365" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dy-365.gif" group-title="Others",DY 365
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="326" tvg-chno="198" tvg-name="DD Kisan" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-kisan.gif" group-title="Hindi Entertainment",DD Kisan
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="101" tvg-chno="1952" tvg-name="Rang" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/rang.gif" group-title="Others",Rang
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="68" tvg-chno="1971" tvg-name="News18 Assam North East" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-assam-north-east.gif" group-title="Others",News18 Assam North East
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="54" tvg-chno="175" tvg-name="The Q" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/the-q.gif" group-title="Hindi Entertainment",The Q
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="51" tvg-chno="177" tvg-name="Dangal" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dangal.gif" group-title="Hindi Entertainment",Dangal
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="797" tvg-chno="1546" tvg-name="Zee Thirai" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-thirai.gif" group-title="Tamil Regional",Zee Thirai
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="788" tvg-chno="1322" tvg-name="Enterr10 Bangla" tvg-country="India" tvg-language="Bangla" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/enterr10-bangla.gif" group-title="Bengali Regional",Enterr10 Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="297" tvg-chno="176" tvg-name="Big Magic" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/big-magic.gif" group-title="Hindi Entertainment",Big Magic
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="226" tvg-chno="1973" tvg-name="News Live" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-live.gif" group-title="Others",News Live
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="221" tvg-chno="1974" tvg-name="Protidin Time" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/protidin-time.gif" group-title="Others",Protidin Time
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="214" tvg-chno="1953" tvg-name="Rengoni TV" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/rengoni-tv.gif" group-title="Others",Rengoni TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="676" tvg-name="SONY YAY" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-yay.gif" group-title="Hindi Entertainment",SONY YAY
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1133" tvg-chno="117" tvg-name="Star Plus" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-plus.gif" group-title="Hindi Entertainment",Star Plus
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1133" tvg-chno="1372" tvg-name="R Plus" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/r-plus.gif" group-title="Bengali Regional",R Plus
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1103" tvg-chno="1371" tvg-name="NKTV Bangla" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nktv-bangla.gif" group-title="Bengali Regional",NKTV Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="128" tvg-name="Sony Entertainment Television HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-entertainment-television-hd.gif" group-title="Hindi Entertainment",Sony Entertainment Television HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="130" tvg-name="Sony Entertainment Television" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-entertainment-television.gif" group-title="Hindi Entertainment",Sony Entertainment Television
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="381" tvg-chno="1363" tvg-name="Kolkata TV" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/kolkata-tv.gif" group-title="Bengali Regional",Kolkata TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="890" tvg-chno="1367" tvg-name="Republic Bangla" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/republic-bangla.gif" group-title="Bengali Regional",Republic Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="730" tvg-chno="346" tvg-name="B4U Kadak" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/b4u-kadak.gif" group-title="Hindi Movies",B4U Kadak
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="729" tvg-chno="1120" tvg-name="B4U Bhojpuri" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/b4u-bhojpuri.gif" group-title="Hindi Regional",B4U Bhojpuri
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1317" tvg-name="Sun Bangla" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sun-bangla.gif" group-title="Bengali Regional",Sun Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1316" tvg-name="Sun Bangla HD" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sun-bangla-hd.gif" group-title="Bengali Regional",Sun Bangla HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="727" tvg-chno="328" tvg-name="Zee Classic" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-classic.gif" group-title="Hindi Movies",Zee Classic
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="723" tvg-chno="1525" tvg-name="Tamil Naaptol - Free" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tamil-naaptol-free.gif" group-title="Others",Tamil Naaptol - Free
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="708" tvg-chno="1517" tvg-name="Jaya TV HD" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jaya-tv-hd.gif" group-title="Tamil Regional",Jaya TV HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="379" tvg-chno="1341" tvg-name="Khushboo Bangla" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/khushboo-bangla.gif" group-title="Bengali Regional",Khushboo Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="314" tvg-chno="1379" tvg-name="DD Bangla" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-bangla.gif" group-title="Bengali Regional",DD Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="102" tvg-chno="1360" tvg-name="ABP Ananda" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/abp-ananda.gif" group-title="Bengali Regional",ABP Ananda
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="34" tvg-chno="1312" tvg-name="Sony Aath" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-aath.gif" group-title="Bengali Regional",Sony Aath
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="23" tvg-chno="1365" tvg-name="News18 Bangla" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-bangla.gif" group-title="Bengali Regional",News18 Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="8" tvg-chno="115" tvg-name="Star Plus HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-plus-hd.gif" group-title="Hindi Entertainment",Star Plus HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="3" tvg-chno="1321" tvg-name="Ruposhi Bangla" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ruposhi-bangla.gif" group-title="Bengali Regional",Ruposhi Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="311" tvg-chno="1369" tvg-name="CTVN AKD Plus" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ctvn-akd-plus.gif" group-title="Bengali Regional",CTVN AKD Plus
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="258" tvg-chno="1362" tvg-name="Zee 24 Ghanta" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-24-ghanta.gif" group-title="Bengali Regional",Zee 24 Ghanta
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="215" tvg-chno="1380" tvg-name="Sangeet Bangla" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sangeet-bangla.gif" group-title="Bengali Regional",Sangeet Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="698" tvg-chno="1155" tvg-name="INH 24X7" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/inh-24x7.gif" group-title="Hindi News",INH 24X7
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="129" tvg-chno="1320" tvg-name="Aakaash Aath" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/aakaash-aath.gif" group-title="Bengali Regional",Aakaash Aath
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1327" tvg-name="Jalsha Movies" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jalsha-movies.gif" group-title="Bengali Regional",Jalsha Movies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="696" tvg-chno="521" tvg-name="R Bharat" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/r-bharat.gif" group-title="Hindi News",R Bharat
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1310" tvg-name="Star Jalsha" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-jalsha.gif" group-title="Bengali Regional",Star Jalsha
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="696" tvg-chno="122" tvg-name="Star Bharat" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-bharat.gif" group-title="Hindi Entertainment",Star Bharat
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1307" tvg-name="Zee Bangla" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-bangla.gif" group-title="Bengali Regional",Zee Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="497" tvg-name="Star Sports First" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-first.gif" group-title="Sports",Star Sports First
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="490" tvg-name="Sports18 2" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sports18-2.gif" group-title="Sports",Sports18 2
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="458" tvg-name="Star Sports 3" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-3.gif" group-title="Sports",Star Sports 3
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="693" tvg-chno="496" tvg-name="Eurosport" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/eurosport.gif" group-title="Sports",Eurosport
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="492" tvg-name="Sports18 3" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sports18-3.gif" group-title="Sports",Sports18 3
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="693" tvg-chno="495" tvg-name="Eurosport HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/eurosport-hd.gif" group-title="Sports",Eurosport HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="457" tvg-name="Star Sports 2" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-2.gif" group-title="Sports",Star Sports 2
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="466" tvg-name="Star Sports Select 2" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-select-2.gif" group-title="Sports",Star Sports Select 2
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1552" tvg-name="Sony Sports Ten 4" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sports-ten-4.gif" group-title="Sports",Sony Sports Ten 4
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="484" tvg-name="Sony Sports Ten 5" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sports-ten-5.gif" group-title="Sports",Sony Sports Ten 5
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="488" tvg-name="Sports 18 1" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sports-18-1.gif" group-title="Sports",Sports 18 1
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="487" tvg-name="Sports 18 1 HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sports-18-1-hd.gif" group-title="Sports",Sports 18 1 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="455" tvg-name="Star Sports 1" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-1.gif" group-title="Sports",Star Sports 1
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="460" tvg-name="Star Sports 1 Hindi" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-1-hindi.gif" group-title="Sports",Star Sports 1 Hindi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="464" tvg-name="Star Sports Select 1" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-select-1.gif" group-title="Sports",Star Sports Select 1
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="322" tvg-chno="501" tvg-name="DD News HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-news-hd.gif" group-title="Hindi News",DD News HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="150" tvg-chno="471" tvg-name="Sony Sports Ten 1" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sports-ten-1.gif" group-title="Sports",Sony Sports Ten 1
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="117" tvg-chno="768" tvg-name="Food Food" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/food-food.gif" group-title="Knowledge & Lifestyle",Food Food
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="81" tvg-chno="470" tvg-name="Sony Sports Ten 1 HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sports-ten-1-hd.gif" group-title="Sports",Sony Sports Ten 1 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="78" tvg-chno="454" tvg-name="Star Sports 1 HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-1-hd.gif" group-title="Sports",Star Sports 1 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="254" tvg-chno="1329" tvg-name="Zee Bangla Cinema" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-bangla-cinema.gif" group-title="Bengali Regional",Zee Bangla Cinema
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="246" tvg-chno="463" tvg-name="Star Sports Select 1 HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-select-1-hd.gif" group-title="Sports",Star Sports Select 1 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="244" tvg-chno="121" tvg-name="Star Bharat HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-bharat-hd.gif" group-title="Hindi Entertainment",Star Bharat HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="235" tvg-chno="456" tvg-name="Star Sports 2 HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-2-hd.gif" group-title="Sports",Star Sports 2 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="35" tvg-chno="483" tvg-name="Sony Sports Ten 5 HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sports-ten-5-hd.gif" group-title="Sports",Sony Sports Ten 5 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="24" tvg-chno="459" tvg-name="Star Sports 1 Hindi HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-1-hindi-hd.gif" group-title="Sports",Star Sports 1 Hindi HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="771" tvg-name="Food XP" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/food-xp.gif" group-title="Knowledge & Lifestyle",Food XP
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="685" tvg-chno="551" tvg-name="India Voice" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/india-voice.gif" group-title="Hindi News",India Voice
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="684" tvg-chno="1812" tvg-name="Zee Keralam" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-keralam.gif" group-title="Malayalam Regional",Zee Keralam
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="684" tvg-chno="1811" tvg-name="Zee Keralam HD" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-keralam-hd.gif" group-title="Malayalam Regional",Zee Keralam HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="754" tvg-name="Star Life" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-life.gif" group-title="Knowledge & Lifestyle",Star Life
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="770" tvg-name="Zee Zest" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-zest.gif" group-title="Knowledge & Lifestyle",Zee Zest
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="661" tvg-chno="1639" tvg-name="Public Movies" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/public-movies.gif" group-title="Kannada Regional",Public Movies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="660" tvg-chno="1686" tvg-name="Ayush TV" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ayush-tv.gif" group-title="Kannada Regional",Ayush TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="652" tvg-chno="1154" tvg-name="Bansal News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/bansal-news.gif" group-title="Hindi Regional",Bansal News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="650" tvg-chno="1182" tvg-name="First India Rajasthan" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/first-india-rajasthan.gif" group-title="Hindi Regional",First India Rajasthan
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="648" tvg-chno="1370" tvg-name="Calcutta News" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/calcutta-news.gif" group-title="Bengali Regional",Calcutta News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="769" tvg-name="Zee Zest HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-zest-hd.gif" group-title="Knowledge & Lifestyle",Zee Zest HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="647" tvg-chno="1584" tvg-name="Isaiaruvi" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/isaiaruvi.gif" group-title="Tamil Regional",Isaiaruvi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="646" tvg-chno="755" tvg-name="DD Gyan Darshan" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-gyan-darshan.gif" group-title="Knowledge & Lifestyle",DD Gyan Darshan
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="643" tvg-chno="1157" tvg-name="News State MP CG" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-state-mp-cg.gif" group-title="Hindi Regional",News State MP CG
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="637" tvg-chno="1126" tvg-name="Zee Uttar Pradesh Uttarakhand" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-uttar-pradesh-uttarakhand.gif" group-title="Hindi Regional",Zee Uttar Pradesh Uttarakhand
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="158" tvg-chno="725" tvg-name="Sony BBC Earth" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-bbc-earth.gif" group-title="Knowledge & Lifestyle",Sony BBC Earth
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="137" tvg-chno="709" tvg-name="National Geographic" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/national-geographic.gif" group-title="Knowledge & Lifestyle",National Geographic
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="367" tvg-chno="753" tvg-name="Star Life HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-life-hd.gif" group-title="Knowledge & Lifestyle",Star Life HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="336" tvg-chno="1274" tvg-name="DD Sahyadri" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-sahyadri.gif" group-title="Marathi Regional",DD Sahyadri
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="136" tvg-chno="762" tvg-name="Good Times" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/good-times.gif" group-title="Knowledge & Lifestyle",Good Times
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="135" tvg-chno="760" tvg-name="TLC" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tlc.gif" group-title="Knowledge & Lifestyle",TLC
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1343" tvg-chno="1268" tvg-name="NDTV Marathi" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ndtv-marathi.gif" group-title="Marathi Regional",NDTV Marathi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="658" tvg-chno="1213" tvg-name="Sony Marathi" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-marathi.gif" group-title="Marathi Regional",Sony Marathi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1230" tvg-name="Shemaroo Marathi Bana" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/shemaroo-marathi-bana.gif" group-title="Marathi Regional",Shemaroo Marathi Bana
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1216" tvg-name="Sun Marathi HD" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sun-marathi-hd.gif" group-title="Marathi Regional",Sun Marathi HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1217" tvg-name="Sun Marathi" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sun-marathi.gif" group-title="Marathi Regional",Sun Marathi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1228" tvg-name="Pravah Pictures" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/pravah-pictures.gif" group-title="Marathi Regional",Pravah Pictures
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1227" tvg-name="Star Pravah Pictures HD" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-pravah-pictures-hd.gif" group-title="Marathi Regional",Star Pravah Pictures HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="633" tvg-chno="155" tvg-name="Investigation Discovery HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/investigation-discovery-hd.gif" group-title="Hindi Entertainment",Investigation Discovery HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1208" tvg-name="Star Pravah" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-pravah.gif" group-title="Marathi Regional",Star Pravah
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="633" tvg-chno="156" tvg-name="Investigation Discovery" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/investigation-discovery.gif" group-title="Hindi Entertainment",Investigation Discovery
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="629" tvg-chno="1657" tvg-name="TV5 Kannada" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv5-kannada.gif" group-title="Kannada Regional",TV5 Kannada
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="644" tvg-name="NHK WORLD-JAPAN" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nhk-world-japan.gif" group-title="English News",NHK WORLD-JAPAN
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="613" tvg-chno="1137" tvg-name="News State UP Uttarakhand" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-state-up-uttarakhand.gif" group-title="Hindi Regional",News State UP Uttarakhand
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="611" tvg-chno="1531" tvg-name="Sirippoli" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sirippoli.gif" group-title="Tamil Regional",Sirippoli
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="324" tvg-chno="621" tvg-name="DD India HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-india-hd.gif" group-title="English News",DD India HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="157" tvg-chno="638" tvg-name="Channel News Asia" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/channel-news-asia.gif" group-title="English News",Channel News Asia
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="324" tvg-chno="622" tvg-name="DD India" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-india.gif" group-title="English News",DD India
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="155" tvg-chno="1255" tvg-name="ABP Majha" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/abp-majha.gif" group-title="Marathi Regional",ABP Majha
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="140" tvg-chno="1257" tvg-name="News18 Lokmat" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-lokmat.gif" group-title="Marathi Regional",News18 Lokmat
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="131" tvg-chno="639" tvg-name="France 24" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/france-24.gif" group-title="English News",France 24
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="304" tvg-chno="625" tvg-name="CNBC TV18 Prime HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/cnbc-tv18-prime-hd.gif" group-title="English News",CNBC TV18 Prime HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="257" tvg-chno="1510" tvg-name="Zee Tamil HD" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-tamil-hd.gif" group-title="Tamil Regional",Zee Tamil HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="255" tvg-chno="613" tvg-name="WION" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/wion.gif" group-title="English News",WION
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="105" tvg-chno="642" tvg-name="Australia TV" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/australia-tv.gif" group-title="English News",Australia TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="98" tvg-chno="643" tvg-name="Russia Today" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/russia-today.gif" group-title="English News",Russia Today
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="97" tvg-chno="1263" tvg-name="TV9 Marathi" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv9-marathi.gif" group-title="Marathi Regional",TV9 Marathi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="93" tvg-chno="623" tvg-name="NDTV Profit Prime" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ndtv-profit-prime.gif" group-title="English News",NDTV Profit Prime
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="90" tvg-chno="604" tvg-name="Times Now" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/times-now.gif" group-title="English News",Times Now
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="88" tvg-chno="627" tvg-name="ET Now" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/et-now.gif" group-title="English News",ET Now
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="626" tvg-name="CNBC TV18" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/cnbc-tv18.gif" group-title="English News",CNBC TV18
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="447" tvg-chno="1063" tvg-name="Sadhna TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sadhna-tv.gif" group-title="Spiritual",Sadhna TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="137" tvg-chno="708" tvg-name="National Geographic HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/national-geographic-hd.gif" group-title="Knowledge & Lifestyle",National Geographic HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="446" tvg-chno="1059" tvg-name="Paras Gold One" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/paras-gold-one.gif" group-title="Spiritual",Paras Gold One
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="837" tvg-chno="1089" tvg-name="Hare Krsna" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/hare-krsna.gif" group-title="Spiritual",Hare Krsna
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="802" tvg-chno="1088" tvg-name="Studio One +" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/studio-one.gif" group-title="Spiritual",Studio One +
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1067" tvg-name="Dharm Sandesh" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dharm-sandesh.gif" group-title="Spiritual",Dharm Sandesh
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1899" tvg-name="Power Vision" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/power-vision.gif" group-title="Spiritual",Power Vision
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="122" tvg-chno="1906" tvg-name="PTC Punjabi" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ptc-punjabi.gif" group-title="Punjabi Regional",PTC Punjabi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="787" tvg-chno="1927" tvg-name="ANB News" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/anb-news.gif" group-title="Punjabi Regional",ANB News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="775" tvg-chno="1083" tvg-name="Divya" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/divya.gif" group-title="Spiritual",Divya
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="773" tvg-chno="1946" tvg-name="PTC Simran" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ptc-simran.gif" group-title="Spiritual",PTC Simran
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="728" tvg-chno="1082" tvg-name="Subharti TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/subharti-tv.gif" group-title="Spiritual",Subharti TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="596" tvg-chno="1456" tvg-name="Sakshi TV" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sakshi-tv.gif" group-title="Telugu Regional",Sakshi TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="594" tvg-chno="1068" tvg-name="Ishwar TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ishwar-tv.gif" group-title="Spiritual",Ishwar TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1912" tvg-name="PTC Gold" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ptc-gold.gif" group-title="Punjabi Regional",PTC Gold
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="591" tvg-chno="612" tvg-name="Mirror Now" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mirror-now.gif" group-title="English News",Mirror Now
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="420" tvg-chno="1065" tvg-name="Peace of Mind" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/peace-of-mind.gif" group-title="Spiritual",Peace of Mind
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="92" tvg-chno="1938" tvg-name="PTC Chak De" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ptc-chak-de.gif" group-title="Punjabi Regional",PTC Chak De
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="399" tvg-chno="1926" tvg-name="MH One News" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mh-one-news.gif" group-title="Punjabi Regional",MH One News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="399" tvg-chno="1907" tvg-name="MH One" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mh-one.gif" group-title="Punjabi Regional",MH One
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="91" tvg-chno="1921" tvg-name="PTC News" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ptc-news.gif" group-title="Punjabi Regional",PTC News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="590" tvg-chno="1419" tvg-name="Telugu Naaptol - Free" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/telugu-naaptol-free.gif" group-title="Others",Telugu Naaptol - Free
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="397" tvg-chno="1061" tvg-name="MH One Shraddha" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mh-one-shraddha.gif" group-title="Spiritual",MH One Shraddha
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="385" tvg-chno="1064" tvg-name="Sharnam TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sharnam-tv.gif" group-title="Spiritual",Sharnam TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="373" tvg-chno="1066" tvg-name="Jinvani Channel" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jinvani-channel.gif" group-title="Spiritual",Jinvani Channel
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="43" tvg-chno="1057" tvg-name="Sanskar" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sanskar.gif" group-title="Spiritual",Sanskar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="38" tvg-chno="1055" tvg-name="Aastha" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/aastha.gif" group-title="Spiritual",Aastha
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="587" tvg-chno="655" tvg-name="Super Hungama" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/super-hungama.gif" group-title="Kids",Super Hungama
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="371" tvg-chno="1925" tvg-name="Janta TV" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/janta-tv.gif" group-title="Punjabi Regional",Janta TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1083" tvg-chno="1910" tvg-name="Tabbar Hits" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tabbar-hits.gif" group-title="Punjabi Regional",Tabbar Hits
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="867" tvg-chno="678" tvg-name="Gubbare" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/gubbare.gif" group-title="Kids",Gubbare
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="816" tvg-chno="687" tvg-name="CBeeBies" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/cbeebies.gif" group-title="Kids",CBeeBies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="696" tvg-name="Unique TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/unique-tv.gif" group-title="Kids",Unique TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="652" tvg-name="Hungama TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/hungama-tv.gif" group-title="Kids",Hungama TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="796" tvg-chno="1903" tvg-name="Zee Punjabi" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-punjabi.gif" group-title="Punjabi Regional",Zee Punjabi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="692" tvg-name="Kushi TV" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/kushi-tv.gif" group-title="Kids",Kushi TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="624" tvg-chno="1911" tvg-name="Pitaara Movies" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/pitaara-movies.gif" group-title="Punjabi Regional",Pitaara Movies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="694" tvg-name="Chintu TV" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/chintu-tv.gif" group-title="Kids",Chintu TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="695" tvg-name="Kochu TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/kochu-tv.gif" group-title="Kids",Kochu TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="693" tvg-name="Chutti TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/chutti-tv.gif" group-title="Kids",Chutti TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="586" tvg-chno="1722" tvg-name="Sandesh News" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sandesh-news.gif" group-title="Gujarati Regional",Sandesh News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="583" tvg-chno="1177" tvg-name="Zee Rajasthan News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-rajasthan-news.gif" group-title="Hindi Regional",Zee Rajasthan News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="262" tvg-chno="1931" tvg-name="Zee Delhi NCR Haryana" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-delhi-ncr-haryana.gif" group-title="Punjabi Regional",Zee Delhi NCR Haryana
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="239" tvg-chno="670" tvg-name="Pogo" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/pogo.gif" group-title="Kids",Pogo
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="238" tvg-chno="666" tvg-name="Cartoon Network HD+" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/cartoon-network-hd.gif" group-title="Kids",Cartoon Network HD+
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="238" tvg-chno="667" tvg-name="Cartoon Network" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/cartoon-network.gif" group-title="Kids",Cartoon Network
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="580" tvg-chno="1920" tvg-name="Zee Punjab Haryana Himachal Pradesh" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-punjab-haryana-himachal-pradesh.gif" group-title="Punjabi Regional",Zee Punjab Haryana Himachal Pradesh
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1170" tvg-chno="1766" tvg-name="Sidharth Gold" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sidharth-gold.gif" group-title="Odia Regional",Sidharth Gold
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="978" tvg-chno="1757" tvg-name="SIDHARTH TV" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sidharth-tv.gif" group-title="Odia Regional",SIDHARTH TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="805" tvg-chno="1779" tvg-name="Nandighosha TV" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nandighosha-tv.gif" group-title="Odia Regional",Nandighosha TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="597" tvg-chno="1756" tvg-name="Zee Sarthak" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-sarthak.gif" group-title="Odia Regional",Zee Sarthak
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="578" tvg-chno="139" tvg-name="&TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv.gif" group-title="Hindi Entertainment",&TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="577" tvg-chno="1158" tvg-name="Swaraj Express SMBC" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/swaraj-express-smbc.gif" group-title="Hindi Regional",Swaraj Express SMBC
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1771" tvg-name="OTV" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/otv.gif" group-title="Odia Regional",OTV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1778" tvg-name="Prameya News 7" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/prameya-news-7.gif" group-title="Odia Regional",Prameya News 7
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1795" tvg-name="Prarthana TV" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/prarthana-tv.gif" group-title="Odia Regional",Prarthana TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1763" tvg-name="Alankar" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/alankar.gif" group-title="Odia Regional",Alankar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1796" tvg-name="SIDHARTH BHAKTI" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sidharth-bhakti.gif" group-title="Odia Regional",SIDHARTH BHAKTI
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1758" tvg-name="Star Kiran HD" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-kiran-hd.gif" group-title="Odia Regional",Star Kiran HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1759" tvg-name="Star Kiran" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-kiran.gif" group-title="Odia Regional",Star Kiran
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="431" tvg-name="&prive HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/prive-hd.gif" group-title="English Movies",&prive HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="419" tvg-name="Star Movies Select" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-movies-select.gif" group-title="English Movies",Star Movies Select
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="576" tvg-chno="1849" tvg-name="Media One TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/media-one-tv.gif" group-title="Malayalam Regional",Media One TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="376" tvg-chno="1774" tvg-name="Kanak News" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/kanak-news.gif" group-title="Odia Regional",Kanak News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="138" tvg-chno="662" tvg-name="Nick HD+" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nick-hd.gif" group-title="Kids",Nick HD+
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="138" tvg-chno="663" tvg-name="Nick" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nick.gif" group-title="Kids",Nick
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="114" tvg-chno="657" tvg-name="Disney Channel HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/disney-channel-hd.gif" group-title="Kids",Disney Channel HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="375" tvg-chno="1777" tvg-name="Kalinga TV" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/kalinga-tv.gif" group-title="Odia Regional",Kalinga TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="567" tvg-chno="1951" tvg-name="Nepal 1" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nepal-1.gif" group-title="Others",Nepal 1
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="566" tvg-chno="1617" tvg-name="Kannada Naaptol - Free" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/kannada-naaptol-free.gif" group-title="Others",Kannada Naaptol - Free
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="733" tvg-chno="835" tvg-name="Showbox" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/showbox.gif" group-title="Music",Showbox
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="413" tvg-name="&flix" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/flix.gif" group-title="English Movies",&flix
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="412" tvg-name="&flix HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/flix-hd.gif" group-title="English Movies",&flix HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="403" tvg-name="Star Movies" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-movies.gif" group-title="English Movies",Star Movies
+https://xteam-itpv.vercel.app/stream/2
 #EXTINF:-1 tvg-id="245" tvg-chno="418" tvg-name="Star Movies Select HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-movies-select-hd.gif" group-title="English Movies",Star Movies Select HD
 https://xteam-itpv.vercel.app/stream/66315
+#EXTINF:-1 tvg-id="none" tvg-chno="402" tvg-name="Star Movies HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-movies-hd.gif" group-title="English Movies",Star Movies HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="856" tvg-name="Vh1" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vh1.gif" group-title="Music",Vh1
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="1735" tvg-name="GUJARAT FIRST 24X7 NEWS" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/gujarat-first-24x7-news.gif" group-title="Gujarati Regional",GUJARAT FIRST 24X7 NEWS
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="559" tvg-chno="134" tvg-name="Sony SAB" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sab.gif" group-title="Hindi Entertainment",Sony SAB
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="558" tvg-chno="407" tvg-name="Sony Pix" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-pix.gif" group-title="English Movies",Sony Pix
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="139" tvg-chno="809" tvg-name="9XM" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/9xm.gif" group-title="Music",9XM
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="103" tvg-chno="806" tvg-name="MTV HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mtv-hd.gif" group-title="Music",MTV HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="103" tvg-chno="807" tvg-name="MTV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mtv.gif" group-title="Music",MTV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="103" tvg-chno="821" tvg-name="MTV Beats" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mtv-beats.gif" group-title="Music",MTV Beats
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="103" tvg-chno="820" tvg-name="MTV Beats HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mtv-beats-hd.gif" group-title="Music",MTV Beats HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="96" tvg-chno="811" tvg-name="Zoom" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zoom.gif" group-title="Music",Zoom
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="73" tvg-chno="1728" tvg-name="ABP Asmita" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/abp-asmita.gif" group-title="Gujarati Regional",ABP Asmita
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="48" tvg-chno="132" tvg-name="Sony SAB HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sab-hd.gif" group-title="Hindi Entertainment",Sony SAB HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="323" tvg-chno="1739" tvg-name="DD Girnar" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-girnar.gif" group-title="Gujarati Regional",DD Girnar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="306" tvg-chno="219" tvg-name="Comedy Central" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/comedy-central.gif" group-title="English Entertainment",Comedy Central
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="303" tvg-chno="1724" tvg-name="CNBC Bajaar" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/cnbc-bajaar.gif" group-title="Gujarati Regional",CNBC Bajaar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="224" tvg-chno="813" tvg-name="E24" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/e24.gif" group-title="Music",E24
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="173" tvg-chno="420" tvg-name="Movies Now HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/movies-now-hd.gif" group-title="English Movies",Movies Now HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="39" tvg-chno="830" tvg-name="9X Jalwa" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/9x-jalwa.gif" group-title="Music",9X Jalwa
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="32" tvg-chno="406" tvg-name="Sony PIX HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-pix-hd.gif" group-title="English Movies",Sony PIX HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="211" tvg-name="Zee Cafe" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-cafe.gif" group-title="English Entertainment",Zee Cafe
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="none" tvg-chno="210" tvg-name="Zee Cafe HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-cafe-hd.gif" group-title="English Entertainment",Zee Cafe HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="784" tvg-chno="572" tvg-name="FM News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/fm-news.gif" group-title="News",FM News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="774" tvg-chno="1470" tvg-name="4TV News" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/4tv-news.gif" group-title="News",4TV News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="438" tvg-chno="173" tvg-name="Colors Rishtey" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-rishtey.gif" group-title="Hindi Entertainment",Colors Rishtey
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="418" tvg-chno="1515" tvg-name="Colors Tamil" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-tamil.gif" group-title="Tamil Regional",Colors Tamil
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="134" tvg-chno="1202" tvg-name="Colors Marathi" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-marathi.gif" group-title="Marathi Regional",Colors Marathi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1378" tvg-chno="1496" tvg-name="Nireekshana TV" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nireekshana-tv.gif" group-title="Others",Nireekshana TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="557" tvg-chno="143" tvg-name="Zee TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-tv.gif" group-title="Hindi Entertainment",Zee TV
+https://xteam-itpv.vercel.app/stream/221250
+#EXTINF:-1 tvg-id="554" tvg-chno="174" tvg-name="Sony Pal" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-pal.gif" group-title="Hindi Entertainment",Sony Pal
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="553" tvg-chno="1822" tvg-name="We TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/we-tv.gif" group-title="Malayalam Regional",We TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="552" tvg-chno="1721" tvg-name="Gujarat Samachar TV" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/gujarat-samachar-tv.gif" group-title="Gujarati Regional",Gujarat Samachar TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="551" tvg-chno="369" tvg-name="Star Utsav Movies" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-utsav-movies.gif" group-title="Hindi Movies",Star Utsav Movies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="551" tvg-chno="171" tvg-name="STAR Utsav" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-utsav.gif" group-title="Hindi Entertainment",STAR Utsav
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="548" tvg-chno="1482" tvg-name="DD Yadagiri" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-yadagiri.gif" group-title="Telugu Regional",DD Yadagiri
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="546" tvg-chno="1261" tvg-name="Saam TV" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/saam-tv.gif" group-title="Marathi Regional",Saam TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="134" tvg-chno="1201" tvg-name="Colors Marathi HD" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-marathi-hd.gif" group-title="Marathi Regional",Colors Marathi HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="543" tvg-chno="215" tvg-name="Colors Infinity" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-infinity.gif" group-title="English Entertainment",Colors Infinity
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="418" tvg-chno="1514" tvg-name="Colors Tamil HD" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-tamil-hd.gif" group-title="Tamil Regional",Colors Tamil HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="115" tvg-chno="1752" tvg-name="Colors Oriya" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-oriya.gif" group-title="Odia Regional",Colors Oriya
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="306" tvg-chno="218" tvg-name="Comedy Central HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/comedy-central-hd.gif" group-title="English Entertainment",Comedy Central HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="114" tvg-chno="221" tvg-name="Disney International HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/disney-international-hd.gif" group-title="English Entertainment",Disney International HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="108" tvg-chno="1606" tvg-name="Colors Kannada" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-kannada.gif" group-title="Kannada Regional",Colors Kannada
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="108" tvg-chno="1632" tvg-name="Colors Kannada Cinema" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-kannada-cinema.gif" group-title="Kannada Regional",Colors Kannada Cinema
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="108" tvg-chno="1605" tvg-name="Colors Kannada HD" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-kannada-hd.gif" group-title="Kannada Regional",Colors Kannada HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="63" tvg-chno="141" tvg-name="Zee TV HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-tv-hd.gif" group-title="Hindi Entertainment",Zee TV HD
+https://xteam-itpv.vercel.app/stream/66162
+#EXTINF:-1 tvg-id="543" tvg-chno="149" tvg-name="Colors" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors.gif" group-title="Hindi Entertainment",Colors
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1132" tvg-chno="1355" tvg-name="Rongeen TV" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/rongeen-tv.gif" group-title="Bengali Regional",Rongeen TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1124" tvg-chno="1855" tvg-name="Reporter TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/reporter-tv.gif" group-title="Malayalam Regional",Reporter TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1118" tvg-chno="1473" tvg-name="News 360" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-360.gif" group-title="Telugu Regional",News 360
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="540" tvg-chno="1630" tvg-name="Star Suvarna Plus" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-suvarna-plus.gif" group-title="Kannada Regional",Star Suvarna Plus
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="539" tvg-chno="855" tvg-name="Vh1 HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vh1-hd.gif" group-title="Music",Vh1 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="537" tvg-chno="1326" tvg-name="Jalsha Movies HD" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jalsha-movies-hd.gif" group-title="Bengali Regional",Jalsha Movies HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="533" tvg-chno="1615" tvg-name="Colors Super" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-super.gif" group-title="Kannada Regional",Colors Super
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="525" tvg-chno="1564" tvg-name="Raj News Tamil" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raj-news-tamil.gif" group-title="Tamil Regional",Raj News Tamil
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="524" tvg-chno="1557" tvg-name="Thanthi TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/thanthi-tv.gif" group-title="Tamil Regional",Thanthi TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="517" tvg-chno="826" tvg-name="Zing" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zing.gif" group-title="Music",Zing
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="516" tvg-chno="1408" tvg-name="Star Maa HD" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-maa-hd.gif" group-title="Telugu Regional",Star Maa HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="514" tvg-chno="520" tvg-name="Zee Bharat" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-bharat.gif" group-title="Hindi News",Zee Bharat
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="512" tvg-chno="1150" tvg-name="Zee Madhya Pradesh Chattisgarh" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-madhya-pradesh-chattisgarh.gif" group-title="Hindi Regional",Zee Madhya Pradesh Chattisgarh
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="510" tvg-chno="1658" tvg-name="Raj News Kannada" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raj-news-kannada.gif" group-title="Kannada Regional",Raj News Kannada
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="509" tvg-chno="1561" tvg-name="Polimer News" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/polimer-news.gif" group-title="Tamil Regional",Polimer News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="507" tvg-chno="1731" tvg-name="Zee 24 Kalak" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-24-kalak.gif" group-title="Gujarati Regional",Zee 24 Kalak
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="500" tvg-chno="1078" tvg-name="Vedic" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vedic.gif" group-title="Spiritual",Vedic
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="499" tvg-chno="1530" tvg-name="Vasanth TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vasanth-tv.gif" group-title="Tamil Regional",Vasanth TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="497" tvg-chno="1729" tvg-name="VTV News" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/vtv-news.gif" group-title="Gujarati Regional",VTV News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="496" tvg-chno="1507" tvg-name="Star Vijay HD" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-vijay-hd.gif" group-title="Tamil Regional",Star Vijay HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="492" tvg-chno="1603" tvg-name="Udaya TV HD" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/udaya-tv-hd.gif" group-title="Kannada Regional",Udaya TV HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="490" tvg-chno="1599" tvg-name="SVBC 2" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/svbc-2.gif" group-title="Tamil Regional",SVBC 2
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="489" tvg-chno="1720" tvg-name="TV9 Gujarati" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv9-gujarati.gif" group-title="Gujarati Regional",TV9 Gujarati
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="485" tvg-chno="527" tvg-name="Total TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/total-tv.gif" group-title="Hindi News",Total TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="477" tvg-chno="1685" tvg-name="Sri Sankara TV" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sri-sankara-tv.gif" group-title="Kannada Regional",Sri Sankara TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="475" tvg-chno="534" tvg-name="Sudarshan News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sudarshan-news.gif" group-title="Hindi News",Sudarshan News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="474" tvg-chno="1506" tvg-name="Sun Life" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sun-life.gif" group-title="Tamil Regional",Sun Life
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="469" tvg-chno="1207" tvg-name="Star Pravah HD" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-pravah-hd.gif" group-title="Marathi Regional",Star Pravah HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="468" tvg-chno="1309" tvg-name="Star Jalsha HD" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-jalsha-hd.gif" group-title="Bengali Regional",Star Jalsha HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="467" tvg-chno="1609" tvg-name="Star Suvarna HD" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-suvarna-hd.gif" group-title="Kannada Regional",Star Suvarna HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="463" tvg-chno="465" tvg-name="Star Sports Select 2 HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-sports-select-2-hd.gif" group-title="Sports",Star Sports Select 2 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="135" tvg-chno="759" tvg-name="TLC HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tlc-hd.gif" group-title="Knowledge & Lifestyle",TLC HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="123" tvg-chno="319" tvg-name="Zee Cinema HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-cinema-hd.gif" group-title="Hindi Movies",Zee Cinema HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="64" tvg-chno="371" tvg-name="Zee Anmol Cinema" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-anmol-cinema.gif" group-title="Hindi Movies",Zee Anmol Cinema
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="55" tvg-chno="765" tvg-name="TravelXP HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/travelxp-hd.gif" group-title="Knowledge & Lifestyle",TravelXP HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="49" tvg-chno="1841" tvg-name="Asianet News" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/asianet-news.gif" group-title="Malayalam Regional",Asianet News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="888" tvg-chno="182" tvg-name="Ishara" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ishara.gif" group-title="Hindi Entertainment",Ishara
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="873" tvg-chno="1366" tvg-name="TV9 Bangla" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv9-bangla.gif" group-title="Bengali Regional",TV9 Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="826" tvg-chno="1265" tvg-name="Lokshahi Marathi" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/lokshahi-marathi.gif" group-title="Marathi Regional",Lokshahi Marathi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="523" tvg-chno="172" tvg-name="Zee Anmol" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-anmol.gif" group-title="Hindi Entertainment",Zee Anmol
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="522" tvg-chno="1306" tvg-name="Zee Bangla HD" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-bangla-hd.gif" group-title="Bengali Regional",Zee Bangla HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="521" tvg-chno="1503" tvg-name="Sun TV HD" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sun-tv-hd.gif" group-title="Tamil Regional",Sun TV HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="518" tvg-chno="1192" tvg-name="Salaam TV" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/salaam-tv.gif" group-title="Hindi Regional",Salaam TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="352" tvg-chno="1417" tvg-name="ETV Plus" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/etv-plus.gif" group-title="Telugu Regional",ETV Plus
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="351" tvg-chno="1493" tvg-name="Swara Sagar" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/swara-sagar.gif" group-title="Telugu Regional",Swara Sagar
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="349" tvg-chno="1465" tvg-name="HM TV" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/hm-tv.gif" group-title="Telugu Regional",HM TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="337" tvg-chno="1481" tvg-name="DD Saptagiri" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-saptagiri.gif" group-title="Telugu Regional",DD Saptagiri
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="335" tvg-chno="1935" tvg-name="DD Punjabi" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-punjabi.gif" group-title="Punjabi Regional",DD Punjabi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="320" tvg-chno="1458" tvg-name="TV5 News" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv5-news.gif" group-title="Telugu Regional",TV5 News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="270" tvg-chno="1850" tvg-name="Janam TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/janam-tv.gif" group-title="Malayalam Regional",Janam TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="269" tvg-chno="1885" tvg-name="Goodness" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/goodness.gif" group-title="Malayalam Regional",Goodness
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="268" tvg-chno="1451" tvg-name="ETV Life" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/etv-life.gif" group-title="Telugu Regional",ETV Life
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="261" tvg-chno="1259" tvg-name="Zee 24 Taas" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-24-taas.gif" group-title="Marathi Regional",Zee 24 Taas
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="183" tvg-chno="1923" tvg-name="India News Punjab" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/india-news-punjab.gif" group-title="Punjabi Regional",India News Punjab
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="130" tvg-chno="716" tvg-name="Animal Planet HD World" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/animal-planet-hd-world.gif" group-title="Knowledge & Lifestyle",Animal Planet HD World
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="38" tvg-chno="1077" tvg-name="Aastha Bhajan" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/aastha-bhajan.gif" group-title="Spiritual",Aastha Bhajan
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="260" tvg-chno="590" tvg-name="Zee Business" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-business.gif" group-title="Hindi News",Zee Business
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="259" tvg-chno="511" tvg-name="Zee News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-news.gif" group-title="Hindi News",Zee News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="56" tvg-chno="351" tvg-name="Sony Wah" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-wah.gif" group-title="Hindi Movies",Sony Wah
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="53" tvg-chno="344" tvg-name="Colors Cineplex HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-cineplex-hd.gif" group-title="Hindi Movies",Colors Cineplex HD
+https://xteam-itpv.vercel.app/stream/2
 #EXTINF:-1 tvg-id="245" tvg-chno="308" tvg-name="Star Gold HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-gold-hd.gif" group-title="Hindi Movies",Star Gold HD
 https://xteam-itpv.vercel.app/stream/66177
+#EXTINF:-1 tvg-id="458" tvg-chno="1074" tvg-name="Shubh TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/shubh-tv.gif" group-title="Spiritual",Shubh TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="457" tvg-chno="1887" tvg-name="SHALOM TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/shalom-tv.gif" group-title="Malayalam Regional",SHALOM TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="456" tvg-chno="1073" tvg-name="Satsang TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/satsang-tv.gif" group-title="Spiritual",Satsang TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="455" tvg-chno="1565" tvg-name="Sathiyam TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sathiyam-tv.gif" group-title="Tamil Regional",Sathiyam TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="449" tvg-chno="1990" tvg-name="Ramdhenu" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ramdhenu.gif" group-title="Others",Ramdhenu
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="425" tvg-chno="1877" tvg-name="Raj Musix Malayalam" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/raj-musix-malayalam.gif" group-title="Malayalam Regional",Raj Musix Malayalam
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="361" tvg-chno="1415" tvg-name="Gemini Life" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/gemini-life.gif" group-title="Telugu Regional",Gemini Life
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="359" tvg-chno="1411" tvg-name="ETV HD" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/etv-hd.gif" group-title="Telugu Regional",ETV HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="358" tvg-chno="1453" tvg-name="ETV Abhiruchi" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/etv-abhiruchi.gif" group-title="Telugu Regional",ETV Abhiruchi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="355" tvg-chno="1405" tvg-name="Gemini TV HD" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/gemini-tv-hd.gif" group-title="Telugu Regional",Gemini TV HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="341" tvg-chno="713" tvg-name="Discovery HD World" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/discovery-hd-world.gif" group-title="Knowledge & Lifestyle",Discovery HD World
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="333" tvg-chno="1785" tvg-name="DD Odia" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-odia.gif" group-title="Odia Regional",DD Odia
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="325" tvg-chno="1989" tvg-name="DD Kashir" tvg-country="India" tvg-language="Others" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-kashir.gif" group-title="Others",DD Kashir
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="294" tvg-chno="1809" tvg-name="Asianet Plus" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/asianet-plus.gif" group-title="Malayalam Regional",Asianet Plus
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="266" tvg-chno="1467" tvg-name="10 TV" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/10-tv.gif" group-title="Telugu Regional",10 TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="257" tvg-chno="1511" tvg-name="Zee Tamil" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-tamil.gif" group-title="Tamil Regional",Zee Tamil
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="256" tvg-chno="1664" tvg-name="Zee Kannada News" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-kannada-news.gif" group-title="Kannada Regional",Zee Kannada News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="256" tvg-chno="1612" tvg-name="Zee Kannada" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-kannada.gif" group-title="Kannada Regional",Zee Kannada
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="256" tvg-chno="1611" tvg-name="Zee Kannada HD" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-kannada-hd.gif" group-title="Kannada Regional",Zee Kannada HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="251" tvg-chno="1204" tvg-name="Zee Marathi" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-marathi.gif" group-title="Marathi Regional",Zee Marathi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="251" tvg-chno="1203" tvg-name="Zee Marathi HD" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-marathi-hd.gif" group-title="Marathi Regional",Zee Marathi HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="250" tvg-chno="1477" tvg-name="Zee Telugu News" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-telugu-news.gif" group-title="Telugu Regional",Zee Telugu News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="250" tvg-chno="1403" tvg-name="Zee Telugu HD" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-telugu-hd.gif" group-title="Telugu Regional",Zee Telugu HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="249" tvg-chno="1225" tvg-name="Zee Talkies HD" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-talkies-hd.gif" group-title="Marathi Regional",Zee Talkies HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="249" tvg-chno="1226" tvg-name="Zee Talkies" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-talkies.gif" group-title="Marathi Regional",Zee Talkies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="248" tvg-chno="1211" tvg-name="Zee Yuva" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-yuva.gif" group-title="Marathi Regional",Zee Yuva
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="243" tvg-chno="631" tvg-name="CNN" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/cnn.gif" group-title="English News",CNN
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="234" tvg-chno="425" tvg-name="MNX HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mnx-hd.gif" group-title="English Movies",MNX HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="234" tvg-chno="426" tvg-name="MNX" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mnx.gif" group-title="English Movies",MNX
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="233" tvg-chno="1262" tvg-name="Jai Maharashtra" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jai-maharashtra.gif" group-title="Marathi Regional",Jai Maharashtra
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="232" tvg-chno="1922" tvg-name="News18 Punjab Haryana" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-punjab-haryana.gif" group-title="Punjabi Regional",News18 Punjab Haryana
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="231" tvg-chno="1626" tvg-name="Udaya Movies" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/udaya-movies.gif" group-title="Kannada Regional",Udaya Movies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="230" tvg-chno="1803" tvg-name="Surya TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/surya-tv.gif" group-title="Malayalam Regional",Surya TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="229" tvg-chno="1826" tvg-name="Surya Movies" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/surya-movies.gif" group-title="Malayalam Regional",Surya Movies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="158" tvg-chno="724" tvg-name="Sony BBC Earth HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-bbc-earth-hd.gif" group-title="Knowledge & Lifestyle",Sony BBC Earth HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="228" tvg-chno="764" tvg-name="Discovery Turbo" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/discovery-turbo.gif" group-title="Knowledge & Lifestyle",Discovery Turbo
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="227" tvg-chno="772" tvg-name="Fashion TV" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/fashion-tv.gif" group-title="Knowledge & Lifestyle",Fashion TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="225" tvg-chno="1461" tvg-name="ABN Andhra Jyothy" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/abn-andhra-jyothy.gif" group-title="Telugu Regional",ABN Andhra Jyothy
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="223" tvg-chno="452" tvg-name="DD Sports HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-sports-hd.gif" group-title="Sports",DD Sports HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="223" tvg-chno="453" tvg-name="DD Sports" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-sports.gif" group-title="Sports",DD Sports
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="220" tvg-chno="1556" tvg-name="Puthiya Thalaimurai" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/puthiya-thalaimurai.gif" group-title="Tamil Regional",Puthiya Thalaimurai
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="219" tvg-chno="714" tvg-name="Discovery Channel" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/discovery-channel.gif" group-title="Knowledge & Lifestyle",Discovery Channel
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="217" tvg-chno="1277" tvg-name="Sangeet Marathi" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sangeet-marathi.gif" group-title="Marathi Regional",Sangeet Marathi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="213" tvg-chno="598" tvg-name="Sansad TV 1" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sansad-tv-1.gif" group-title="Hindi News",Sansad TV 1
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="212" tvg-chno="597" tvg-name="Sansad TV 2 HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sansad-tv-2-hd.gif" group-title="Hindi News",Sansad TV 2 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="212" tvg-chno="599" tvg-name="Sansad TV 2" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sansad-tv-2.gif" group-title="Hindi News",Sansad TV 2
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="211" tvg-chno="1846" tvg-name="Kairali News" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/kairali-news.gif" group-title="Malayalam Regional",Kairali News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="210" tvg-chno="423" tvg-name="MN+ HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mn-hd.gif" group-title="English Movies",MN+ HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="209" tvg-chno="1160" tvg-name="News 24 MP CH" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-24-mp-ch.gif" group-title="Hindi Regional",News 24 MP CH
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="209" tvg-chno="1656" tvg-name="Suvarna News 24x7" tvg-country="India" tvg-language="Kannada" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/suvarna-news-24x7.gif" group-title="Kannada Regional",Suvarna News 24x7
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="209" tvg-chno="516" tvg-name="News 24" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-24.gif" group-title="Hindi News",News 24
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="208" tvg-chno="601" tvg-name="NDTV 24x7" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ndtv-24x7.gif" group-title="English News",NDTV 24x7
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="207" tvg-chno="1368" tvg-name="News Time Bangla" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news-time-bangla.gif" group-title="Bengali Regional",News Time Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="206" tvg-chno="608" tvg-name="CNN News18" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/cnn-news18.gif" group-title="English News",CNN News18
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="205" tvg-chno="1176" tvg-name="News18 Rajasthan" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-rajasthan.gif" group-title="Hindi Regional",News18 Rajasthan
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="204" tvg-chno="592" tvg-name="CNBC Awaaz" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/cnbc-awaaz.gif" group-title="Hindi News",CNBC Awaaz
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="203" tvg-chno="1149" tvg-name="News18 Madhya Pradesh Chhattisgarh" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-madhya-pradesh-chhattisgarh.gif" group-title="Hindi Regional",News18 Madhya Pradesh Chhattisgarh
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="201" tvg-chno="1544" tvg-name="J Movies" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/j-movies.gif" group-title="Tamil Regional",J Movies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="200" tvg-chno="1518" tvg-name="Kalaignar TV" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/kalaignar-tv.gif" group-title="Tamil Regional",Kalaignar TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="199" tvg-chno="1581" tvg-name="Jaya Max" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jaya-max.gif" group-title="Tamil Regional",Jaya Max
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="198" tvg-chno="1558" tvg-name="Jaya Plus" tvg-country="India" tvg-language="Tamil" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/jaya-plus.gif" group-title="Tamil Regional",Jaya Plus
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="193" tvg-chno="1945" tvg-name="Chardikla Time TV" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/chardikla-time-tv.gif" group-title="Punjabi Regional",Chardikla Time TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="192" tvg-chno="1229" tvg-name="Fakt Marathi" tvg-country="India" tvg-language="Marathi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/fakt-marathi.gif" group-title="Marathi Regional",Fakt Marathi
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="191" tvg-chno="196" tvg-name="DD National HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-national-hd.gif" group-title="Hindi Entertainment",DD National HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="191" tvg-chno="197" tvg-name="DD National" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dd-national.gif" group-title="Hindi Entertainment",DD National
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="190" tvg-chno="637" tvg-name="Al Jazeera" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/al-jazeera.gif" group-title="English News",Al Jazeera
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="189" tvg-chno="610" tvg-name="NewsX" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/newsx.gif" group-title="English News",NewsX
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="188" tvg-chno="633" tvg-name="BBC News" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/bbc-news.gif" group-title="English News",BBC News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="187" tvg-chno="214" tvg-name="Colors Infinity HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-infinity-hd.gif" group-title="English Entertainment",Colors Infinity HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="184" tvg-chno="711" tvg-name="Nat Geo Wild HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nat-geo-wild-hd.gif" group-title="Knowledge & Lifestyle",Nat Geo Wild HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="184" tvg-chno="712" tvg-name="Nat Geo Wild" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nat-geo-wild.gif" group-title="Knowledge & Lifestyle",Nat Geo Wild
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="183" tvg-chno="1156" tvg-name="India News MP CH" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/india-news-mp-ch.gif" group-title="Hindi Regional",India News MP CH
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="183" tvg-chno="1732" tvg-name="India News Gujarat" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/india-news-gujarat.gif" group-title="Gujarati Regional",India News Gujarat
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="183" tvg-chno="1928" tvg-name="Living India News" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/living-india-news.gif" group-title="Punjabi Regional",Living India News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="183" tvg-chno="522" tvg-name="India News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/india-news.gif" group-title="Hindi News",India News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="181" tvg-chno="1119" tvg-name="Bhojpuri Cinema" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/bhojpuri-cinema.gif" group-title="Hindi Regional",Bhojpuri Cinema
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="180" tvg-chno="376" tvg-name="Manoranjan TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/manoranjan-tv.gif" group-title="Hindi Movies",Manoranjan TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="180" tvg-chno="178" tvg-name="Anjan TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/anjan-tv.gif" group-title="Hindi Entertainment",Anjan TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="179" tvg-chno="506" tvg-name="NDTV India" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/ndtv-india.gif" group-title="Hindi News",NDTV India
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="178" tvg-chno="1823" tvg-name="Amrita TV" tvg-country="India" tvg-language="Malayalam" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/amrita-tv.gif" group-title="Malayalam Regional",Amrita TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="177" tvg-chno="504" tvg-name="ABP News" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/abp-news.gif" group-title="Hindi News",ABP News
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="174" tvg-chno="429" tvg-name="Romedy Now" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/romedy-now.gif" group-title="English Movies",Romedy Now
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="173" tvg-chno="421" tvg-name="Movies Now" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/movies-now.gif" group-title="English Movies",Movies Now
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="172" tvg-chno="720" tvg-name="History TV18 HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/history-tv18-hd.gif" group-title="Knowledge & Lifestyle",History TV18 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="172" tvg-chno="721" tvg-name="History TV18" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/history-tv18.gif" group-title="Knowledge & Lifestyle",History TV18
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="171" tvg-chno="476" tvg-name="Sony Sports Ten 3" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sports-ten-3.gif" group-title="Sports",Sony Sports Ten 3
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="171" tvg-chno="475" tvg-name="Sony Sports Ten 3 HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sports-ten-3-hd.gif" group-title="Sports",Sony Sports Ten 3 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="170" tvg-chno="474" tvg-name="Sony Sports Ten 2" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sports-ten-2.gif" group-title="Sports",Sony Sports Ten 2
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="170" tvg-chno="473" tvg-name="Sony Sports Ten 2 HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sports-ten-2-hd.gif" group-title="Sports",Sony Sports Ten 2 HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="130" tvg-chno="717" tvg-name="Animal Planet" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/animal-planet.gif" group-title="Knowledge & Lifestyle",Animal Planet
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="127" tvg-chno="674" tvg-name="Sonic Nickelodeon" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sonic-nickelodeon.gif" group-title="Kids",Sonic Nickelodeon
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="126" tvg-chno="735" tvg-name="Epic" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/epic.gif" group-title="Knowledge & Lifestyle",Epic
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="123" tvg-chno="1437" tvg-name="Zee Cinemalu HD" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-cinemalu-hd.gif" group-title="Telugu Regional",Zee Cinemalu HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="123" tvg-chno="1438" tvg-name="Zee Cinemalu" tvg-country="India" tvg-language="Telugu" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-cinemalu.gif" group-title="Telugu Regional",Zee Cinemalu
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="119" tvg-chno="672" tvg-name="Discovery Kids" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/discovery-kids.gif" group-title="Kids",Discovery Kids
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="118" tvg-chno="685" tvg-name="Nick Jr" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/nick-jr.gif" group-title="Kids",Nick Jr
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="114" tvg-chno="686" tvg-name="Disney Junior" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/disney-junior.gif" group-title="Kids",Disney Junior
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="114" tvg-chno="658" tvg-name="Disney" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/disney.gif" group-title="Kids",Disney
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="113" tvg-chno="719" tvg-name="Discovery Science" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/discovery-science.gif" group-title="Knowledge & Lifestyle",Discovery Science
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="107" tvg-chno="1711" tvg-name="Colors Gujarati Cinema" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-gujarati-cinema.gif" group-title="Gujarati Regional",Colors Gujarati Cinema
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="107" tvg-chno="1702" tvg-name="Colors Gujarati" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-gujarati.gif" group-title="Gujarati Regional",Colors Gujarati
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="101" tvg-chno="1786" tvg-name="Tarang Music" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tarang-music.gif" group-title="Odia Regional",Tarang Music
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="101" tvg-chno="1754" tvg-name="Tarang TV" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tarang-tv.gif" group-title="Odia Regional",Tarang TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="90" tvg-chno="603" tvg-name="Times Now World HD" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/times-now-world-hd.gif" group-title="English News",Times Now World HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="65" tvg-chno="640" tvg-name="TV5 Monde Asie" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv5-monde-asie.gif" group-title="English News",TV5 Monde Asie
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="60" tvg-chno="641" tvg-name="DW" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dw.gif" group-title="English News",DW
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="55" tvg-chno="766" tvg-name="TravelXP" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/travelxp.gif" group-title="Knowledge & Lifestyle",TravelXP
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="53" tvg-chno="373" tvg-name="Colors Cineplex Bollywood" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-cineplex-bollywood.gif" group-title="Hindi Movies",Colors Cineplex Bollywood
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="53" tvg-chno="372" tvg-name="Colors Cineplex Superhits" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-cineplex-superhits.gif" group-title="Hindi Movies",Colors Cineplex Superhits
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="53" tvg-chno="345" tvg-name="Colors Cineplex" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-cineplex.gif" group-title="Hindi Movies",Colors Cineplex
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="52" tvg-chno="147" tvg-name="Colors HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-hd.gif" group-title="Hindi Entertainment",Colors HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="51" tvg-chno="183" tvg-name="Dangal 2" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/dangal-2.gif" group-title="Hindi Entertainment",Dangal 2
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="41" tvg-chno="1776" tvg-name="News18 Odia" tvg-country="India" tvg-language="Odia" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-odia.gif" group-title="Odia Regional",News18 Odia
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="40" tvg-chno="137" tvg-name="&TV HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/tv-hd.gif" group-title="Hindi Entertainment",&TV HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="33" tvg-chno="616" tvg-name="Republic TV" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/republic-tv.gif" group-title="English News",Republic TV
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="30" tvg-chno="1136" tvg-name="India News UP UK" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/india-news-up-uk.gif" group-title="Hindi Regional",India News UP UK
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="26" tvg-chno="1331" tvg-name="Colors Bangla Cinema" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-bangla-cinema.gif" group-title="Bengali Regional",Colors Bangla Cinema
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="26" tvg-chno="1303" tvg-name="Colors Bangla" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-bangla.gif" group-title="Bengali Regional",Colors Bangla
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="26" tvg-chno="1302" tvg-name="Colors Bangla HD" tvg-country="India" tvg-language="Bengali" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/colors-bangla-hd.gif" group-title="Bengali Regional",Colors Bangla HD
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="17" tvg-chno="825" tvg-name="Mastiii" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/mastiii.gif" group-title="Music",Mastiii
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="14" tvg-chno="1183" tvg-name="India News Rajasthan" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/india-news-rajasthan.gif" group-title="Hindi Regional",India News Rajasthan
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="13" tvg-chno="1924" tvg-name="India News Haryana" tvg-country="India" tvg-language="Punjabi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/india-news-haryana.gif" group-title="Punjabi Regional",India News Haryana
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="9" tvg-chno="822" tvg-name="B4U Music" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/b4u-music.gif" group-title="Music",B4U Music
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="7" tvg-chno="352" tvg-name="B4U Movies" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/b4u-movies.gif" group-title="Hindi Movies",B4U Movies
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="6" tvg-chno="1726" tvg-name="News18 Gujarati" tvg-country="India" tvg-language="Gujarati" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/news18-gujarati.gif" group-title="Gujarati Regional",News18 Gujarati
+https://xteam-itpv.vercel.app/stream/2
+#EXTINF:-1 tvg-id="1" tvg-chno="606" tvg-name="India Today" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/india-today.gif" group-title="English News",India Today
+https://xteam-itpv.vercel.app/stream/2
