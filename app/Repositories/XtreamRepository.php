@@ -269,9 +269,7 @@ class XtreamRepository implements XtreamRepositoryInterface
 
             $number = $channel['number'];
             
-            // $epg = $channel['epg'] ? $channel['epg']['value']: "none";
-
-            $epg = "ts{$number}";
+            $epg = $channel['epg'] ? $channel['epg']['value']: "none";
 
             $language = $channel['language']['name'];
 
