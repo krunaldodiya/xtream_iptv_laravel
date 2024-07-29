@@ -145,7 +145,7 @@ class XtreamRepository implements XtreamRepositoryInterface
 
                 $array = json_decode($json, true);
 
-                foreach ($array['channel'] as $channel) {
+                foreach ($array['channels']['channel'] as $channel) {
                     $epgs[] = [
                         'name' => $channel['display-name'],
                         'value' => $channel['@attributes']['id'],
@@ -196,26 +196,27 @@ class XtreamRepository implements XtreamRepositoryInterface
 
                 foreach ($array['data']['packages'] as $package) {
                     foreach ($package['items'] as $item) {
-                        foreach ($item['language'] as $language) {                            
-                            $pack_friendly_name = $item['pack_friendly_name'];
-                            $pack_name = $item['pack_name'];
+                        $language = count($item['language']) == 1 ? $item['language'][0]: "Others";
 
-                            $slug = Str::of($pack_friendly_name)->slug('-');
+                        $pack_friendly_name = $item['pack_friendly_name'];
 
-                            $logo = "https://www.tataplay.com/s3-api/v1/assets/channels/{$slug}.gif";
+                        $pack_name = $item['pack_name'];
 
-                            $channels[] = [
-                                'pack_friendly_name' => $pack_friendly_name,
-                                'pack_name' => $pack_friendly_name,
-                                'channel_name' => $item['bouquet_channels'][0]['CHANNEL_NAME'],
-                                'number' => $item['bouquet_channels'][0]['EPG_NUMBER'],
-                                'logo' => $logo,
-                                'stream_id' => 1,
-                                'country_id' => 2,
-                                'language_id' => $languages[$language],
-                                'category_id' => $categories[$item['category']],
-                            ];
-                        }
+                        $slug = Str::of($pack_friendly_name)->slug('-');
+
+                        $logo = "https://www.tataplay.com/s3-api/v1/assets/channels/{$slug}.gif";
+
+                        $channels[] = [
+                            'pack_friendly_name' => $pack_friendly_name,
+                            'pack_name' => $pack_friendly_name,
+                            'channel_name' => $item['bouquet_channels'][0]['CHANNEL_NAME'],
+                            'number' => $item['bouquet_channels'][0]['EPG_NUMBER'],
+                            'logo' => $logo,
+                            'stream_id' => 1,
+                            'country_id' => 2,
+                            'language_id' => $languages[$language],
+                            'category_id' => $categories[$item['category']],
+                        ];
                     }
                 }
             }
