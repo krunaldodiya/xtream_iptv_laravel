@@ -36,7 +36,7 @@ class StreamCategory extends Resource
      * @var array
      */
     public static $search = [
-        'id', 'category_name'
+        'id', 'category_id', 'category_name'
     ];
 
     /**

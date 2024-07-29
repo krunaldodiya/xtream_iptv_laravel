@@ -51,7 +51,7 @@ class Playlist extends Resource
 
             BelongsTo::make("User", "user"),
 
-            BelongsToMany::make("Channels", "channels"),
+            BelongsToMany::make("Channels", "channels")->searchable(),
         ];
     }
 

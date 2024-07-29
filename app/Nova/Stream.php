@@ -37,7 +37,7 @@ class Stream extends Resource
      * @var array
      */
     public static $search = [
-        'id', 'name'
+        'id', 'name', 'stream_id'
     ];
 
     /**
@@ -56,7 +56,7 @@ class Stream extends Resource
             BelongsTo::make('Xtream Account', 'xtream_account'),
 
             Text::make('Stream ID'),
-            Text::make('Category ID'),
+            Text::make('Category ID')->sortable(),
             Text::make('Name'),
             Text::make('Url')->copyable(),
 
