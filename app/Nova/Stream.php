@@ -60,7 +60,7 @@ class Stream extends Resource
             Text::make('Category ID')->sortable(),
             Text::make('Name'),
             Text::make('Url')->copyable(),
-            Booelan::make('Working'),
+            Boolean::make('Working'),
 
             Text::make('Logo', 'logo')->onlyOnForms(),
 

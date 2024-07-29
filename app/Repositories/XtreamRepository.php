@@ -145,7 +145,7 @@ class XtreamRepository implements XtreamRepositoryInterface
 
                 $array = json_decode($json, true);
 
-                foreach ($array['channels']['channel'] as $channel) {
+                foreach ($array['channel'] as $channel) {
                     $epgs[] = [
                         'name' => $channel['display-name'],
                         'value' => $channel['@attributes']['id'],
@@ -178,7 +178,7 @@ class XtreamRepository implements XtreamRepositoryInterface
     }
 
     public function sync_channels()
-    {
+    {        
         $cacheKey = "sync_channels";
         $cacheDuration = 60 * 60;
 
