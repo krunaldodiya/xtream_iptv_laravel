@@ -9,12 +9,12 @@ use App\Http\Controllers\ChannelController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-use App\Models\Epg;
+use App\Repositories\XtreamRepositoryInterface;
+use App\Models\XtreamAccount;
 
-Route::get('/test', function () {
-    $epgs = Epg::query()
-        ->with('channel')
-        ->get();
+Route::get('/test', function (XtreamRepositoryInterface $test) {
+    $xtream_account = XtreamAccount::find(1);
+    $epgs = $test->sync_categories($xtream_account);
     
     return collect($epgs)->filter(fn ($epg) => $epg->channel == null);
 });

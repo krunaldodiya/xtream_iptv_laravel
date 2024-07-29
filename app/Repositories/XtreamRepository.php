@@ -13,6 +13,7 @@ use App\Models\Language;
 use App\Models\Channel;
 use App\Models\Stream;
 use App\Models\XtreamAccount;
+use App\Models\StreamCategory;
 use App\Models\Playlist;
 
 class XtreamRepository implements XtreamRepositoryInterface
@@ -34,6 +35,42 @@ class XtreamRepository implements XtreamRepositoryInterface
             'Content-Type' => 'application/json', 
             'User-Agent' => '*'
         ]);
+    }
+
+    public function sync_categories(XtreamAccount $xtream_account)
+    {
+        $cacheKey = "sync_categories:{$xtream_account->server}";
+        $cacheDuration = 60 * 60;
+
+        $categories = Cache::remember($cacheKey, $cacheDuration, function () use ($xtream_account) {
+            $response = $this->client->get("{$xtream_account->server}/player_api.php", [
+                    'username' => $xtream_account->username,
+                    'password' => $xtream_account->password,
+                    'action' => 'get_live_categories',
+                ]);
+
+            if ($response->successful()) {
+                return $response->json();
+            }
+
+            return [];
+        });
+
+        if (!empty($categories)) {
+            $existing_categories = StreamCategory::all()->keyBy(['xtream_account_id', 'category_id']);
+
+            $new_categories = collect($categories)->reject(function ($category) use ($xtream_account, $existing_categories) {
+                return $existing_categories->has($xtream_account->id) && $existing_categories->has($category['category_id']);
+            });
+
+            foreach ($new_categories as $new_stream) {
+                StreamCategory::create([
+                    'xtream_account_id' => $xtream_account['id'],
+                    'category_id' => $new_stream['category_id'],
+                    'category_name' => $new_stream['category_name'],
+                ]);
+            }
+        }
     }
 
     public function sync_streams(XtreamAccount $xtream_account)
@@ -59,7 +96,7 @@ class XtreamRepository implements XtreamRepositoryInterface
             $existing_streams = Channel::all()->keyBy(['stream_id', 'category_id']);
 
             $new_streams = collect($streams)->reject(function ($channel) use ($existing_streams) {
-                return $existing_streams->has($channel['stream_id']);
+                return $existing_streams->has($channel['stream_id']) && $existing_streams->has($channel['category_id']);
             });
 
             foreach ($new_streams as $new_stream) {

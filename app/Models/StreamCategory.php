@@ -15,6 +15,10 @@ class StreamCategory extends Model
 
     public $timestamps = true;
 
+    public function xtream_account() {
+        return $this->belongsTo(XtreamAccount::class);
+    }
+
     public function streams() {
         return $this->hasMany(Stream::class);
     }

@@ -4,6 +4,8 @@ namespace App\Nova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Fields\ID;
+use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class StreamCategory extends Resource
@@ -41,6 +43,9 @@ class StreamCategory extends Resource
     {
         return [
             ID::make()->sortable(),
+            BelongsTo::make('Xtream Account', 'xtream_account')->sortable(),
+            Text::make('category_id')->sortable(),
+            Text::make('category_name')->sortable(),
         ];
     }
 

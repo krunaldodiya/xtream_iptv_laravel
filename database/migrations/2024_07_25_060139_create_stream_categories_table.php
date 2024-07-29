@@ -14,9 +14,20 @@ return new class extends Migration
         Schema::create('stream_categories', function (Blueprint $table) {
             $table->id();
 
+            $table->unsignedBigInteger('xtream_account_id');
+
+            $table
+                ->foreign('xtream_account_id')
+                ->references('id')
+                ->on('xtream_accounts')
+                ->onUpdate('cascade')
+                ->onDelete('cascade');
+
             $table->string('category_id');
 
             $table->string('category_name');
+            
+            $table->boolean('active')->default(true);
 
             $table->timestamps();
         });

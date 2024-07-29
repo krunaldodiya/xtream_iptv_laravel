@@ -6,6 +6,7 @@ use App\Models\XtreamAccount;
 
 interface XtreamRepositoryInterface
 {
+    public function sync_categories(XtreamAccount $xtream_account);
     public function sync_streams(XtreamAccount $xtream_account);
     public function sync_epgs();
     public function sync_channels();
