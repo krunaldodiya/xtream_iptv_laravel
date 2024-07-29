@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#EXTINF:-1 tvg-id="503" tvg-chno="321" tvg-name="Zee Cinema" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-cinema.gif" group-title="Hindi Movies",Zee Cinema
+#EXTINF:-1 tvg-id="123" tvg-chno="321" tvg-name="Zee Cinema" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-cinema.gif" group-title="Hindi Movies",Zee Cinema
 https://xteam-itpv.vercel.app/stream/206271
 #EXTINF:-1 tvg-id="63" tvg-chno="141" tvg-name="Zee TV HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-tv-hd.gif" group-title="Hindi Entertainment",Zee TV HD
 https://xteam-itpv.vercel.app/stream/66162
