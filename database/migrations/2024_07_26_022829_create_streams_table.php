@@ -33,6 +33,8 @@ return new class extends Migration
 
             $table->text('url')->nullable();
 
+            $table->boolean('working')->default(true);
+
             $table->timestamps();
         });
     }
