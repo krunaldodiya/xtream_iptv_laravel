@@ -11,8 +11,8 @@ use App\Models\Epg;
 use App\Models\Category;
 use App\Models\Language;
 use App\Models\Channel;
-use App\Models\Stream;
 use App\Models\XtreamAccount;
+use App\Models\Stream;
 use App\Models\StreamCategory;
 use App\Models\Playlist;
 
@@ -96,11 +96,21 @@ class XtreamRepository implements XtreamRepositoryInterface
         });
 
         if (!empty($streams)) {
-            $existing_streams = Channel::all()->keyBy(['stream_id', 'category_id']);
+            $existing_streams = Stream::query()
+                ->where(['xtream_account_id' => $xtream_account->id])
+                ->pluck('stream_id');
 
-            $new_streams = collect($streams)->reject(function ($channel) use ($existing_streams) {
-                return $existing_streams->has($channel['stream_id']) && $existing_streams->has($channel['category_id']);
-            });
+            $existing_stream_categories = StreamCategory::query()
+                ->where(['xtream_account_id' => $xtream_account->id, 'active' => true])
+                ->pluck('category_id');
+
+            $new_streams = collect($streams)
+                ->filter(function ($stream) use ($existing_streams) {
+                    return !$existing_streams->contains($stream['stream_id']);
+                })
+                ->filter(function ($stream) use ($existing_stream_categories) {
+                    return $existing_stream_categories->contains($stream['category_id']);
+                });
 
             foreach ($new_streams as $new_stream) {
                 Stream::create([
