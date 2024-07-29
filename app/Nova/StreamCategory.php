@@ -10,6 +10,8 @@ use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 use App\Nova\Actions\BackupStreamCategory;
+use App\Nova\Actions\SetStreamCategoryStatus;
+
 use App\Nova\Filters\SelectXtreamAccount;
 
 class StreamCategory extends Resource
@@ -99,6 +101,7 @@ class StreamCategory extends Resource
     {
         return [
             BackupStreamCategory::make()->standalone(),
+            SetStreamCategoryStatus::make(),
         ];
     }
 }
