@@ -158,11 +158,11 @@ class XtreamRepository implements XtreamRepositoryInterface
         });
 
         if (!empty($epgs)) {
-            $existing_epgs = Epg::all()->keyBy(['value']);
+            $existing_epgs = Epg::pluck('value');
 
             $new_epgs = collect($epgs)
-                ->reject(function ($channel) use ($existing_epgs) {
-                    return $existing_epgs->has($channel['value']);
+                ->filter(function ($epg) use ($existing_epgs) {
+                    return !$existing_epgs->contains($epg['value']);
                 });
 
             foreach ($new_epgs as $new_epg) {
