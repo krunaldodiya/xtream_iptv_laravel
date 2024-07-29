@@ -11,6 +11,7 @@ use Laravel\Nova\Http\Requests\NovaRequest;
 
 use App\Nova\Actions\BackupXtreamAccount;
 use App\Nova\Actions\GenerateStreamingUrl;
+use App\Nova\Actions\SyncStreamCategory;
 
 class XtreamAccount extends Resource
 {
@@ -100,6 +101,7 @@ class XtreamAccount extends Resource
         return [
             BackupXtreamAccount::make()->standalone(),
             GenerateStreamingUrl::make()->standalone(),
+            SyncStreamCategory::make(),
         ];
     }
 }

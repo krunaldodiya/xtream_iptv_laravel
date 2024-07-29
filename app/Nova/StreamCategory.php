@@ -8,6 +8,8 @@ use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\BelongsTo;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
+use App\Nova\Actions\BackupStreamCategory;
+
 class StreamCategory extends Resource
 {
     /**
@@ -22,7 +24,7 @@ class StreamCategory extends Resource
      *
      * @var string
      */
-    public static $title = 'id';
+    public static $title = 'category_name';
 
     /**
      * The columns that should be searched.
@@ -30,7 +32,7 @@ class StreamCategory extends Resource
      * @var array
      */
     public static $search = [
-        'id',
+        'id', 'category_name'
     ];
 
     /**
@@ -90,6 +92,8 @@ class StreamCategory extends Resource
      */
     public function actions(NovaRequest $request)
     {
-        return [];
+        return [
+            BackupStreamCategory::make()->standalone(),
+        ];
     }
 }
