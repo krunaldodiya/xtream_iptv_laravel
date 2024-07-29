@@ -101,7 +101,7 @@ class XtreamAccount extends Resource
     {
         return [
             BackupXtreamAccount::make()->standalone(),
-            GenerateStreamingUrl::make()->standalone(),
+            GenerateStreamingUrl::make(),
             SyncStreamCategory::make(),
         ];
     }
