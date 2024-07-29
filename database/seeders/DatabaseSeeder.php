@@ -19,6 +19,7 @@ class DatabaseSeeder extends Seeder
             CategorySeeder::class,
             LanguageSeeder::class,
             CountrySeeder::class,
+            StreamCategorySeeder::class,
             StreamSeeder::class,
         ]);
     }
