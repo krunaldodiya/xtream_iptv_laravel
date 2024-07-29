@@ -57,10 +57,13 @@ class XtreamRepository implements XtreamRepositoryInterface
         });
 
         if (!empty($categories)) {
-            $existing_categories = StreamCategory::all()->keyBy(['xtream_account_id', 'category_id']);
+            $existing_categories = StreamCategory::query()
+                ->where('xtream_account_id', $xtream_account->id)
+                ->get()
+                ->keyBy(['category_id']);
 
-            $new_categories = collect($categories)->reject(function ($category) use ($xtream_account, $existing_categories) {
-                return $existing_categories->has($xtream_account->id) && $existing_categories->has($category['category_id']);
+            $new_categories = collect($categories)->reject(function ($category) use ($existing_categories) {
+                return $existing_categories->has($category['category_id']);
             });
 
             foreach ($new_categories as $new_stream) {

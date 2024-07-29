@@ -19,4 +19,9 @@ class XtreamAccount extends Model
     {
         return $this->hasMany(Stream::class);
     }
+
+    public function stream_categories()
+    {
+        return $this->hasMany(StreamCategory::class);
+    }
 }
