@@ -11,6 +11,7 @@ use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Fields\Image;
 use Laravel\Nova\Fields\URL;
+use Laravel\Nova\Fields\Boolean;
 use Laravel\Nova\Fields\BelongsTo;
 
 use Laravel\Nova\Http\Requests\NovaRequest;
@@ -59,6 +60,7 @@ class Stream extends Resource
             Text::make('Category ID')->sortable(),
             Text::make('Name'),
             Text::make('Url')->copyable(),
+            Booelan::make('Working'),
 
             Text::make('Logo', 'logo')->onlyOnForms(),
 
