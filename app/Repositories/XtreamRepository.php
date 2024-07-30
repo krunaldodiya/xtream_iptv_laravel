@@ -27,7 +27,7 @@ class XtreamRepository implements XtreamRepositoryInterface
     public function __construct()
     {
         // $this->epg_api_url = "https://www.tsepg.cf/epg.xml.gz";
-        $this->epg_api_url = "https://avkb.short.gy/jioepg.xml.gz";
+        $this->epg_api_url = "https://avkb.short.gy/tsepg.xml.gz";
 
         $this->channel_api_url = "https://www.tataplay.com/dth/read/core-api/packages/mp/channels/eyJhbGciOiJIUzI1NiJ9.e30.ZRrHA1JJJW8opsbCGfG_HACGpVUMN_a9IV7pAx_Zmeo";
 
