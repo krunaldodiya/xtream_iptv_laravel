@@ -1,13 +1,17 @@
-#EXTM3U x-tvg-url="https://avkb.short.gy/jioepg.xml.gz"
+#EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
 #EXTINF:-1 tvg-id="ts321" tvg-chno="321" tvg-name="Zee Cinema" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-cinema.gif" group-title="Hindi Movies",Zee Cinema
 https://xteam-itpv.vercel.app/stream/206271
 #EXTINF:-1 tvg-id="ts308" tvg-chno="308" tvg-name="Star Gold HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-gold-hd.gif" group-title="Hindi Movies",Star Gold HD
 https://xteam-itpv.vercel.app/stream/66177
 #EXTINF:-1 tvg-id="ts310" tvg-chno="310" tvg-name="Star Gold" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/star-gold.gif" group-title="Hindi Movies",Star Gold
 https://xteam-itpv.vercel.app/stream/66177
+#EXTINF:-1 tvg-id="ts475" tvg-chno="475" tvg-name="Sony Sports Ten 3 HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sports-ten-3-hd.gif" group-title="Sports",Sony Sports Ten 3 HD
+
 #EXTINF:-1 tvg-id="ts141" tvg-chno="141" tvg-name="Zee TV HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-tv-hd.gif" group-title="Hindi Entertainment",Zee TV HD
 https://xteam-itpv.vercel.app/stream/66162
 #EXTINF:-1 tvg-id="ts143" tvg-chno="143" tvg-name="Zee TV" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-tv.gif" group-title="Hindi Entertainment",Zee TV
 https://xteam-itpv.vercel.app/stream/221250
 #EXTINF:-1 tvg-id="ts319" tvg-chno="319" tvg-name="Zee Cinema HD" tvg-country="India" tvg-language="Hindi" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/zee-cinema-hd.gif" group-title="Hindi Movies",Zee Cinema HD
 https://xteam-itpv.vercel.app/stream/206307
+#EXTINF:-1 tvg-id="ts476" tvg-chno="476" tvg-name="Sony Sports Ten 3" tvg-country="India" tvg-language="English" tvg-logo="https://www.tataplay.com/s3-api/v1/assets/channels/sony-sports-ten-3.gif" group-title="Sports",Sony Sports Ten 3
+
