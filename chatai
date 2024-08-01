@@ -1,0 +1,6 @@
+routes/web.php
+App/Http/Controllers/chataicontroller.php
+config/services.php
+resources/js/Pages/Chatai/Home.vue
+.env
+storage/chatai/SYSTEM_MESSAGE.md

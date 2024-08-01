@@ -5,12 +5,18 @@ use App\Http\Controllers\MessageController;
 use App\Http\Controllers\PlanSubscriptionController;
 use App\Http\Controllers\PlanController;
 use App\Http\Controllers\ChannelController;
+use App\Http\Controllers\ChataiController;
 
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('/test', function () {
     return 'test';
+});
+
+Route::middleware('auth')->group(function () {
+    Route::get('/chatai', [ChataiController::class, 'home'])->name('chatai.home');
+    Route::post('/chatai', [ChataiController::class, 'store'])->name('chatai.store');
 });
 
 Route::get('/', function () {

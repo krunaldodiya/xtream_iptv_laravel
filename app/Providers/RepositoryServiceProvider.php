@@ -8,6 +8,9 @@ use App\Repositories\PaymentTransactionRepositoryInterface;
 use App\Repositories\XtreamRepository;
 use App\Repositories\XtreamRepositoryInterface;
 
+use App\Repositories\ChataiRepository;
+use App\Repositories\ChataiRepositoryInterface;
+
 use Illuminate\Support\ServiceProvider;
 
 class RepositoryServiceProvider extends ServiceProvider
@@ -27,5 +30,6 @@ class RepositoryServiceProvider extends ServiceProvider
     {
         app()->bind(PaymentTransactionRepositoryInterface::class, PaymentTransactionRepository::class);
         app()->bind(XtreamRepositoryInterface::class, XtreamRepository::class);
+        app()->bind(ChataiRepositoryInterface::class, ChataiRepository::class);
     }
 }

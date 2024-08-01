@@ -54,5 +54,15 @@ return [
         'server' => env('XTREAM_SERVER'),
         'username' => env('XTREAM_USERNAME'),
         'password' => env('XTREAM_PASSWORD'),
+    ],
+
+    'chatai' => [
+        'organization_id' => env('CHATAI_ORGANIZATION_ID'),
+        'project_id' => env('CHATAI_PROJECT_ID'),
+        'project_key' => env('CHATAI_PROJECT_KEY'),
+    ],
+
+    'gemini' => [
+        'api_key' => env('GOOGLE_GEMINI_API_KEY'),
     ]
 ];
