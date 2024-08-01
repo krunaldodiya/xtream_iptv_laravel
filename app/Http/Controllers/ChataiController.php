@@ -17,7 +17,9 @@ class ChataiController extends Controller
     }
     
     public function home(Request $request) {
-        return Inertia::render('Chatai/Home');
+        $data = session()->get('data', null);
+
+        return Inertia::render('Chatai/Home', ['data' => $data]);
     }
 
     public function store(Request $request) {
@@ -60,16 +62,37 @@ class ChataiController extends Controller
 
         $content = $data['candidates'][0]['content']['parts'][0]['text'];
 
+        $default_content = '<?php
+
+        namespace App\Repositories;
+        
+        class ChataiRepository implements ChataiRepositoryInterface
+        {
+            /**
+             * Find all users.
+             *
+             * @return mixed
+             */
+            public function process()
+            {
+                //
+            }
+        }';
+
+        file_put_contents($filePath, $default_content);
+
         if (preg_match('/```php(.*?)```/s', $content, $matches)) {
             $content = trim($matches[1]);
         } else {
-            $content = '';
+            throw new Exception("Invalid data");
         }
 
         file_put_contents($filePath, $content);
 
         $data = $this->chataiRepositoryInterface->process();
 
-        dd($data);
+        return redirect()->route('chatai.home')->with([
+            'data' => $data,
+        ]);
     }
 }

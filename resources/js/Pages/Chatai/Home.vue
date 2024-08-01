@@ -1,6 +1,11 @@
 <script setup lang="ts">
+import { defineProps } from 'vue';
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head, useForm } from "@inertiajs/vue3";
+
+const props = defineProps<{
+    data: string;
+}>();
 
 const form = useForm({
     message: "",
@@ -8,8 +13,9 @@ const form = useForm({
 
 const submit = (e: Event) => {
     form.post(route("chatai.store"), {
-        preserveScroll: true,
-        preserveState: true,
+        onSuccess: (page) => {
+            form.reset();
+        },
     });
 };
 </script>
@@ -35,9 +41,10 @@ const submit = (e: Event) => {
                                 id="message"
                                 name="message"
                                 placeholder="Write a message"
-                                class="w-96 border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500 p-2 text-gray-700 dark:text-gray-300"
+                                class="w-full border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500 p-2 text-gray-600"
                                 :class="form.errors.message ? 'border-red-500' : ''"
                                 v-model="form.message"
+                                rows="10"
                             ></textarea>
 
                             <p v-if="form.errors.message" class="text-red-500 text-sm mt-2">{{ form.errors.message }}</p>
@@ -51,6 +58,12 @@ const submit = (e: Event) => {
                             {{ form.processing ? "Loading..." : "Send Message" }}
                         </button>
                     </form>
+
+                    <!-- Display the data if it exists -->
+                    <div v-if="props.data" class="mt-6 p-4 bg-gray-800 rounded-md">
+                        <h3 class="text-lg font-semibold text-gray-300">Generated Data</h3>
+                        <p class="text-gray-400">{{ props.data }}</p>
+                    </div>
                 </div>
             </div>
         </div>

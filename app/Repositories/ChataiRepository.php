@@ -3,21 +3,21 @@
 namespace App\Repositories;
 
 use App\Models\User;
-use Illuminate\Support\Facades\Hash;
 
 class ChataiRepository implements ChataiRepositoryInterface
 {
-    public function process($name, $email, $password)
+    public function process()
     {
         try {
-            $user = new User();
-            $user->name = $name;
-            $user->email = $email;
-            $user->password = Hash::make($password);
-            $user->save();
-            return $user;
+            $firstUser = User::orderBy('created_at', 'asc')->first();
+            return $firstUser->name;
         } catch (\Exception $e) {
-            return ['error' => $e->getMessage()];
+            return $e->getMessage();
         }
     }
+}
+
+interface ChataiRepositoryInterface
+{
+    public function process();
 }
