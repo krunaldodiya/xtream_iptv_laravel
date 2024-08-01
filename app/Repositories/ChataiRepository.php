@@ -2,13 +2,22 @@
 
 namespace App\Repositories;
 
-use Illuminate\Database\Eloquent\Collection;
 use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 
 class ChataiRepository implements ChataiRepositoryInterface
 {
-    public function process(): int
+    public function process($name, $email, $password)
     {
-        return User::count();
+        try {
+            $user = new User();
+            $user->name = $name;
+            $user->email = $email;
+            $user->password = Hash::make($password);
+            $user->save();
+            return $user;
+        } catch (\Exception $e) {
+            return ['error' => $e->getMessage()];
+        }
     }
 }

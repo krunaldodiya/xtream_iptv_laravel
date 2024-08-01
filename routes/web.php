@@ -10,8 +10,12 @@ use App\Http\Controllers\ChataiController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
-Route::get('/test', function () {
-    return 'test';
+use App\Repositories\ChataiRepositoryInterface;
+
+Route::get('/test', function (ChataiRepositoryInterface $chataiRepositoryInterface) {
+    $data = $chataiRepositoryInterface->process();
+
+    dd($data);
 });
 
 Route::middleware('auth')->group(function () {
